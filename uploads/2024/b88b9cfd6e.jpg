@@ -1,0 +1,1700 @@
+<!doctype html>
+<html lang="de" class="no-js">
+<head id="head">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <meta name="robots" content="index,follow,all" />
+    <meta name="format-detection" content="telephone=no" />
+                <link rel="preconnect" href="//app.usercentrics.eu">
+<link rel="preconnect" href="//api.usercentrics.eu">
+<link rel="preconnect" href="//privacy-proxy.usercentrics.eu">
+<link rel="preload" href="//app.usercentrics.eu/latest/main.js" as="script">
+<link rel="preload" href="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js" as="script">
+
+<script type="application/javascript" src="//app.usercentrics.eu/latest/main.js" id="iiLmOshM0" ></script>
+<script type="application/javascript" src="//privacy-proxy.usercentrics.eu/latest/uc-block.bundle.js"></script>
+            <script type="text/plain" data-usercentrics="Sentry" src="https://browser.sentry-cdn.com/5.6.3/bundle.min.js" integrity="sha384-/Cqa/8kaWn7emdqIBLk3AkFMAHBk0LObErtMhO+hr52CntkaurEnihPmqYj3uJho" crossorigin="anonymous" ></script>
+    <script type="text/plain" data-usercentrics="Sentry">
+        window.addEventListener('DOMContentLoaded', function() {
+            var SENTRY_DSN = "https://36d58a6f9a144b3ca3fc4aaf0741d9a1@sentry.alsterdock.net/19";
+            if (typeof Sentry != 'undefined' && typeof SENTRY_DSN != 'undefined') {
+                Sentry.init({dsn: SENTRY_DSN});
+            }
+        });
+    </script>
+     <script>
+        !function(e,n,t){function r(e,n){return typeof e===n}function o(){var e,n,t,o,i,s,l;for(var a in C)if(C.hasOwnProperty(a)){if(e=[],n=C[a],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(t=0;t<n.options.aliases.length;t++)e.push(n.options.aliases[t].toLowerCase());for(o=r(n.fn,"function")?n.fn():n.fn,i=0;i<e.length;i++)s=e[i],l=s.split("."),1===l.length?Modernizr[l[0]]=o:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=o),_.push((o?"":"no-")+l.join("-"))}}function i(e){var n=x.className,t=Modernizr._config.classPrefix||"";if(b&&(n=n.baseVal),Modernizr._config.enableJSClass){var r=new RegExp("(^|\\s)"+t+"no-js(\\s|$)");n=n.replace(r,"$1"+t+"js$2")}Modernizr._config.enableClasses&&(n+=" "+t+e.join(" "+t),b?x.className.baseVal=n:x.className=n)}function s(e,n){if("object"==typeof e)for(var t in e)S(e,t)&&s(t,e[t]);else{e=e.toLowerCase();var r=e.split("."),o=Modernizr[r[0]];if(2==r.length&&(o=o[r[1]]),"undefined"!=typeof o)return Modernizr;n="function"==typeof n?n():n,1==r.length?Modernizr[r[0]]=n:(!Modernizr[r[0]]||Modernizr[r[0]]instanceof Boolean||(Modernizr[r[0]]=new Boolean(Modernizr[r[0]])),Modernizr[r[0]][r[1]]=n),i([(n&&0!=n?"":"no-")+r.join("-")]),Modernizr._trigger(e,n)}return Modernizr}function l(e){return e.replace(/([a-z])-([a-z])/g,function(e,n,t){return n+t.toUpperCase()}).replace(/^-/,"")}function a(e,n){return!!~(""+e).indexOf(n)}function f(){return"function"!=typeof n.createElement?n.createElement(arguments[0]):b?n.createElementNS.call(n,"http://www.w3.org/2000/svg",arguments[0]):n.createElement.apply(n,arguments)}function u(e,n){return function(){return e.apply(n,arguments)}}function c(e,n,t){var o;for(var i in e)if(e[i]in n)return t===!1?e[i]:(o=n[e[i]],r(o,"function")?u(o,t||n):o);return!1}function p(n,t,r){var o;if("getComputedStyle"in e){o=getComputedStyle.call(e,n,t);var i=e.console;if(null!==o)r&&(o=o.getPropertyValue(r));else if(i){var s=i.error?"error":"log";i[s].call(i,"getComputedStyle returning null, its possible modernizr test results are inaccurate")}}else o=!t&&n.currentStyle&&n.currentStyle[r];return o}function d(e){return e.replace(/([A-Z])/g,function(e,n){return"-"+n.toLowerCase()}).replace(/^ms-/,"-ms-")}function h(){var e=n.body;return e||(e=f(b?"svg":"body"),e.fake=!0),e}function m(e,t,r,o){var i,s,l,a,u="modernizr",c=f("div"),p=h();if(parseInt(r,10))for(;r--;)l=f("div"),l.id=o?o[r]:u+(r+1),c.appendChild(l);return i=f("style"),i.type="text/css",i.id="s"+u,(p.fake?p:c).appendChild(i),p.appendChild(c),i.styleSheet?i.styleSheet.cssText=e:i.appendChild(n.createTextNode(e)),c.id=u,p.fake&&(p.style.background="",p.style.overflow="hidden",a=x.style.overflow,x.style.overflow="hidden",x.appendChild(p)),s=t(c,e),p.fake?(p.parentNode.removeChild(p),x.style.overflow=a,x.offsetHeight):c.parentNode.removeChild(c),!!s}function v(n,r){var o=n.length;if("CSS"in e&&"supports"in e.CSS){for(;o--;)if(e.CSS.supports(d(n[o]),r))return!0;return!1}if("CSSSupportsRule"in e){for(var i=[];o--;)i.push("("+d(n[o])+":"+r+")");return i=i.join(" or "),m("@supports ("+i+") { #modernizr { position: absolute; } }",function(e){return"absolute"==p(e,null,"position")})}return t}function g(e,n,o,i){function s(){c&&(delete N.style,delete N.modElem)}if(i=r(i,"undefined")?!1:i,!r(o,"undefined")){var u=v(e,o);if(!r(u,"undefined"))return u}for(var c,p,d,h,m,g=["modernizr","tspan","samp"];!N.style&&g.length;)c=!0,N.modElem=f(g.shift()),N.style=N.modElem.style;for(d=e.length,p=0;d>p;p++)if(h=e[p],m=N.style[h],a(h,"-")&&(h=l(h)),N.style[h]!==t){if(i||r(o,"undefined"))return s(),"pfx"==n?h:!0;try{N.style[h]=o}catch(y){}if(N.style[h]!=m)return s(),"pfx"==n?h:!0}return s(),!1}function y(e,n,t,o,i){var s=e.charAt(0).toUpperCase()+e.slice(1),l=(e+" "+P.join(s+" ")+s).split(" ");return r(n,"string")||r(n,"undefined")?g(l,n,o,i):(l=(e+" "+T.join(s+" ")+s).split(" "),c(l,n,t))}var _=[],C=[],w={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var t=this;setTimeout(function(){n(t[e])},0)},addTest:function(e,n,t){C.push({name:e,fn:n,options:t})},addAsyncTest:function(e){C.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=w,Modernizr=new Modernizr;var S,x=n.documentElement,b="svg"===x.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;S=r(e,"undefined")||r(e.call,"undefined")?function(e,n){return n in e&&r(e.constructor.prototype[n],"undefined")}:function(n,t){return e.call(n,t)}}(),w._l={},w.on=function(e,n){this._l[e]||(this._l[e]=[]),this._l[e].push(n),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},w._trigger=function(e,n){if(this._l[e]){var t=this._l[e];setTimeout(function(){var e,r;for(e=0;e<t.length;e++)(r=t[e])(n)},0),delete this._l[e]}},Modernizr._q.push(function(){w.addTest=s});var j="Moz O ms Webkit",P=w._config.usePrefixes?j.split(" "):[];w._cssomPrefixes=P;var E=function(n){var r,o=prefixes.length,i=e.CSSRule;if("undefined"==typeof i)return t;if(!n)return!1;if(n=n.replace(/^@/,""),r=n.replace(/-/g,"_").toUpperCase()+"_RULE",r in i)return"@"+n;for(var s=0;o>s;s++){var l=prefixes[s],a=l.toUpperCase()+"_"+r;if(a in i)return"@-"+l.toLowerCase()+"-"+n}return!1};w.atRule=E;var T=w._config.usePrefixes?j.toLowerCase().split(" "):[];w._domPrefixes=T;var z={elem:f("modernizr")};Modernizr._q.push(function(){delete z.elem});var N={style:z.elem.style};Modernizr._q.unshift(function(){delete N.style}),w.testAllProps=y;var L=w.prefixed=function(e,n,t){return 0===e.indexOf("@")?E(e):(-1!=e.indexOf("-")&&(e=l(e)),n?y(e,n,t):y(e,"pfx"))};Modernizr.addTest("objectfit",!!L("objectFit"),{aliases:["object-fit"]}),o(),i(_),delete w.addTest,delete w.addAsyncTest;for(var O=0;O<Modernizr._q.length;O++)Modernizr._q[O]();e.Modernizr=Modernizr}(window,document);
+    </script>
+    <script>
+        var modernizrTests = {
+            'csshover': !window.matchMedia('(pointer:coarse)').matches,
+            'ios': (/iPhone|iPad|iPod/i).test(navigator.userAgent || navigator.vendor),
+            'iphone': (/iPhone|iPod/i).test(navigator.userAgent || navigator.vendor),
+            'android': (/(android)/i).test(navigator.userAgent || navigator.vendor),
+            'ie11': document.documentMode===11,
+            'safari': navigator.userAgent.match(/Version\/[\d\.]+.*Safari/)
+        };
+        Modernizr.addTest(modernizrTests);
+        console.log('modernizr');
+    </script>
+    <link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+                <title>fritz-kola | unabhängig und wach seit 2003. | fritz-kola</title>
+    <meta property="og:title" content="fritz-kola | unabhängig und wach seit 2003." />
+<meta property="twitter:title" content="fritz-kola | unabhängig und wach seit 2003." />
+<meta name="description" content="Wer braucht schon Flügel, wenn man fritz-kola hat? Mit hochwertigen Zutaten und unvergleichlichem Geschmack für jeden, der nach besonderen Erfrischungsgetränken sucht." />
+<meta property="og:description" content="Wer braucht schon Flügel, wenn man fritz-kola hat? Mit hochwertigen Zutaten und unvergleichlichem Geschmack für jeden, der nach besonderen Erfrischungsgetränken sucht." />
+<meta property="twitter:description" content="Wer braucht schon Flügel, wenn man fritz-kola hat? Mit hochwertigen Zutaten und unvergleichlichem Geschmack für jeden, der nach besonderen Erfrischungsgetränken sucht." />
+<meta property="og:image" content="https://fritz-kola.com/fritz-kola.com/sharing%20images/fritz-kola.de%20sharing%20image.jpg" />
+<meta property="twitter:image" content="https://fritz-kola.com/fritz-kola.com/sharing%20images/fritz-kola.de%20sharing%20image.jpg" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://fritz-kola.com/de" />
+<meta property="og:site_name" content="fritz-kola.com" />
+<meta property="twitter:card" content="summary" />
+
+        <link rel="icon" type="image/png" sizes="96x96" href="/dist/assets/images/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/dist/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/dist/assets/images/favicon-16x16.png">
+    <link rel="canonical" href="https://fritz-kola.com/de"/>
+
+        <style>
+            /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */html{-webkit-text-size-adjust:100%;line-height:1.15}body{margin:0}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}*,:after,:before{box-sizing:border-box}figure{margin:0}a{color:inherit;text-decoration:none}::-moz-selection{background:#b3d4fc;text-shadow:none}::selection{background:#b3d4fc;text-shadow:none}audio,canvas,iframe,img,svg,video{vertical-align:middle}textarea{resize:vertical}fieldset{border:0;margin:0;padding:0}.clearfix:after,.clearfix:before{content:" ";display:table}.clearfix:after{clear:both}body{align-items:flex-start;display:flex;flex-direction:column;justify-content:flex-start;max-width:100vw;min-height:100vh;overflow:hidden}body:before{background-color:#fff;content:"";display:block;height:100vh;left:0;position:fixed;top:0;transition:opacity 1s cubic-bezier(.645,.045,.355,1),visibility 1s cubic-bezier(.645,.045,.355,1);width:100vw;z-index:999}body>main{flex:1 0 auto}body>footer,body>header{flex-shrink:0}body>*{width:100%}
+
+            
+                    </style>    
+            <script defer data-domain="fritz-kola.com" src="https://plausible.io/js/script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9K0XKHJRGT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-9K0XKHJRGT');
+    </script>
+    
+    
+                <meta name="facebook-domain-verification" content="un2ce7f2kkx644zsl601rm62p4i63m" />
+    </head>
+
+<body >
+<noscript id="deferred-styles">
+            <link href="/dist/app.css?v=1" media="screen" rel="stylesheet" type="text/css" />
+    </noscript>
+
+    
+    
+<header class="site-header" data-nav="root">
+    <div class="site-header__container" data-nav="container">
+        <div class="site-header__inner">
+            <a href="/de" class="site-header__logo">
+                <img src="/dist/assets/images/kola.svg" alt="Fritz Kola Logo">
+            </a>
+
+            <div class="site-header__flyout" data-nav="flyout" data-nav="menu">
+                <div class="site-header__flyout-inner">
+                    <div class="site-header__meta-nav" data-nav="meta-nav">
+                                                    <a class="site-header__meta-nav-item icon-instagram" href="https://www.instagram.com/fritzkola" target="_blank" rel="noopener"></a>
+                                                    <a class="site-header__meta-nav-item icon-tiktok" href="https://www.tiktok.com/@fritzkola" target="_blank" rel="noopener"></a>
+                                                    <a class="site-header__meta-nav-item icon-linkedin" href="https://de.linkedin.com/company/fritz-kulturg%C3%BCter-gmbh" target="_blank" rel="noopener"></a>
+                                                    <a class="site-header__meta-nav-item icon-facebook" href="https://facebook.com/fritz-kola/" target="_blank" rel="noopener"></a>
+                                                    <a class="site-header__meta-nav-item icon-youtube" href="https://www.youtube.com/c/fritzkola_official" target="_blank" rel="noopener"></a>
+                                                    <a class="site-header__meta-nav-item icon-spotify" href="https://open.spotify.com/user/31ycmfaar7vl4jb3p2be57dszc3i?si=393b5b40aa304c29" target="_blank" rel="noopener"></a>
+                                            </div>
+
+                    <nav class="site-header__nav">
+                        <ul class="nav">
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="/de/ueber-uns" >über uns</a>
+                                </li>
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="/de/produkte" >produkte</a>
+                                </li>
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="https://fritz-kola.com/pressroom" >presse</a>
+                                </li>
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="/de/nachhaltigkeit" >Nachhaltigkeit</a>
+                                </li>
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="https://fritz-kola-shop.com/"  target="_blank" rel="noopener">Shop</a>
+                                </li>
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="https://jobs.fritz-kola.de/"  target="_blank" rel="noopener">karriere</a>
+                                </li>
+                                                            <li class="nav__item" data-nav="translate">
+                                    <a class="nav__link _navigation" data-nav="opacity" href="https://de.linkedin.com/company/fritz-kulturg%C3%BCter-gmbh" ></a>
+                                </li>
+                                                    </ul>
+                    </nav>
+
+                    <div class="site-header__option-nav" data-nav="option-nav">
+                        <a class="site-header__contact-cta reverse-icon-mail" href="/de/kontakt"><span>Kontakt</span></a>
+                        <div class="site-header__language-switch">
+                                                                                        <div class="language-switch" data-language="root">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="language-switch__header reverse-icon-show-more" data-language="header">deutsch</div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <div class="language-switch__items" data-language="toggle">
+                                        <div class="language-switch__items-inner swiper" data-language="slider">
+                                            <div class="swiper-wrapper">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <a class="swiper-slide sprache language-switch__item language-switch__item--active" href="/de"><span>deutsch</span></a>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <a class="swiper-slide sprache language-switch__item" href="/en"><span>english</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/pl"><span>Polski</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/es"><span>español</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/fr"><span>Français</span></a>
+                                                                                                                                                                                                                                                                                                                    <a class="swiper-slide sprache language-switch__item" href="/en-gb"><span>english (uk)</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/de-at"><span>deutsch (at)</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/de-ch"><span>deutsch (ch)</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/nl"><span>Dutch</span></a>
+                                                                                                                                                                                                                <a class="swiper-slide sprache language-switch__item" href="/nl-be"><span>Dutch (be) </span></a>
+                                                                                                                                                </div>
+                                        </div>
+                                        <button class="language-switch-slider-btn language-switch-slider-btn--next icon-show-more"></button>
+                                        <button class="language-switch-slider-btn language-switch-slider-btn--prev icon-show-more"></button>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="site-header__menu-button" type="button" aria-label="Mobile Menu toggle" data-nav="trigger"><span class="center-line"></span></button>
+        </div>
+    </div>
+</header>
+
+<main class="site-main">
+    
+    
+
+    
+
+<section class="stage" data-video="root">
+    <div class="stage__container">
+        <div class="stage__inner">
+
+            
+                
+
+
+
+
+
+				
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="stage__slide swiper-slide stage-type--video ">
+	
+	
+			<div class="stage__video" data-ratio="16:9">
+			<video class="video-default"  muted playsinline preload loop data-video="player">
+
+									<source src="/undefined/KURT_neu" type="video/webm">
+				
+									<source src="/undefined/KURT_neu_2" type="video/mp4">
+							</video>
+		</div>
+	
+	<div class="stage__content stage__content--full stage__content--minimum">
+
+					
+		
+									<p class="stage__topline">willkommen im wach!</p>
+					
+					<h2 class="stage__headline _headline-medium">wir sind die kola mit k.</h2>
+		
+		
+		
+			</div>
+</div>
+
+                                
+                        </div>
+    </div>
+</section>
+
+
+    	
+	
+	
+
+
+
+
+                                    
+            
+                                    
+
+
+<section class="rte-area ">
+	<div class="rte-area__outer">
+		<div class="rte-area__inner">
+			<div class="rte-area__content rte">
+				<h5>Wie schön, dass du den Weg zu uns gefunden hast! Wenn du hier gelandet bist, hast du deinen Sinn für guten Geschmack bewiesen. Seit unserer Gründung im Jahr 2003 haben wir es uns zur Aufgabe gemacht, einzigartige und ehrliche Getränke zu kreieren, die nicht nur gut schmecken, sondern auch eine Geschichte erzählen. Tauche ein in unsere köstlich-köstliche Welt, in der jede Flasche voller Sprudel und Spaß steckt. Na denn Prost!</h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+                
+                            
+                    
+
+
+
+
+                                    
+            
+                                    
+
+
+
+<section class="general-teaser  general-teaser--text-teaser">
+    <div class="general-teaser__container ">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="general-teaser__content-wrapper">
+
+    
+    <div class="general-teaser__content">
+        <div class="general-teaser__content-text-area">
+            <h2 class="general-container__headline _headline-small">ohne vielfalt fehlt viel.</h2>
+            <div class="general-container__copy _copy">Im Superwahljahr 2024 – mit drei Landtagswahlen in Brandenburg, Thüringen und Sachsen stellt sich die Frage: Wie wollen wir heute und morgen zusammenleben? Wir haben darauf eine klare Antwort – die Zukunft unserer Gesellschaft muss vielfältig, demokratisch und bunt aussehen. Doch das geht nur durch die richtige Wahlentscheidung.</div>
+        </div>
+
+        <div class="general-teaser__content-ctas">
+                            <a href="/vielvielvielfalt" internalType="document" linktype="internal" text="vielvielvielfalt" path="/vielvielvielfalt" target="_blank" class="button button--primary" internalId="749" placeholder="Button (required)">vielvielvielfalt</a>
+                    </div>
+    </div>
+</div>
+        </div>
+</section>
+
+
+                
+                            
+                    
+
+
+
+
+                                    
+            
+                                    
+
+		
+		
+
+
+	
+
+
+
+				
+
+																																																																																																																																
+	<section class="product-teaser-list product-teaser-list--style-2" data-product-teaser-list="root" data-product-teaser-list-style="style-2">
+		<div class="product-teaser-list__inner">
+			<div
+				class="product-teaser-list__content">
+
+																			<h2 class="product-teaser-list__headline">unser sortiment - jetzt entdecken.</h2>
+									
+
+								<div
+					class="product-teaser-list__items swiper" data-product-teaser-list="slider">
+																<ul class="product-teaser-list__anchor-nav">
+															<li class="product-teaser-list__anchor-nav-item">
+									<button class="product-teaser-list__anchor-nav-trigger" data-product-teaser-list-anchor="kola">kola</button>
+								</li>
+															<li class="product-teaser-list__anchor-nav-item">
+									<button class="product-teaser-list__anchor-nav-trigger" data-product-teaser-list-anchor="limo">limo</button>
+								</li>
+															<li class="product-teaser-list__anchor-nav-item">
+									<button class="product-teaser-list__anchor-nav-trigger" data-product-teaser-list-anchor="spritz">spritz</button>
+								</li>
+															<li class="product-teaser-list__anchor-nav-item">
+									<button class="product-teaser-list__anchor-nav-trigger" data-product-teaser-list-anchor="anjola">anjola</button>
+								</li>
+													</ul>
+					
+										<div class="swiper-controls" data-product-teaser-list="controls">
+						<div class="product-teaser-list__buttons" data-product-teaser-list="controls">
+							<div class="fk-swiper-buttons swiper-buttons">
+	<div class="swiper-navigation">
+		<button class="swiper-button-prev icon-less">
+			<i>Prev</i>
+		</button>
+		<button class="swiper-button-next reverse-icon-more">
+			<i>Next</i>
+		</button>
+	</div>
+</div>
+						</div>
+					</div>
+
+										<div class="swiper-wrapper">
+																									
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--original swiper-slide"  data-product-teaser-list=slide  data-product-teaser-list-target=kola   data-producttype="kola">
+				<a
+					 href="/de/produkte/kola-original"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>kola</div>
+						
+												<p class="teaser-product__sort">Original</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default~-~media--ec369c47--query.affd999a.webp 1x, /fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default~-~media--ec369c47--query@2x.affd999a.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default~-~media--ec369c47--query.affd999a.png 1x, /fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default~-~media--ec369c47--query@2x.affd999a.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default.2082d970.webp 1x, /fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default@2x.2082d970.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default.2082d970.png 1x, /fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default@2x.2082d970.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default.2082d970.png 1x, /fritz-kola.com/packshots-2024/2378/image-thumb__2378__teaser-product/kola-original-teaser-default@2x.2082d970.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover~-~media--ec369c47--query.d31057d3.webp 1x, /fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover~-~media--ec369c47--query@2x.d31057d3.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover~-~media--ec369c47--query.d31057d3.png 1x, /fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover~-~media--ec369c47--query@2x.d31057d3.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover.2aadc5a0.webp 1x, /fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover@2x.2aadc5a0.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover.2aadc5a0.png 1x, /fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover@2x.2aadc5a0.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover.2aadc5a0.png 1x, /fritz-kola.com/packshots-2024/2374/image-thumb__2374__teaser-product/kola-original-teaser-hover@2x.2aadc5a0.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>25 mg/100 ml Koffein</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/kola-original"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-kola-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																												
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--classic_light swiper-slide"  data-product-teaser-list=slide   data-producttype="kola">
+				<a
+					 href="/de/produkte/kola-classic-light"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser~-~media--ec369c47--query.180aeec3.webp 1x, /fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser~-~media--ec369c47--query@2x.180aeec3.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser~-~media--ec369c47--query.180aeec3.png 1x, /fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser~-~media--ec369c47--query@2x.180aeec3.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser.b65d51d6.webp 1x, /fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser@2x.b65d51d6.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser.b65d51d6.png 1x, /fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser@2x.b65d51d6.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser.b65d51d6.png 1x, /fritz-kola.com/drops/2353/image-thumb__2353__product_teaser_drop/FK_tropfen_white_teaser@2x.b65d51d6.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>kola</div>
+						
+												<p class="teaser-product__sort">Classic Light</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default~-~media--ec369c47--query.ecce5610.webp 1x, /fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default~-~media--ec369c47--query@2x.ecce5610.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default~-~media--ec369c47--query.ecce5610.png 1x, /fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default~-~media--ec369c47--query@2x.ecce5610.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default.f129f9e4.webp 1x, /fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default@2x.f129f9e4.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default.f129f9e4.png 1x, /fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default@2x.f129f9e4.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default.f129f9e4.png 1x, /fritz-kola.com/packshots-2024/2385/image-thumb__2385__teaser-product/kola-classic-light-teaser-default@2x.f129f9e4.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover~-~media--ec369c47--query.9660f1d8.webp 1x, /fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover~-~media--ec369c47--query@2x.9660f1d8.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover~-~media--ec369c47--query.9660f1d8.png 1x, /fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover~-~media--ec369c47--query@2x.9660f1d8.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover.1e9b245a.webp 1x, /fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover@2x.1e9b245a.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover.1e9b245a.png 1x, /fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover@2x.1e9b245a.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover.1e9b245a.png 1x, /fritz-kola.com/packshots-2024/2379/image-thumb__2379__teaser-product/kola-classic-light-teaser-hover@2x.1e9b245a.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>25 mg/100 ml Koffein</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/kola-classic-light"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-kola-ohne-zucker-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--bio_kola swiper-slide"  data-product-teaser-list=slide   data-producttype="kola">
+				<a
+					 href="/de/produkte/kola-organic-kola"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>kola</div>
+						
+												<p class="teaser-product__sort">Bio Kola</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default~-~media--ec369c47--query.b05ef70d.webp 1x, /fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default~-~media--ec369c47--query@2x.b05ef70d.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default~-~media--ec369c47--query.b05ef70d.png 1x, /fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default~-~media--ec369c47--query@2x.b05ef70d.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default.37470e6b.webp 1x, /fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default@2x.37470e6b.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default.37470e6b.png 1x, /fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default@2x.37470e6b.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default.37470e6b.png 1x, /fritz-kola.com/packshots-2024/2387/image-thumb__2387__teaser-product/kola-organic-kola-teaser-default@2x.37470e6b.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover~-~media--ec369c47--query.9e9a3cd9.webp 1x, /fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover~-~media--ec369c47--query@2x.9e9a3cd9.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover~-~media--ec369c47--query.9e9a3cd9.png 1x, /fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover~-~media--ec369c47--query@2x.9e9a3cd9.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover.802df515.webp 1x, /fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover@2x.802df515.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover.802df515.png 1x, /fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover@2x.802df515.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover.802df515.png 1x, /fritz-kola.com/packshots-2024/2389/image-thumb__2389__teaser-product/kola-organic-kola-teaser-hover@2x.802df515.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>25 mg/100 ml Koffein</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/kola-organic-kola"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-kola-bio-kola-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--super_zero swiper-slide"  data-product-teaser-list=slide   data-producttype="kola">
+				<a
+					 href="/de/produkte/kola-super-zero"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>kola</div>
+						
+												<p class="teaser-product__sort">Super Zero</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default~-~media--ec369c47--query.ec2ecfaf.webp 1x, /fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default~-~media--ec369c47--query@2x.ec2ecfaf.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default~-~media--ec369c47--query.ec2ecfaf.png 1x, /fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default~-~media--ec369c47--query@2x.ec2ecfaf.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default.49b28c86.webp 1x, /fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default@2x.49b28c86.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default.49b28c86.png 1x, /fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default@2x.49b28c86.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default.49b28c86.png 1x, /fritz-kola.com/packshots-2024/2376/image-thumb__2376__teaser-product/kola-super-zero-teaser-default@2x.49b28c86.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover~-~media--ec369c47--query.0f51ff07.webp 1x, /fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover~-~media--ec369c47--query@2x.0f51ff07.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover~-~media--ec369c47--query.0f51ff07.png 1x, /fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover~-~media--ec369c47--query@2x.0f51ff07.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover.e4ef1011.webp 1x, /fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover@2x.e4ef1011.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover.e4ef1011.png 1x, /fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover@2x.e4ef1011.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover.e4ef1011.png 1x, /fritz-kola.com/packshots-2024/2377/image-thumb__2377__teaser-product/kola-super-zero-teaser-hover@2x.e4ef1011.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>25 mg/100 ml Koffein</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/kola-super-zero"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-kola-superzero-0-33.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--apfel_kirsch_holunder swiper-slide"  data-product-teaser-list=slide  data-product-teaser-list-target=limo   data-producttype="limo">
+				<a
+					 href="/de/produkte/limo-apple-cherry-elderberry"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>limo</div>
+						
+												<p class="teaser-product__sort">Apfel Kirsch Holunder</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default~-~media--ec369c47--query.48d57b81.webp 1x, /fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default~-~media--ec369c47--query@2x.48d57b81.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default~-~media--ec369c47--query.48d57b81.png 1x, /fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default~-~media--ec369c47--query@2x.48d57b81.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default.ed2e4807.webp 1x, /fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default@2x.ed2e4807.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default.ed2e4807.png 1x, /fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default@2x.ed2e4807.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default.ed2e4807.png 1x, /fritz-kola.com/packshots-2024/2373/image-thumb__2373__teaser-product/limo-apple-cherry-elderberry-teaser-default@2x.ed2e4807.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover~-~media--ec369c47--query.7db9f19b.webp 1x, /fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover~-~media--ec369c47--query@2x.7db9f19b.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover~-~media--ec369c47--query.7db9f19b.png 1x, /fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover~-~media--ec369c47--query@2x.7db9f19b.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover.60a9ec0e.webp 1x, /fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover@2x.60a9ec0e.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover.60a9ec0e.png 1x, /fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover@2x.60a9ec0e.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover.60a9ec0e.png 1x, /fritz-kola.com/packshots-2024/2388/image-thumb__2388__teaser-product/limo-apple-cherry-elderberry-teaser-hover@2x.60a9ec0e.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>23% Fruchtanteil</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/limo-apple-cherry-elderberry"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-limo-apfel-kirsch-holunder-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																												
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--zitrone swiper-slide"  data-product-teaser-list=slide   data-producttype="limo">
+				<a
+					 href="/de/produkte/limo-lemon"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>limo</div>
+						
+												<p class="teaser-product__sort">Zitrone</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default~-~media--ec369c47--query.a6a148c7.webp 1x, /fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default~-~media--ec369c47--query@2x.a6a148c7.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default~-~media--ec369c47--query.a6a148c7.png 1x, /fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default~-~media--ec369c47--query@2x.a6a148c7.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default.a71541da.webp 1x, /fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default@2x.a71541da.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default.a71541da.png 1x, /fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default@2x.a71541da.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default.a71541da.png 1x, /fritz-kola.com/packshots-2024/2375/image-thumb__2375__teaser-product/limo-lemon-teaser-default@2x.a71541da.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover~-~media--ec369c47--query.58249e98.webp 1x, /fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover~-~media--ec369c47--query@2x.58249e98.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover~-~media--ec369c47--query.58249e98.png 1x, /fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover~-~media--ec369c47--query@2x.58249e98.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover.6c3409f3.webp 1x, /fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover@2x.6c3409f3.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover.6c3409f3.png 1x, /fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover@2x.6c3409f3.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover.6c3409f3.png 1x, /fritz-kola.com/packshots-2024/2363/image-thumb__2363__teaser-product/limo-lemon-teaser-hover@2x.6c3409f3.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>7% Fruchtanteil</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/limo-lemon"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-limo-zitrone-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--honigmelone swiper-slide"  data-product-teaser-list=slide   data-producttype="limo">
+				<a
+					 href="/de/produkte/limo-honeydew-melon"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>limo</div>
+						
+												<p class="teaser-product__sort">Honigmelone</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default~-~media--ec369c47--query.a790aee5.webp 1x, /fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default~-~media--ec369c47--query@2x.a790aee5.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default~-~media--ec369c47--query.a790aee5.png 1x, /fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default~-~media--ec369c47--query@2x.a790aee5.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default.6c2678c7.webp 1x, /fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default@2x.6c2678c7.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default.6c2678c7.png 1x, /fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default@2x.6c2678c7.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default.6c2678c7.png 1x, /fritz-kola.com/packshots-2024/2370/image-thumb__2370__teaser-product/limo-honeydew-lemon-teaser-default@2x.6c2678c7.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover~-~media--ec369c47--query.e0f69f01.webp 1x, /fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover~-~media--ec369c47--query@2x.e0f69f01.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover~-~media--ec369c47--query.e0f69f01.png 1x, /fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover~-~media--ec369c47--query@2x.e0f69f01.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover.d10a6ff4.webp 1x, /fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover@2x.d10a6ff4.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover.d10a6ff4.png 1x, /fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover@2x.d10a6ff4.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover.d10a6ff4.png 1x, /fritz-kola.com/packshots-2024/2367/image-thumb__2367__teaser-product/limo-honeydew-lemon-teaser-hover@2x.d10a6ff4.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>5% Fruchtanteil</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/limo-honeydew-melon"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-limo-honigmelone-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--orange swiper-slide"  data-product-teaser-list=slide   data-producttype="limo">
+				<a
+					 href="/de/produkte/limo-orange"  class="teaser-product__inner">
+
+										
+					<div
+						class="teaser-product__content">
+
+																			<div class="teaser-product__drops">
+																	<figure class="image">
+										<span>
+											<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.webp 2x" width="300" height="304" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query.e4484fd7.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser~-~media--ec369c47--query@2x.e4484fd7.png 2x" width="300" height="304" type="image/png" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.webp 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.webp 2x" width="603" height="611" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" width="603" height="611" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="603" height="611" alt="" loading="lazy" data-srcset="/fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser.f8fd22d4.png 1x, /fritz-kola.com/drops/2352/image-thumb__2352__product_teaser_drop/FK_tropfen_teaser@2x.f8fd22d4.png 2x" />
+</picture>
+
+										</span>
+									</figure>
+															</div>
+
+														<div class="teaser-product__typowall" data-typowall>limo</div>
+						
+												<p class="teaser-product__sort">Orange</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default~-~media--ec369c47--query.cc08e45d.webp 1x, /fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default~-~media--ec369c47--query@2x.cc08e45d.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default~-~media--ec369c47--query.cc08e45d.png 1x, /fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default~-~media--ec369c47--query@2x.cc08e45d.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default.daed258b.webp 1x, /fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default@2x.daed258b.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default.daed258b.png 1x, /fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default@2x.daed258b.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default.daed258b.png 1x, /fritz-kola.com/packshots-2024/2369/image-thumb__2369__teaser-product/limo-orange-teaser-default@2x.daed258b.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover~-~media--ec369c47--query.c15783b5.webp 1x, /fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover~-~media--ec369c47--query@2x.c15783b5.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover~-~media--ec369c47--query.c15783b5.png 1x, /fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover~-~media--ec369c47--query@2x.c15783b5.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover.e04c8b4c.webp 1x, /fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover@2x.e04c8b4c.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover.e04c8b4c.png 1x, /fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover@2x.e04c8b4c.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover.e04c8b4c.png 1x, /fritz-kola.com/packshots-2024/2371/image-thumb__2371__teaser-product/limo-orange-teaser-hover@2x.e04c8b4c.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>17% Fruchtanteil</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/limo-orange"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-limo-orange-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--bio_apfelschorle swiper-slide"  data-product-teaser-list=slide  data-product-teaser-list-target=spritz   data-producttype="spritz">
+				<a
+					 href="/de/produkte/spritz-organic-apple"  class="teaser-product__inner">
+
+																<div class="teaser-product__pattern">
+										<div class="teaser-product__graphic">
+			<svg width="129" height="161" viewBox="0 0 129 161" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M100.98 13.2991L2.06775 136.935C2.06775 136.935 53.4679 174.793 98.1865 118.611C144.489 60.4391 100.98 13.2991 100.98 13.2991Z" fill="#97D700"/>
+<path d="M55.6017 96.6616C56.5776 94.9196 56.3266 92.2876 55.0366 90.7605L52.709 88.0011L50.9466 91.1429C49.9707 92.8849 50.2217 95.5169 51.5117 97.044C52.79 98.5692 54.6278 98.3918 55.59 96.6596L55.6017 96.6616Z" fill="#44A040"/>
+<path d="M77.394 69.766C75.7309 68.6711 73.0816 68.726 71.4658 69.892L68.5488 71.999L71.5579 73.9918C73.221 75.0867 75.8703 75.0318 77.4861 73.8658C79.1019 72.6998 79.0688 70.8629 77.4057 69.768L77.394 69.766Z" fill="#44A040"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="311" height="195" viewBox="0 0 311 195" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M310.598 120.431L6.57048 -0.00708008C6.57048 -0.00708008 -37.1314 124.271 100.896 178.563C243.792 234.762 310.598 120.431 310.598 120.431Z" fill="#97D700"/>
+<path d="M189.299 109.625C190.038 105.594 187.795 100.585 184.262 98.4616L177.89 94.6211L176.553 101.944C175.813 105.976 178.057 110.985 181.589 113.108C185.122 115.231 188.559 113.68 189.299 109.625Z" fill="#44A040"/>
+<path d="M151.896 104.52C155.381 102.35 157.577 97.3164 156.765 93.2851L155.333 85.9858L149.008 89.9217C145.524 92.0924 143.328 97.1256 144.139 101.157C144.951 105.188 148.412 106.691 151.896 104.52Z" fill="#44A040"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="293" height="228" viewBox="0 0 293 228" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M292.248 178.594L18.3417 0C18.3417 0 -49.2757 113.091 75.1469 193.789C203.961 277.349 292.248 178.618 292.248 178.618V178.594Z" fill="#97D700"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="293" height="228" viewBox="0 0 293 228" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M292.248 178.594L18.3417 0C18.3417 0 -49.2757 113.091 75.1469 193.789C203.961 277.349 292.248 178.618 292.248 178.618V178.594Z" fill="#97D700"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="139" height="188" viewBox="0 0 139 188" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M138.135 124.692C138.158 123.899 138.205 123.105 138.298 122.323C139.057 115.87 142.221 80.5225 124.38 53.5071C104.67 23.6794 65.2966 32.5017 64.4092 57.8366C63.8254 74.3026 56.4224 68.9228 51.3081 63.1346C45.4232 56.4829 36.6775 52.8653 27.8967 54.0556C20.1669 55.1059 11.6664 59.4704 5.90985 71.6419C-7.21455 99.4274 2.71048 123.374 23.9617 148.312C45.2247 173.25 76.3659 198.748 88.4628 182.656C100.198 167.042 102.942 164.848 113.205 168.279C129.751 173.798 137.236 158.161 138.135 124.681V124.692Z" fill="#97D700"/>
+<path d="M54.703 53.939C54.703 53.939 39.2783 7.52856 13.952 0.270002C11.2781 -0.500199 8.35893 0.398371 6.86434 2.6973C5.53321 4.7395 7.07452 5.46302 10.2505 8.60217C14.6993 13.0017 36.5227 23.5861 51.2234 54.4641" fill="#97D700"/>
+<path d="M99.0516 125.82C96.9264 126.077 94.3693 124.758 93.3534 122.868L91.5085 119.448L95.3618 118.982C97.4869 118.725 100.044 120.044 101.06 121.934C102.076 123.825 101.177 125.552 99.0516 125.82Z" fill="#44A040"/>
+<path d="M98.388 106.39C97.162 108.129 94.4881 109.097 92.398 108.561L88.6265 107.58L90.845 104.441C92.071 102.702 94.745 101.734 96.8351 102.271C98.9251 102.807 99.6141 104.651 98.3997 106.39H98.388Z" fill="#44A040"/>
+<path d="M90.5609 91.6511C90.6893 93.775 89.1947 96.1906 87.2331 97.0308L83.6834 98.5596L83.4616 94.7086C83.3331 92.5847 84.8277 90.169 86.7893 89.3288C88.751 88.4886 90.4441 89.5272 90.5725 91.6511H90.5609Z" fill="#44A040"/>
+<path d="M59.9711 95.4205C62.0729 95.0004 64.7118 96.1323 65.8794 97.9295L67.9812 101.197L64.1747 101.956C62.0729 102.376 59.434 101.244 58.2663 99.4465C57.1104 97.6377 57.8693 95.8406 59.9711 95.4205Z" fill="#44A040"/>
+<path d="M62.1079 117.745C63.1938 115.924 65.786 114.746 67.9111 115.131L71.741 115.819L69.7794 119.122C68.6935 120.942 66.1013 122.121 63.9761 121.736C61.8627 121.351 61.022 119.565 62.1079 117.745Z" fill="#44A040"/>
+<path d="M70.198 130.861C69.9061 128.749 71.2138 126.229 73.1054 125.248L76.5267 123.451L77.0404 127.279C77.3323 129.391 76.0246 131.912 74.133 132.892C72.2414 133.884 70.4782 132.974 70.1863 130.861H70.198Z" fill="#44A040"/>
+</svg>
+		</div>
+							</div>
+					
+					<div
+						class="teaser-product__content">
+
+												
+												<p class="teaser-product__sort">Bio Apfelschorle</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default~-~media--ec369c47--query.7f291fd9.webp 1x, /fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default~-~media--ec369c47--query@2x.7f291fd9.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default~-~media--ec369c47--query.7f291fd9.png 1x, /fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default~-~media--ec369c47--query@2x.7f291fd9.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default.462a5d82.webp 1x, /fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default@2x.462a5d82.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default.462a5d82.png 1x, /fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default@2x.462a5d82.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default.462a5d82.png 1x, /fritz-kola.com/packshots-2024/2365/image-thumb__2365__teaser-product/spritz-organic-apple-teaser-default@2x.462a5d82.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover~-~media--ec369c47--query.b35ff8e2.webp 1x, /fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover~-~media--ec369c47--query@2x.b35ff8e2.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover~-~media--ec369c47--query.b35ff8e2.png 1x, /fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover~-~media--ec369c47--query@2x.b35ff8e2.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover.330a5a79.webp 1x, /fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover@2x.330a5a79.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover.330a5a79.png 1x, /fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover@2x.330a5a79.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover.330a5a79.png 1x, /fritz-kola.com/packshots-2024/2372/image-thumb__2372__teaser-product/spritz-organic-apple-teaser-hover@2x.330a5a79.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>66% Bio-Apfeldirektsaft</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/spritz-organic-apple"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-spritz-apfelschorle-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																												
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--bio_traubenschorle swiper-slide"  data-product-teaser-list=slide   data-producttype="spritz">
+				<a
+					 href="/de/produkte/spritz-organic-grape"  class="teaser-product__inner">
+
+																<div class="teaser-product__pattern">
+										<div class="teaser-product__graphic">
+			<svg width="149" height="150" viewBox="0 0 149 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M145.177 51.5122C157.547 91.8859 135.724 134.068 96.2196 146.145C57.0363 158.135 15.2856 135.556 3.17762 95.7658C-8.63862 56.9673 13.5351 14.9308 52.5141 3.34964C91.9891 -8.3774 131.785 11.4011 145.177 51.5122Z" fill="#CB579A"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="117" height="117" viewBox="0 0 117 117" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M91.0757 107.073C63.3617 125.181 26.8971 117.837 9.25883 90.5716C-8.2195 63.5357 -0.222882 27.0901 27.1027 9.28036C53.7429 -8.07033 90.1846 -0.404808 107.32 26.5393C124.661 53.8276 118.378 88.2306 91.0757 107.05V107.073Z" fill="#CB579A"/>
+<path d="M27.6379 47.2055C26.3329 48.0753 26.4016 50.4788 27.7981 52.5619C29.1946 54.6449 31.3925 55.6063 32.6974 54.7136C34.0024 53.8438 33.9337 51.4402 32.5372 49.3572C31.1406 47.2742 28.9428 46.3127 27.6379 47.2055Z" fill="#8E1960"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="149" height="150" viewBox="0 0 149 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M145.177 51.5122C157.547 91.8859 135.724 134.068 96.2196 146.145C57.0363 158.135 15.2856 135.556 3.17762 95.7658C-8.63862 56.9673 13.5351 14.9308 52.5141 3.34964C91.9891 -8.3774 131.785 11.4011 145.177 51.5122Z" fill="#CB579A"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="239" height="247" viewBox="0 0 239 247" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M143.56 58.71C145.206 43.6305 142.425 28.3428 137.107 13.7173L131.392 0C127.002 5.01391 121.515 9.02504 116.954 13.9254C104.862 26.9237 95.0411 42.6466 92.1458 60.4129C90.14 72.8058 91.5592 85.2554 94.5869 97.5158C102.913 77.2899 121.363 62.2482 143.579 58.71H143.56Z" fill="#CB579A"/>
+<path d="M147.779 179.384C147.779 212.381 121.022 239.154 88.0007 239.154C54.9799 239.154 28.2227 212.4 28.2227 179.384C28.2227 146.368 54.9799 119.615 88.0007 119.615C121.022 119.615 147.779 146.368 147.779 179.384Z" fill="#CB579A"/>
+<path d="M179.259 127.047C164.366 126.915 150.722 132.25 140.182 141.143C147.827 151.776 152.293 164.831 152.18 178.889C152.009 196.825 144.421 212.984 132.348 224.487C143.191 237.807 159.673 246.397 178.199 246.548C211.201 246.851 238.204 220.325 238.507 187.327C238.81 154.33 212.279 127.331 179.277 127.028L179.259 127.047Z" fill="#CB579A"/>
+<path d="M137.031 138.573C148.196 129.037 162.653 123.247 178.454 123.247C190.887 123.247 202.467 126.823 212.289 132.991C212.989 129.359 213.367 125.593 213.367 121.753C213.367 88.7553 186.61 61.9829 153.589 61.9829C122.555 61.9829 97.0658 85.6145 94.1138 115.868C111.315 117.514 126.529 125.991 137.031 138.573Z" fill="#CB579A"/>
+<path d="M39.9934 108.225C47.7519 113.144 56.2673 116.663 64.8773 119.917C72.0492 117.117 79.8455 115.566 88.0014 115.566C89.5909 115.566 91.1426 115.641 92.6943 115.755C87.2823 97.5724 80.2618 79.6548 67.0345 66.2969C54.3561 53.5067 37.2496 46.4305 19.8403 42.8735C13.274 41.5301 6.48062 41.4733 -0.0100098 39.9219L3.30153 54.4149C9.338 76.1544 20.5026 95.8695 39.9745 108.225H39.9934Z" fill="#CB579A"/>
+</svg>
+		</div>
+							</div>
+					
+					<div
+						class="teaser-product__content">
+
+												
+												<p class="teaser-product__sort">Bio Traubenschorle</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default~-~media--ec369c47--query.435a373b.webp 1x, /fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default~-~media--ec369c47--query@2x.435a373b.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default~-~media--ec369c47--query.435a373b.png 1x, /fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default~-~media--ec369c47--query@2x.435a373b.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default.8f9b7502.webp 1x, /fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default@2x.8f9b7502.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default.8f9b7502.png 1x, /fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default@2x.8f9b7502.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default.8f9b7502.png 1x, /fritz-kola.com/packshots-2024/2360/image-thumb__2360__teaser-product/spritz-organic-grape-teaser-default@2x.8f9b7502.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover~-~media--ec369c47--query.21500d3c.webp 1x, /fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover~-~media--ec369c47--query@2x.21500d3c.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover~-~media--ec369c47--query.21500d3c.png 1x, /fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover~-~media--ec369c47--query@2x.21500d3c.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover.3abeabf9.webp 1x, /fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover@2x.3abeabf9.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover.3abeabf9.png 1x, /fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover@2x.3abeabf9.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover.3abeabf9.png 1x, /fritz-kola.com/packshots-2024/2364/image-thumb__2364__teaser-product/spritz-organic-grape-teaser-hover@2x.3abeabf9.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>50% Bio-Direktsaft aus italienischen Trauben</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/spritz-organic-grape"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-spritz-traubenschorle-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--bio_rhabarberschorle swiper-slide"  data-product-teaser-list=slide   data-producttype="spritz">
+				<a
+					 href="/de/produkte/spritz-organic-rhubarb"  class="teaser-product__inner">
+
+																<div class="teaser-product__pattern">
+										<div class="teaser-product__graphic">
+			<svg width="150" height="211" viewBox="0 0 150 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.5809 156.055C43.0611 149.913 0.597046 34.295 0.597046 34.295L9.55333 27.4644L78.6358 185.57L42.5809 156.055Z" fill="#F4A091"/>
+<path d="M99.2836 190.333L21.7668 39.9347L31.1198 23.8296L133.564 210.95L99.2836 190.333Z" fill="#F4A091"/>
+<path d="M38.1752 19.7354L128.406 183.481L149.847 169.695L48.9061 -0.00439453L38.1752 19.7354Z" fill="#F4A091"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="311" height="291" viewBox="0 0 311 291" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M37.5945 144.009C37.5945 144.009 -16.9472 86.9211 5.35723 57.1317C27.6616 27.3168 47.9084 62.6219 83.8799 18.0393C119.851 -26.5432 120.334 26.9355 172.107 15.9043C223.905 4.873 217.478 68.9508 261.248 72.1789C305.044 75.4069 326.713 102.731 296.051 126.878C282.232 137.756 282.054 153.871 281.8 169.986C281.52 188.363 278.116 205.266 263.509 217.873C255.609 224.71 247.987 231.878 240.925 239.579C233.914 247.23 228.3 257.092 220.348 263.726C202.718 278.418 178.483 263.37 158.744 270.411C144.874 275.367 136.11 288.458 120.893 290.44C109.868 291.889 99.0205 288.661 89.4687 283.272C70.1111 272.343 53.4463 252.288 46.3587 231.166C40.6429 214.162 38.6614 196.09 38.9917 178.196C39.1187 172.197 42.98 159.412 41.0494 153.871L37.5945 144.06V144.009Z" fill="#F4A091"/>
+<path d="M194.206 57.3607C194.206 57.3607 141.392 94.0129 141.545 129.801M176.754 45.5415C174.341 47.4732 162.198 68.6461 160.115 88.7006M201.599 77.4152C201.599 77.4152 185.823 71.7979 163.544 84.9388M175.662 125.48C175.662 125.48 210.16 173.773 243.947 180.255M242.626 160.531C241.381 161.065 218.365 168.054 200.786 154.939M215.52 195.328C214.555 194.108 212.929 165.843 192.581 145.636M73.5899 141.01C73.5899 141.01 60.1768 75.1785 126.455 47.4224M100.086 103.545C100.086 103.545 80.0678 107.256 72.4213 128.225M93.1761 138.875C93.0237 141.9 113.016 216.526 160.216 218.381M138.547 193.091C138.547 193.091 120.764 198.073 109.206 179.67M225.504 117.067L44.9092 146.424" stroke="#EF426F" stroke-width="1.29802" stroke-miterlimit="10"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="232" height="243" viewBox="0 0 232 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M82.9101 242.326C82.9101 242.326 147.537 132.369 231.394 52.2528L231.979 25.9709L201.291 24.5984C201.291 24.5984 107.018 140.172 69.7002 229.515C82.148 236.276 82.8847 242.326 82.8847 242.326H82.9101Z" fill="#F4A091"/>
+<path d="M44.7279 217.493C45.5917 214.29 173.804 21.5229 173.804 21.5229L156.072 0.90918L32.5088 205.597L44.7025 217.493H44.7279Z" fill="#F4A091"/>
+<path d="M19.0959 119.864L134.301 5.28101L156.098 19.7945L0.55127 155.347L1.97387 132.369L19.0959 119.864Z" fill="#F4A091"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="281" height="473" viewBox="0 0 281 473" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.385644 431.865L35.5636 450.602C35.5636 450.602 102.35 304.632 141.891 181.452L132.12 183.708C132.12 183.708 60.7832 348.394 0.364746 431.865H0.385644Z" fill="#F4A091"/>
+<path d="M125.252 283.221C125.252 283.221 90.2198 377.617 36.1272 451.5L39.3005 472.013L63.3301 468.838C63.3301 468.838 120.617 365.961 137.256 291.368C126.65 287.838 125.252 283.221 125.252 283.221Z" fill="#F4A091"/>
+<path d="M106.806 248.827C106.806 248.827 39.5611 263.533 28.2666 229.422C16.9929 195.331 52.2544 197.337 36.6174 144.196C20.9804 91.0554 60.2086 118.921 76.4718 70.5219C92.7351 22.1021 136.473 61.2474 159.375 26.9692C182.298 -7.32997 212.403 -10.7139 215.618 27.2616C217.058 44.3903 228.729 53.0382 240.378 61.7696C253.656 71.7126 264.387 83.452 266.725 102.126C267.999 112.237 269.648 122.284 271.965 132.164C274.262 141.961 278.813 151.8 279.919 161.868C282.362 184.114 260.003 196.083 255.869 216.053C252.967 230.069 258.416 244.19 252.717 257.768C248.583 267.585 241.151 274.813 232.737 279.805C215.66 289.957 193.217 293.048 174.469 287.722C159.375 283.44 145.262 275.523 132.36 265.789C128.038 262.53 120.523 252.566 115.575 251.25L106.785 248.89L106.806 248.827Z" fill="#F4A091"/>
+<path d="M116.295 77.2178C116.295 77.2178 118.237 140.03 144.438 158.809M99.4683 85.3226C99.7606 88.3305 109.51 109.512 123.143 121.815M134.396 81.7506C134.396 81.7506 122.892 91.7354 122.016 117.011M157.298 128.478C157.298 128.478 208.718 125.638 229.324 101.281M214.313 91.9233C214.126 93.2393 208.405 115.862 190.597 123.361M226.965 132.593C225.629 132.761 204.23 119.141 179.95 125.199M120.7 220.618C120.7 220.618 66.3572 196.868 77.2342 127.685M105.794 179.029C105.794 179.029 99.1134 197.474 110.825 214.811M128.341 203.385C130.492 205.119 194.313 228.117 217.821 190.288M189.198 194.737C189.198 194.737 184.48 211.991 165.649 211.761M174.563 83.0666L111.222 247.084" stroke="#EF426F" stroke-width="1.20101" stroke-miterlimit="10"/>
+</svg>
+		</div>
+							</div>
+					
+					<div
+						class="teaser-product__content">
+
+												
+												<p class="teaser-product__sort">Bio Rhabarberschorle</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default~-~media--ec369c47--query.5e058042.webp 1x, /fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default~-~media--ec369c47--query@2x.5e058042.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default~-~media--ec369c47--query.5e058042.png 1x, /fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default~-~media--ec369c47--query@2x.5e058042.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default.933052eb.webp 1x, /fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default@2x.933052eb.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default.933052eb.png 1x, /fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default@2x.933052eb.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default.933052eb.png 1x, /fritz-kola.com/packshots-2024/2361/image-thumb__2361__teaser-product/spritz-organic-rhubarb-teaser-default@2x.933052eb.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover~-~media--ec369c47--query.6c750aef.webp 1x, /fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover~-~media--ec369c47--query@2x.6c750aef.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover~-~media--ec369c47--query.6c750aef.png 1x, /fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover~-~media--ec369c47--query@2x.6c750aef.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover.c671ce39.webp 1x, /fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover@2x.c671ce39.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover.c671ce39.png 1x, /fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover@2x.c671ce39.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover.c671ce39.png 1x, /fritz-kola.com/packshots-2024/2359/image-thumb__2359__teaser-product/spritz-organic-rhubarb-teaser-hover@2x.c671ce39.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>40% Bio-Rhabarberdirektsaft </span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/spritz-organic-rhubarb"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/fritz-spritz-rhabarberschorle-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																																				
+
+	
+							
+		
+			<div class="teaser-product  teaser-product--style-2 teaser-product--bio_ananas_limette swiper-slide"  data-product-teaser-list=slide  data-product-teaser-list-target=anjola   data-producttype="anjola">
+				<a
+					 href="/de/produkte/anjola-organic-pineapple-lime"  class="teaser-product__inner">
+
+																<div class="teaser-product__pattern">
+										<div class="teaser-product__graphic">
+			<svg width="183" height="237" viewBox="0 0 183 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_13_2096" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="38" y="88" width="137" height="144">
+<mask id="mask1_13_2096" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="182" height="237">
+<path d="M0 40.2021L109.576 0.319637L181.177 197.041L71.6008 236.924L0 40.2021Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_13_2096)">
+<path d="M48.9378 116.7C40.6889 119.702 36.425 128.824 39.432 137.085L69.8928 220.776C72.8952 229.024 82.0293 233.284 90.2782 230.281L163.855 203.502C172.104 200.499 176.363 191.365 173.361 183.116L142.9 99.4258C139.897 91.1769 130.763 86.9176 122.514 89.92L48.9378 116.7Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_13_2096)">
+<path d="M-226.296 873.557L819.849 492.792L439.083 -553.353L-607.062 -172.588L-226.296 873.557Z" fill="#FBBB3F"/>
+<path d="M-356.248 -932.535L-700.626 568.754M-328.033 -917.331L-672.412 583.958M-299.823 -902.139L-644.197 599.162M-271.608 -886.935L-615.987 614.354M-243.394 -871.731L-587.772 629.558M-215.179 -856.527L-559.558 644.762M-186.969 -841.335L-531.331 659.961M-158.742 -826.136L-503.12 675.153M-130.527 -810.932L-474.906 690.357M-102.317 -795.74L-446.691 705.561M-74.1025 -780.536L-418.481 720.753M-45.8879 -765.332L-390.266 735.957M-17.6778 -750.14L-362.052 751.161M10.5368 -734.936L-333.842 766.353M38.7515 -719.732L-305.627 781.557M66.9661 -704.528L-277.412 796.761M95.1888 -689.341L-249.19 811.948M123.403 -674.137L-220.975 827.152M151.618 -658.933L-192.76 842.356M179.828 -643.741L-164.55 857.547M208.043 -628.537L-136.336 872.752M236.257 -613.333L-108.121 887.956M264.468 -598.142L-79.911 903.147M292.682 -582.937L-51.6964 918.351M320.897 -567.733L-23.4817 933.555M349.124 -552.534L4.74543 948.755M377.334 -537.342L32.9555 963.947M405.549 -522.138L61.1702 979.151M433.763 -506.934L89.3848 994.355M461.974 -491.743L117.595 1009.55M490.188 -476.538L145.81 1024.75M518.403 -461.334L174.024 1039.95M546.613 -446.143L202.234 1055.15M574.84 -430.943L230.461 1070.35M603.055 -415.739L258.676 1085.55M631.265 -400.548L286.886 1100.74M659.479 -385.343L315.101 1115.95M687.694 -370.139L343.316 1131.15M715.904 -354.948L371.526 1146.34M744.119 -339.744L399.74 1161.55M772.333 -324.54L427.955 1176.75M800.548 -309.336L456.17 1191.95M828.771 -294.149L484.392 1207.14M856.985 -278.944L512.607 1222.34M885.2 -263.74L540.821 1237.55M913.41 -248.549L569.031 1252.74M-241.539 -974.285L987.28 -45.5935M-253.38 -944.502L975.439 -15.8105M-265.225 -914.732L963.594 13.9601M-277.066 -884.949L951.753 43.743M-288.919 -855.161L939.9 73.5306M-300.76 -825.378L928.059 103.314M-312.605 -795.608L916.214 133.084M-324.446 -765.825L904.373 162.867M-336.286 -736.042L892.533 192.65M-348.132 -706.271L880.687 222.421M-359.972 -676.488L868.847 252.204M-371.813 -646.705L857.006 281.987M-383.671 -616.93L845.148 311.762M-395.511 -587.147L833.308 341.545M-407.352 -557.364L821.467 371.328M-419.193 -527.581L809.626 401.111M-431.038 -497.81L797.781 430.882M-442.879 -468.027L785.941 460.665M-454.719 -438.244L774.1 490.448M-466.565 -408.474L762.255 520.218M-478.405 -378.691L750.414 550.001M-490.258 -348.903L738.561 579.789M-502.104 -319.133L726.715 609.559M-513.944 -289.349L714.875 639.342M-525.785 -259.566L703.034 669.125M-537.626 -229.783L691.193 698.908M-549.471 -200.013L679.348 728.679M-561.312 -170.23L667.508 758.462M-573.152 -140.447L655.667 788.245M-584.997 -110.676L643.822 818.015M-596.851 -80.8887L631.968 847.803M-608.691 -51.1056L620.128 877.586M-620.537 -21.3352L608.283 907.357M-632.377 8.44791L596.442 937.14M-644.218 38.2309L584.601 966.923M-656.063 68.0015L572.756 996.693M-667.904 97.7845L560.915 1026.48M-679.744 127.568L549.075 1056.26M-691.59 157.338L537.229 1086.03M-703.443 187.126L525.376 1115.82M-715.284 216.909L513.536 1145.6M-727.124 246.692L501.695 1175.38M-738.969 276.462L489.85 1205.15M-750.81 306.245L478.009 1234.94M-762.651 336.028L466.168 1264.72M-774.496 365.799L454.323 1294.49" stroke="#F8E8C7" stroke-width="3.92958" stroke-miterlimit="10"/>
+</g>
+<path d="M62.8126 77.9404L55.2633 26.0415L85.1603 69.197L82.7087 83.8821L75.7599 88.1973L62.8126 77.9404Z" fill="#1C4539"/>
+<path d="M57.2378 31.1206L84.1414 69.4402L81.7931 83.4355L75.9264 87.1018L63.7543 77.4558L57.2423 31.1332L57.2378 31.1206ZM53.2983 20.959L61.8848 78.434L62.1045 78.6092L75.6073 89.3018L83.604 84.3216L86.1761 68.9548L53.2983 20.959Z" fill="#F8E8C7"/>
+<path d="M77.7755 102.504L8.03223 45.6423L74.081 74.1654L102.356 88.171L77.7755 102.504Z" fill="#1C4539"/>
+<path d="M15.265 50.0407L73.5329 74.9458L100.462 88.293L77.9518 101.419L15.2525 50.0453L15.265 50.0407ZM77.619 103.582L78.2744 103.201L104.244 88.0506L74.6364 73.3818L0.819336 41.2363L77.6315 103.577L77.619 103.582Z" fill="#F8E8C7"/>
+<path d="M90.2926 97.9482L107.792 8.15603L74.9194 73.8601L62.2625 102.764L90.2926 97.9482Z" fill="#1C4539"/>
+<path d="M63.7687 101.634L75.8308 74.0955L105.069 16.1644L89.4499 97.2202L63.7642 101.622L63.7687 101.634ZM110.505 0.137794L74.0098 73.6101L60.7581 103.878L91.1245 98.6662L91.2711 98.0175L110.505 0.137794Z" fill="#F8E8C7"/>
+<path d="M65.211 108.877L15.832 67.0718L90.5711 99.6471L65.211 108.877Z" fill="#1C4539"/>
+<path d="M22.8351 71.3557L88.2522 99.5842L65.5082 107.862L22.8351 71.3557ZM64.9272 109.888L92.8909 99.7103L8.83447 62.8005L64.9272 109.888Z" fill="#F8E8C7"/>
+<path d="M104.029 94.7486L115.594 29.5846L78.6686 103.979L104.029 94.7486Z" fill="#1C4539"/>
+<path d="M112.982 37.3682L103.148 94.1625L80.404 102.441L112.982 37.3682ZM76.9315 105.519L104.895 95.341L105.003 94.8197L116.568 29.6557L118.203 21.8026L76.9315 105.519Z" fill="#F8E8C7"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="183" height="237" viewBox="0 0 183 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_13_2096" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="38" y="88" width="137" height="144">
+<mask id="mask1_13_2096" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="182" height="237">
+<path d="M0 40.2021L109.576 0.319637L181.177 197.041L71.6008 236.924L0 40.2021Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_13_2096)">
+<path d="M48.9378 116.7C40.6889 119.702 36.425 128.824 39.432 137.085L69.8928 220.776C72.8952 229.024 82.0293 233.284 90.2782 230.281L163.855 203.502C172.104 200.499 176.363 191.365 173.361 183.116L142.9 99.4258C139.897 91.1769 130.763 86.9176 122.514 89.92L48.9378 116.7Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_13_2096)">
+<path d="M-226.296 873.557L819.849 492.792L439.083 -553.353L-607.062 -172.588L-226.296 873.557Z" fill="#FBBB3F"/>
+<path d="M-356.248 -932.535L-700.626 568.754M-328.033 -917.331L-672.412 583.958M-299.823 -902.139L-644.197 599.162M-271.608 -886.935L-615.987 614.354M-243.394 -871.731L-587.772 629.558M-215.179 -856.527L-559.558 644.762M-186.969 -841.335L-531.331 659.961M-158.742 -826.136L-503.12 675.153M-130.527 -810.932L-474.906 690.357M-102.317 -795.74L-446.691 705.561M-74.1025 -780.536L-418.481 720.753M-45.8879 -765.332L-390.266 735.957M-17.6778 -750.14L-362.052 751.161M10.5368 -734.936L-333.842 766.353M38.7515 -719.732L-305.627 781.557M66.9661 -704.528L-277.412 796.761M95.1888 -689.341L-249.19 811.948M123.403 -674.137L-220.975 827.152M151.618 -658.933L-192.76 842.356M179.828 -643.741L-164.55 857.547M208.043 -628.537L-136.336 872.752M236.257 -613.333L-108.121 887.956M264.468 -598.142L-79.911 903.147M292.682 -582.937L-51.6964 918.351M320.897 -567.733L-23.4817 933.555M349.124 -552.534L4.74543 948.755M377.334 -537.342L32.9555 963.947M405.549 -522.138L61.1702 979.151M433.763 -506.934L89.3848 994.355M461.974 -491.743L117.595 1009.55M490.188 -476.538L145.81 1024.75M518.403 -461.334L174.024 1039.95M546.613 -446.143L202.234 1055.15M574.84 -430.943L230.461 1070.35M603.055 -415.739L258.676 1085.55M631.265 -400.548L286.886 1100.74M659.479 -385.343L315.101 1115.95M687.694 -370.139L343.316 1131.15M715.904 -354.948L371.526 1146.34M744.119 -339.744L399.74 1161.55M772.333 -324.54L427.955 1176.75M800.548 -309.336L456.17 1191.95M828.771 -294.149L484.392 1207.14M856.985 -278.944L512.607 1222.34M885.2 -263.74L540.821 1237.55M913.41 -248.549L569.031 1252.74M-241.539 -974.285L987.28 -45.5935M-253.38 -944.502L975.439 -15.8105M-265.225 -914.732L963.594 13.9601M-277.066 -884.949L951.753 43.743M-288.919 -855.161L939.9 73.5306M-300.76 -825.378L928.059 103.314M-312.605 -795.608L916.214 133.084M-324.446 -765.825L904.373 162.867M-336.286 -736.042L892.533 192.65M-348.132 -706.271L880.687 222.421M-359.972 -676.488L868.847 252.204M-371.813 -646.705L857.006 281.987M-383.671 -616.93L845.148 311.762M-395.511 -587.147L833.308 341.545M-407.352 -557.364L821.467 371.328M-419.193 -527.581L809.626 401.111M-431.038 -497.81L797.781 430.882M-442.879 -468.027L785.941 460.665M-454.719 -438.244L774.1 490.448M-466.565 -408.474L762.255 520.218M-478.405 -378.691L750.414 550.001M-490.258 -348.903L738.561 579.789M-502.104 -319.133L726.715 609.559M-513.944 -289.349L714.875 639.342M-525.785 -259.566L703.034 669.125M-537.626 -229.783L691.193 698.908M-549.471 -200.013L679.348 728.679M-561.312 -170.23L667.508 758.462M-573.152 -140.447L655.667 788.245M-584.997 -110.676L643.822 818.015M-596.851 -80.8887L631.968 847.803M-608.691 -51.1056L620.128 877.586M-620.537 -21.3352L608.283 907.357M-632.377 8.44791L596.442 937.14M-644.218 38.2309L584.601 966.923M-656.063 68.0015L572.756 996.693M-667.904 97.7845L560.915 1026.48M-679.744 127.568L549.075 1056.26M-691.59 157.338L537.229 1086.03M-703.443 187.126L525.376 1115.82M-715.284 216.909L513.536 1145.6M-727.124 246.692L501.695 1175.38M-738.969 276.462L489.85 1205.15M-750.81 306.245L478.009 1234.94M-762.651 336.028L466.168 1264.72M-774.496 365.799L454.323 1294.49" stroke="#F8E8C7" stroke-width="3.92958" stroke-miterlimit="10"/>
+</g>
+<path d="M62.8126 77.9404L55.2633 26.0415L85.1603 69.197L82.7087 83.8821L75.7599 88.1973L62.8126 77.9404Z" fill="#1C4539"/>
+<path d="M57.2378 31.1206L84.1414 69.4402L81.7931 83.4355L75.9264 87.1018L63.7543 77.4558L57.2423 31.1332L57.2378 31.1206ZM53.2983 20.959L61.8848 78.434L62.1045 78.6092L75.6073 89.3018L83.604 84.3216L86.1761 68.9548L53.2983 20.959Z" fill="#F8E8C7"/>
+<path d="M77.7755 102.504L8.03223 45.6423L74.081 74.1654L102.356 88.171L77.7755 102.504Z" fill="#1C4539"/>
+<path d="M15.265 50.0407L73.5329 74.9458L100.462 88.293L77.9518 101.419L15.2525 50.0453L15.265 50.0407ZM77.619 103.582L78.2744 103.201L104.244 88.0506L74.6364 73.3818L0.819336 41.2363L77.6315 103.577L77.619 103.582Z" fill="#F8E8C7"/>
+<path d="M90.2926 97.9482L107.792 8.15603L74.9194 73.8601L62.2625 102.764L90.2926 97.9482Z" fill="#1C4539"/>
+<path d="M63.7687 101.634L75.8308 74.0955L105.069 16.1644L89.4499 97.2202L63.7642 101.622L63.7687 101.634ZM110.505 0.137794L74.0098 73.6101L60.7581 103.878L91.1245 98.6662L91.2711 98.0175L110.505 0.137794Z" fill="#F8E8C7"/>
+<path d="M65.211 108.877L15.832 67.0718L90.5711 99.6471L65.211 108.877Z" fill="#1C4539"/>
+<path d="M22.8351 71.3557L88.2522 99.5842L65.5082 107.862L22.8351 71.3557ZM64.9272 109.888L92.8909 99.7103L8.83447 62.8005L64.9272 109.888Z" fill="#F8E8C7"/>
+<path d="M104.029 94.7486L115.594 29.5846L78.6686 103.979L104.029 94.7486Z" fill="#1C4539"/>
+<path d="M112.982 37.3682L103.148 94.1625L80.404 102.441L112.982 37.3682ZM76.9315 105.519L104.895 95.341L105.003 94.8197L116.568 29.6557L118.203 21.8026L76.9315 105.519Z" fill="#F8E8C7"/>
+</svg>
+		</div>
+		<div class="teaser-product__graphic">
+			<svg width="183" height="237" viewBox="0 0 183 237" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_13_2096" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="38" y="88" width="137" height="144">
+<mask id="mask1_13_2096" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="182" height="237">
+<path d="M0 40.2021L109.576 0.319637L181.177 197.041L71.6008 236.924L0 40.2021Z" fill="white"/>
+</mask>
+<g mask="url(#mask1_13_2096)">
+<path d="M48.9378 116.7C40.6889 119.702 36.425 128.824 39.432 137.085L69.8928 220.776C72.8952 229.024 82.0293 233.284 90.2782 230.281L163.855 203.502C172.104 200.499 176.363 191.365 173.361 183.116L142.9 99.4258C139.897 91.1769 130.763 86.9176 122.514 89.92L48.9378 116.7Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_13_2096)">
+<path d="M-226.296 873.557L819.849 492.792L439.083 -553.353L-607.062 -172.588L-226.296 873.557Z" fill="#FBBB3F"/>
+<path d="M-356.248 -932.535L-700.626 568.754M-328.033 -917.331L-672.412 583.958M-299.823 -902.139L-644.197 599.162M-271.608 -886.935L-615.987 614.354M-243.394 -871.731L-587.772 629.558M-215.179 -856.527L-559.558 644.762M-186.969 -841.335L-531.331 659.961M-158.742 -826.136L-503.12 675.153M-130.527 -810.932L-474.906 690.357M-102.317 -795.74L-446.691 705.561M-74.1025 -780.536L-418.481 720.753M-45.8879 -765.332L-390.266 735.957M-17.6778 -750.14L-362.052 751.161M10.5368 -734.936L-333.842 766.353M38.7515 -719.732L-305.627 781.557M66.9661 -704.528L-277.412 796.761M95.1888 -689.341L-249.19 811.948M123.403 -674.137L-220.975 827.152M151.618 -658.933L-192.76 842.356M179.828 -643.741L-164.55 857.547M208.043 -628.537L-136.336 872.752M236.257 -613.333L-108.121 887.956M264.468 -598.142L-79.911 903.147M292.682 -582.937L-51.6964 918.351M320.897 -567.733L-23.4817 933.555M349.124 -552.534L4.74543 948.755M377.334 -537.342L32.9555 963.947M405.549 -522.138L61.1702 979.151M433.763 -506.934L89.3848 994.355M461.974 -491.743L117.595 1009.55M490.188 -476.538L145.81 1024.75M518.403 -461.334L174.024 1039.95M546.613 -446.143L202.234 1055.15M574.84 -430.943L230.461 1070.35M603.055 -415.739L258.676 1085.55M631.265 -400.548L286.886 1100.74M659.479 -385.343L315.101 1115.95M687.694 -370.139L343.316 1131.15M715.904 -354.948L371.526 1146.34M744.119 -339.744L399.74 1161.55M772.333 -324.54L427.955 1176.75M800.548 -309.336L456.17 1191.95M828.771 -294.149L484.392 1207.14M856.985 -278.944L512.607 1222.34M885.2 -263.74L540.821 1237.55M913.41 -248.549L569.031 1252.74M-241.539 -974.285L987.28 -45.5935M-253.38 -944.502L975.439 -15.8105M-265.225 -914.732L963.594 13.9601M-277.066 -884.949L951.753 43.743M-288.919 -855.161L939.9 73.5306M-300.76 -825.378L928.059 103.314M-312.605 -795.608L916.214 133.084M-324.446 -765.825L904.373 162.867M-336.286 -736.042L892.533 192.65M-348.132 -706.271L880.687 222.421M-359.972 -676.488L868.847 252.204M-371.813 -646.705L857.006 281.987M-383.671 -616.93L845.148 311.762M-395.511 -587.147L833.308 341.545M-407.352 -557.364L821.467 371.328M-419.193 -527.581L809.626 401.111M-431.038 -497.81L797.781 430.882M-442.879 -468.027L785.941 460.665M-454.719 -438.244L774.1 490.448M-466.565 -408.474L762.255 520.218M-478.405 -378.691L750.414 550.001M-490.258 -348.903L738.561 579.789M-502.104 -319.133L726.715 609.559M-513.944 -289.349L714.875 639.342M-525.785 -259.566L703.034 669.125M-537.626 -229.783L691.193 698.908M-549.471 -200.013L679.348 728.679M-561.312 -170.23L667.508 758.462M-573.152 -140.447L655.667 788.245M-584.997 -110.676L643.822 818.015M-596.851 -80.8887L631.968 847.803M-608.691 -51.1056L620.128 877.586M-620.537 -21.3352L608.283 907.357M-632.377 8.44791L596.442 937.14M-644.218 38.2309L584.601 966.923M-656.063 68.0015L572.756 996.693M-667.904 97.7845L560.915 1026.48M-679.744 127.568L549.075 1056.26M-691.59 157.338L537.229 1086.03M-703.443 187.126L525.376 1115.82M-715.284 216.909L513.536 1145.6M-727.124 246.692L501.695 1175.38M-738.969 276.462L489.85 1205.15M-750.81 306.245L478.009 1234.94M-762.651 336.028L466.168 1264.72M-774.496 365.799L454.323 1294.49" stroke="#F8E8C7" stroke-width="3.92958" stroke-miterlimit="10"/>
+</g>
+<path d="M62.8126 77.9404L55.2633 26.0415L85.1603 69.197L82.7087 83.8821L75.7599 88.1973L62.8126 77.9404Z" fill="#1C4539"/>
+<path d="M57.2378 31.1206L84.1414 69.4402L81.7931 83.4355L75.9264 87.1018L63.7543 77.4558L57.2423 31.1332L57.2378 31.1206ZM53.2983 20.959L61.8848 78.434L62.1045 78.6092L75.6073 89.3018L83.604 84.3216L86.1761 68.9548L53.2983 20.959Z" fill="#F8E8C7"/>
+<path d="M77.7755 102.504L8.03223 45.6423L74.081 74.1654L102.356 88.171L77.7755 102.504Z" fill="#1C4539"/>
+<path d="M15.265 50.0407L73.5329 74.9458L100.462 88.293L77.9518 101.419L15.2525 50.0453L15.265 50.0407ZM77.619 103.582L78.2744 103.201L104.244 88.0506L74.6364 73.3818L0.819336 41.2363L77.6315 103.577L77.619 103.582Z" fill="#F8E8C7"/>
+<path d="M90.2926 97.9482L107.792 8.15603L74.9194 73.8601L62.2625 102.764L90.2926 97.9482Z" fill="#1C4539"/>
+<path d="M63.7687 101.634L75.8308 74.0955L105.069 16.1644L89.4499 97.2202L63.7642 101.622L63.7687 101.634ZM110.505 0.137794L74.0098 73.6101L60.7581 103.878L91.1245 98.6662L91.2711 98.0175L110.505 0.137794Z" fill="#F8E8C7"/>
+<path d="M65.211 108.877L15.832 67.0718L90.5711 99.6471L65.211 108.877Z" fill="#1C4539"/>
+<path d="M22.8351 71.3557L88.2522 99.5842L65.5082 107.862L22.8351 71.3557ZM64.9272 109.888L92.8909 99.7103L8.83447 62.8005L64.9272 109.888Z" fill="#F8E8C7"/>
+<path d="M104.029 94.7486L115.594 29.5846L78.6686 103.979L104.029 94.7486Z" fill="#1C4539"/>
+<path d="M112.982 37.3682L103.148 94.1625L80.404 102.441L112.982 37.3682ZM76.9315 105.519L104.895 95.341L105.003 94.8197L116.568 29.6557L118.203 21.8026L76.9315 105.519Z" fill="#F8E8C7"/>
+</svg>
+		</div>
+							</div>
+					
+					<div
+						class="teaser-product__content">
+
+												
+												<p class="teaser-product__sort">Bio Ananas &amp; Limette</p>
+
+												<div
+							class="teaser-product__media">
+														<figure class="teaser-product__image teaser-product__default-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default~-~media--ec369c47--query.5dc09e82.webp 1x, /fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default~-~media--ec369c47--query@2x.5dc09e82.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default~-~media--ec369c47--query.5dc09e82.png 1x, /fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default~-~media--ec369c47--query@2x.5dc09e82.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default.961f8722.webp 1x, /fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default@2x.961f8722.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default.961f8722.png 1x, /fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default@2x.961f8722.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default.961f8722.png 1x, /fritz-kola.com/packshots-2024/2397/image-thumb__2397__teaser-product/anjola-organic-pineapple-lime-teaser-default@2x.961f8722.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+
+														<figure class="teaser-product__image teaser-product__hover-image image">
+								<span>
+									<picture >
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover~-~media--ec369c47--query.7270af48.webp 1x, /fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover~-~media--ec369c47--query@2x.7270af48.webp 2x" width="120" height="454" type="image/webp" />
+	<source media="(max-width: 1023px)" data-srcset="/fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover~-~media--ec369c47--query.7270af48.png 1x, /fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover~-~media--ec369c47--query@2x.7270af48.png 2x" width="120" height="454" type="image/png" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover.b1cc3eb0.webp 1x, /fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover@2x.b1cc3eb0.webp 2x" width="135" height="510" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover.b1cc3eb0.png 1x, /fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover@2x.b1cc3eb0.png 2x" width="135" height="510" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="135" height="510" alt="" loading="lazy" data-srcset="/fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover.b1cc3eb0.png 1x, /fritz-kola.com/packshots-2024/2393/image-thumb__2393__teaser-product/anjola-organic-pineapple-lime-teaser-hover@2x.b1cc3eb0.png 2x" />
+</picture>
+
+								</span>
+							</figure>
+						</div>
+
+												<p class="teaser-product__claim">
+							<span>15% Bio-Ananassaft &amp; 5% Bio-Limettensaft</span>
+						</p>
+					</div>
+				</a>
+
+								<div class="teaser-product__actions">
+					<a  href="/de/produkte/anjola-organic-pineapple-lime"  class="teaser-product__pagelink">
+												<span>entdecken</span>
+					</a>
+
+											<a class="teaser-product__shop" target="_blank" rel="noopener" href="https://www.fritz-kola-shop.com/anjola-bio-ananas-limetten-limonade-0-33-l.html">
+							<span>zum shop</span>
+						</a>
+									</div>
+			</div>
+
+																														</div>
+				</div>
+
+											</div>
+		</div>
+	</section>
+
+                
+                            
+                    
+
+
+
+
+                                    
+            
+                                    
+
+<section class="hero-teaser" >
+    <div class="hero-teaser__inner">
+        
+                    
+            
+            
+                                                <div class="hero-teaser__slide hero-teaser__slide--only-one">
+                        <picture >
+	<source media="(min-width: 768px)" data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--df42eb16--query.c86e9975.webp 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--df42eb16--query@2x.c86e9975.webp 2x" width="768" height="432" type="image/webp" />
+	<source media="(min-width: 768px)" data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--df42eb16--query.c86e9975.png 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--df42eb16--query@2x.c86e9975.png 2x" width="768" height="432" type="image/png" />
+	<source media="(min-width: 1280px)" data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--aa5d92e7--query.fbadfca7.webp 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--aa5d92e7--query@2x.fbadfca7.webp 2x" width="1200" height="675" type="image/webp" />
+	<source media="(min-width: 1280px)" data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--aa5d92e7--query.fbadfca7.png 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1~-~media--aa5d92e7--query@2x.fbadfca7.png 2x" width="1200" height="675" type="image/png" />
+	<source data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1.28556abd.webp 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1@2x.28556abd.webp 2x" width="320" height="320" type="image/webp" />
+	<source data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1.28556abd.png 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1@2x.28556abd.png 2x" width="320" height="320" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="320" height="320" alt="" loading="lazy" data-srcset="/_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1.28556abd.png 1x, /_default_upload_bucket/2228/image-thumb__2228__hero-teaser-image/9797372a-743f-46f7-9085-0f7db8bd4a5d_1@2x.28556abd.png 2x" />
+</picture>
+
+                    </div>
+                            
+        
+        
+            </div>
+</section>
+
+                
+                            
+                    
+
+
+
+
+                                    
+            
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section class="product-teaser">
+
+		<div class="product-teaser__wrapper">
+
+			<div class="product-teaser__inner">
+
+				<div class="product-teaser__item by-day">
+
+					<div class="product-teaser__content">
+
+						<h2 class="product-teaser__headline _headline-small">
+							über uns.
+						</h2>
+
+													<div class="product-teaser__copy">
+								Wer wir sind und was wir machen, das kannst du hier lesen:
+							</div>
+						
+						<div class="product-teaser__cta">
+							<a href="/de/ueber-uns" internalType="document" linktype="internal" text="mehr erfahren" path="/de/ueber-uns" class="button" internalId="242" Label="Button Label (required)">mehr erfahren</a>
+						</div>
+
+					</div>
+
+					<div class="product-teaser__media">
+						<picture >
+	<source media="(min-width: 560px)" data-srcset="/fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert~-~media--573e62f2--query.37d86326.webp 1x, /fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert~-~media--573e62f2--query@2x.37d86326.webp 2x" width="245" height="245" type="image/webp" />
+	<source media="(min-width: 560px)" data-srcset="/fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert~-~media--573e62f2--query.37d86326.jpg 1x, /fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert~-~media--573e62f2--query@2x.37d86326.jpg 2x" width="245" height="245" type="image/jpeg" />
+	<source data-srcset="/fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert.017d29cf.webp 1x, /fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert@2x.017d29cf.webp 2x" width="224" height="224" type="image/webp" />
+	<source data-srcset="/fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert.017d29cf.jpg 1x, /fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert@2x.017d29cf.jpg 2x" width="224" height="224" type="image/jpeg" />
+	<img class="lazyload" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB2ZXJzaW9uPSIxLjEiICB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODAwIiBoZWlnaHQ9IjUzMyIgdmlld0JveD0iMCAwIDgwMCA1MzMiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaWRZTWlkIHNsaWNlIj4KCTxmaWx0ZXIgaWQ9ImJsdXIiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KICAgIDxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjIwIDIwIiBlZGdlTW9kZT0iZHVwbGljYXRlIiAvPgogICAgPGZlQ29tcG9uZW50VHJhbnNmZXI+CiAgICAgIDxmZUZ1bmNBIHR5cGU9ImRpc2NyZXRlIiB0YWJsZVZhbHVlcz0iMSAxIiAvPgogICAgPC9mZUNvbXBvbmVudFRyYW5zZmVyPgogIDwvZmlsdGVyPgogICAgPGltYWdlIGZpbHRlcj0idXJsKCNibHVyKSIgeD0iMCIgeT0iMCIgaGVpZ2h0PSIxMDAlIiB3aWR0aD0iMTAwJSIgeGxpbms6aHJlZj0iZGF0YTppbWFnZS9qcGc7YmFzZTY0LC85ai80QUFRU2taSlJnQUJBUUFBQVFBQkFBRC8yd0JEQVAvLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vL3dBQUxDQUlWQXlBQkFSRUEvOFFBRndBQkFRRUJBQUFBQUFBQUFBQUFBQUFBQUFFQ0EvL0VBQ2dRQVFFQUFRTURCQUlDQXdFQUFBQUFBQUFCRVNFeFFRSlJjV0dCd2ZBUzBaR2hRckhoSXYvYUFBZ0JBUUFBUHdEbUFBQUFBQUFzS2dDb0FBQUFzRVUvUWVUWURsVDdFQmRBUlU3cURJQUFBQUFBQUFBQUFBQUFBQUFBQUxsQUFBQUJZaWk4VkJkdlZBNXYzbFVWRlJRRS9TbFJBQUFBQUFBQUFBQUFBQUFBQUFBQUZRVkFBQUZRVUZ4dDZnaHpmSXVBSUlvSjNYT0UzUUFBQmFnQUFBQUFBQUFBQUFBQUFLQmdBTW9BQUNnQ2lMZUFMOHhQMktCQlUyMURLZDBWQUFBV3pDQUFBQUFBQUFBQUFBQUFBQUFLZ0tnQ2dCZ0ZES0tIYnlmdW9zVVJReWhsa0FBQlVBQUFBQUFBQUFBQUFBQUFBQVVBRE9xQUtBTGVFRmdpa1c3cHpQTVAzVVgxRkVwS3FaWkFBQUFBQUFBQUFBQUFBQUFBQUFBQUFCVUZpQXYvQUVCYjhJcERsRi9zK1Z6RHQ1WlVFMmFFVEpsQUFBRnVFQVhUeVpRQUFBQUFBQUFBQUFBQUFBRjQ5MFdWYmozUVJZSUtBTENhWkJGd2FvZHZJdU5jRVZNQzVTc2dBQUFBQUFBQUFBQUFBQUFBQUFBTEN6Q0FBcUFDZ0lvQzVMY21ZbVRLNTlFMVhWTmV5Nm1LWXBpOXpIcVlNZXJJQUF1aUFBQUFBQUFBQUFBQUFBQUFBTEM2MUFBQUFVQURRMERRek94a3o2R1RKa3pUTk0welROTlRWQUFXSUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUF1QU1HREFZWEd4Wi9zN2VZQUh5dCsvZmxsQUFBQUFBQUFBQUFBQUFBQUFBQUFBRmtRQUFCZTZLaWdzN25yNm9LaDNWWjNUYzdlWWMzc0FCVVFBQUFBQUFBQUFBQUFBQUFBQUY3SUFBTGxBQVdJQU5DWU5QVWEvU2VnQ2ZvNVhzS2N6ekU3K1ZRd3YyaVdhTWdLZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFSYnZVRkJGYXhveUNwZHpsYUtkdktkL0lvRVNzZ0FBQUFBQUFBQUFBQUFBQUFBQUFBQUFBS0l1QXdBMUxoUFZCUUVpaC9xL2F2c2lpSlVBRitFQUFBQUFBQUFBQUFBQUFBQUFBQUZRQUFGbjMyTGNpb0x4L0NMVVhDN0o3bVFoeVkvays0TS9hWjlVejZtZlZkTzlTMUFBQUFBQVZBQUFBQUFBQUFBQUFBQUFBQUFCWUJhQy84QUVXN0d5bHRUUGRBbFVEZzBORmdsWkFBQUFBRkJBQUFBQUFBQUFBQUFBQlRUdHFnQUFBQTF3aW92Q0M0VVJFR2poZnZzZ0x4azRTN01nQUFBQUtnQUFBQUFBcUFBQUFBQUFBQUFBQUFvQUxGTm9SVXdXTTRGVktvZkFuVXlBQUFBQUFBQUFBQUFxQUFBQUFBS2dBQUF2Q0FDZ0FDcTFoY1FHYXluS3crK1JRR2FnQUFBQUFBQUFBQUFDb0FBQUFBQUFMRUFCZUVGUUd1R1FhaUNyalMzMVZjcmtHYXpXVmlyOS9vdTRwM1p1MDkyUUFBQUFBQUFBQUFBRlFBQUFBQUFBQUFGUlNDRFhESU5JS3ZUdFdvWVZEQ00rdlpsVlZMdXFqUFZ3eUFBQUFBQUFBQUFBQXFBQUFBQUFBQUFFQUFCVUJRVlpaaXJHaEZTdWRSb3NpNEV4RndKMU1nQUFBQUFBQUFBQUFBQUFBQUFBQUFBc1FBQUZSUU9RYmlnTTFoWXY3V25HUUJPcGtBQUJVWGlvQUFBQUFBQUFBQUFBQUFBQUFDb0FBS1lQQUNvc3JZREZxS2JMbklCcWFzMUFBQVhmMFhwM1d5TThJQUFBQUFBQUNvQUFBQUFBQUFBS2dLZ0NnY3FnTE4ycFdrWnR6c3paZ1ZCU0t2eU05VElBQUM5TzdYVXpka0FBQUFBQUFBQUFBQUFBQUFBQUZSVUZLaWdBRGU1aThWTVh1MUpoaTdvQURTd1o2dDJRQUFGbnd0NFNvQUFBQUFBQUFBQUFBQUFBQUM0NVFVRUZnQUVFVUJycHZEUVhTT1lBSTFGaHF6VUFBQVdmQzFrQUFBQUFBQUFBQUFBQUFBVkFBRkJBVkJTaFVVQWRKY3pLdWR1ZkNBQWl4cFdLZ0FBQXQ0UUFBQUFBQUFBQUFBQUFBQUFCVUJVQlVCUUVVUlJaY0Y2clVBQUVhem91WXpkVUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQlVCUUtpZ0FBQUFpdGU3S0FBcFVYQ2lWQUFBQUFBQUFBQUFBQUFBQUFBQUJTVEtLQVZGRVVBQUFFV05NM2RBQWF3WVRCRkdhQUFBQUFBQUFBQUFBQUFBQUFBQUExT2ZESUtDS0FBQUNLSXFzZ0FOcWxabTZqSUFBQUFBQUFBQUFBQUFBQUFxQUFBS0hkQVZGQUJVRmt5dU1jNkdaTk4vdjNaa0VWcnQ3TTNkQUFiVkt3dVRKVUFBQUFBQUFBQUFBQUFBQUFBQUFBRjRSUXQyUVVBQUlxQUNOU3NnQU5xeldRQUFBQUFBQUFBQUFBQUFBQUFBQUFBV2NvS2lvb2lvb0FBQ05Sa0FCckpsTW9BQUFBQUFBQUFBQUFBQUFBQUFBQUFBb2dvQUFBQUNDeEFBQUFBQUFBQUFBQUFBQUFBQUFBQUJVQUFBQnE4ZmVVUllJb0tnQUdEQ0FBQUFzdURmYUlBQUFBQUFBQUFBQUFBQUFBQUFvZ0FBdWdBV1k1QkJZMEl1RS9Hb0NnbUVBQUFGNFFBQUFBQUFBQUFBQUFBQUFBQUFBQUFGbnhVQlJGRmdOZE01YUV3eGRGa3lZUVFRQUFCZUw3SUFBQUFBQUFBQUFBQUFBQUFBQUFBQUN4QUZGd0NMRzhya0dlcWN3aWpGbUVSVUFBQmVMN0lBQUFLQUFDQUFBQUFBQUFBQUFBQUFBQUFzVlFacUxtcitTL2xGL0tOWlFHZDFuVEQ4WW40c2JBQU5mYjZIM1A3OVQrdHQvOStHVnd1Tk1wZ3d1REJwRHF4bnpJZ0FBQUFnQUFBQUFBQUFBQUFBQXNRQUZXS0lpQURySmlLak5hbWhXYzFjMmFNM04xWkFCcjM4WHY1UEg4ZTI1NC9uMjJYVE55bmpaYzZZOVV5bVRLQUFLQUFBSUFBQUFBQUFBQUFBQUFBQURVVkVDb0xKbHVURFF6ZElrNy9jTGRkbDNZdHhWMzFUTml5eTdwZW5ESXVLYkw4M3hOUFhnKytzaDk3ZmFtTzZwVUFBQUJRQUFFQVhqM1FBQUFBQUFBQUtBQUFBQTFGUkJCWk11bU1LSXgxVnFYTVp0eG9tVXl1VmxuSmJPSVRxeDQ5Vi84MzdrL3dETFdZbHZTbHZTemt5VzJvQUdWQUFBQUFBQUJBQUFBQUFBQVdJQUFBQUEwSUlEckppQ29PZDNKY0Z1VUFBWFBjKzRXemxFQmNHREZRRmlnQWdBQUFBSUFBQUFBQUFBTlRhMWtBQUFBQnBBUWE2WTFieDNVRWN3QUFBYXUyLzlNdFJMdWNJMUFBQUFRQUFBQUVBQUFBQUFBQUd1UGRrQUFBVkFGQkFkTXliTXpXNWJLaVhaZ0FXSUFDLzR6emZnaTdKdllBb0FBQWdBQUFBSUFBQUFBQUFBTlhhZUdRQUFCVUFXQWdMbzNKaUtITEhWZFdRQlVCWjhJTmNKRkp2UE1TNzFCb0FBQUJBQUFBQkFBQUFBQUFBR3VyOU1nQUFDMUFGZ2dMRERwdEdjcCtTWnFBQXFBc1FhNHZ0OE1pemVlWVhlK2FndVRLNUFBQUFRQUFBRUFBQUFBQUFCWnVYNVFBQUJZZ0FzRUJZcTI1NFRDV1lRRkVGNFFCVWE0djNzeUxONFhlK1VBQmNxQUlBQUFBQUlBQUFBQUFBRFhUeldRQUFCcmhrQVVRR29vckZRRkVBQVdvMXhXUVc3MUFBQm9BUUFBQUFBRUFBQUFBQUFhL3haQUFBR3JzeUFLSURVVUdBRkVBQWI2cHBHR3B0ZlprRnU2QUFBWlZVQlVBQUFBRUFBQUFBQUFHN3N3QUFBc0tnQW9nTkt1RTZxd0FxQUFEV2JGeG5XZngrakdqS0MzZEZRQmNxQWdBQUFBQWdBQUFBQUFBTE4ydXBnQUFCWVZBQlJCV2xWenFBS0lBQTFaemF1UHVhYWZhbG1HUmYrSUFBQzVBQUFBQUFCQUFBQUFBQUZtNjlXN0lBQUJBQUFBamFwV2FnQ2dnQUx2V3JjcGszaklxQzFBQUFGeUFBQUFDQUFBQUFBQUFzTHVnQUFBQUFLSUM1cHFnQUtJQURYVHZmR1ZaNWFtT1dhaTlqQmluRU1JQUFBQW9BQUNDb0FBQUFBQUFBQUFBQUFMajBWTWVqWDQ2YXNBQUFBQUFzVmxTN1Q3eWdMbW5IdWdBQUFBQUtBQUlBQUFBQUFBQUFBQUFBTnpwbk85MmpvREZzc3JtQUFBQUFEVUtoVGllNkFBQUFBQUFBS0FDQUFBQUFBQUFBQUFBQU5UVFgrRyttYzNkb1MzRG5qWDJ5eUFBQUFBRFNVNFAwZjQrL3dnQUFBQUFBQ2dBQUNBQUFBQUFBQUFBQUFDek9jUjBtYzY3TkRGek5kNTJabGtsWkFBQUFBQnBLQzhYelBsa1dUS0FBQUFBQUFBb2dBQUFBQUFBQUFBQUFBTjlNM3JZSmRxNUFBQUFBQXNWTHVIN082Q3k0UmMzdVpxQUFBQUFBQUFBQUFBQUFBQUFBQUFBRHAwN2U3U29sMnJrQUFBQUFDemRXVk82QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBMUxodjhBS0xtSm1NWHFaQUFBQUFCWXJJdjM1UUZRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFYS0FBQUFBQUxGWkY1aUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFDeGF5S1ZBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBRmkzWmtYZ3Y2UUFBQUFBQUFBQUFILy8yUT09IiAvPgo8L3N2Zz4=" width="224" height="224" alt="" loading="lazy" data-srcset="/fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert.017d29cf.jpg 1x, /fritz-kola.com/nhk-bericht/597/image-thumb__597__product-teaser-thumbnail/03_fritz-kola_MircoWolfWiegert@2x.017d29cf.jpg 2x" />
+</picture>
+
+					</div>
+
+				</div>
+
+				<div class="product-teaser__item by-night">
+
+					<div class="product-teaser__content">
+
+						<h2 class="product-teaser__headline _headline-small">
+							besser machen.
+						</h2>
+
+													<div class="product-teaser__copy">
+								Erfahre hier alles über unser Nachhaltigkeitsengagement - im Nachhaltigkeitsbericht 2022/2023.
+							</div>
+						
+
+						<div class="product-teaser__cta">
+							<a href="/de/nachhaltigkeitsbericht-2022-23" internalType="document" linktype="internal" text="hier lesen!" path="/de/nachhaltigkeitsbericht-2022-23" class="button" internalId="687" Label="Button Label (required)">hier lesen!</a>
+						</div>
+
+					</div>
+
+					<div class="product-teaser__media">
+						<picture >
+	<source media="(min-width: 560px)" data-srcset="/_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3~-~media--573e62f2--query.63fc5bb3.webp 1x, /_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3~-~media--573e62f2--query@2x.63fc5bb3.webp 2x" width="245" height="245" type="image/webp" />
+	<source media="(min-width: 560px)" data-srcset="/_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3~-~media--573e62f2--query.63fc5bb3.png 1x, /_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3~-~media--573e62f2--query@2x.63fc5bb3.png 2x" width="245" height="245" type="image/png" />
+	<source data-srcset="/_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3.a10d1243.webp 1x, /_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3@2x.a10d1243.webp 2x" width="224" height="224" type="image/webp" />
+	<source data-srcset="/_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3.a10d1243.png 1x, /_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3@2x.a10d1243.png 2x" width="224" height="224" type="image/png" />
+	<img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" width="224" height="224" alt="" loading="lazy" data-srcset="/_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3.a10d1243.png 1x, /_default_upload_bucket/2430/image-thumb__2430__product-teaser-thumbnail/NHB_1080x1080_D3@2x.a10d1243.png 2x" />
+</picture>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</section>
+
+
+                
+                            
+                    
+
+
+
+
+                                    
+            
+                                    
+
+
+<section class="rte-area ">
+	<div class="rte-area__outer">
+		<div class="rte-area__inner">
+			<div class="rte-area__content rte">
+				<h5>Verschlafe nicht die Party! Schnapp dir jetzt unseren Wachmacher-Newsletter und sei immer im Koffein-Kreislauf – mit sprudelnden Neuigkeiten und Aktionen gegen deine Müdigkeit:</h5>
+			</div>
+		</div>
+	</div>
+</section>
+
+                
+                            
+                    
+
+
+
+
+                                    
+            
+                                    
+
+
+    <a data-href="/de/ajax/newsletter-subscription-module" data-newslettersubscription="root"></a>
+
+
+                
+                            
+                    
+
+
+
+</main>
+
+
+    
+
+
+
+
+<footer class="site-footer" data-footer="root">
+    <div class="site-footer__wrap">
+        <div class="site-footer__inner">
+            <div class="site-footer__items">
+                <div class="site-footer__item">
+                                            <ul class="nav">
+                                                                                                                                <li class="nav__item">
+                                                                                    <a href="/pressroom" class="nav__link _navigation" target="_blank" rel="noopener">presse<i class="icon reverse-icon-link"></i></a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="/de/downloads" class="nav__link _navigation">Downloads</a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="https://fritz-kola.com/de#:~:text=gegen%20deine%20m%C3%BCdigkeit%3A-,keine,-lust%20auf%20fritz" class="nav__link _navigation" target="_blank" rel="noopener">wachmacher-newsletter<i class="icon reverse-icon-link"></i></a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="http://www.fritz-kola-shop.com/" class="nav__link _navigation" target="_blank" rel="noopener">shop<i class="icon reverse-icon-link"></i></a>
+                                                                            </li>
+                                                                                                                                                                                </ul>
+                                    </div>
+
+                <div class="site-footer__item">
+                    
+                                            <div class="site-footer__headline icon-instagram _navigation">
+                            <a href="https://www.instagram.com/fritzkola/" linktype="direct" text="folge uns auf instagram" path="https://www.instagram.com/fritzkola/" placeholder="Headline">folge uns auf instagram</a>
+                        </div>
+                    
+                    <div class="site-footer__social">
+    <div class="insta__feed">
+                                                        <div class="insta__post">
+                        <a href="https://www.instagram.com/p/CI5Xq3RjLxa/" target="_blank" rel="noopener">
+                          <img src="/fritz-kola.com/social-media/instagram/17885459686842003-instagram.jpg" alt="Insta Post">
+                        </a>
+                    </div>
+                                                                <div class="insta__post">
+                        <a href="https://www.instagram.com/p/CI0OFMmj2U-/" target="_blank" rel="noopener">
+                          <img src="/fritz-kola.com/social-media/instagram/17903871655613092-instagram.png" alt="Insta Post">
+                        </a>
+                    </div>
+                                                                <div class="insta__post">
+                        <a href="https://www.instagram.com/p/CInV9gjhjKx/" target="_blank" rel="noopener">
+                          <img src="/fritz-kola.com/social-media/instagram/17934911359437364-instagram.png" alt="Insta Post">
+                        </a>
+                    </div>
+                                                                <div class="insta__post">
+                        <a href="https://www.instagram.com/p/CIiMgj_jhNy/" target="_blank" rel="noopener">
+                          <img src="/fritz-kola.com/social-media/instagram/17864763449198942-instagram.png" alt="Insta Post">
+                        </a>
+                    </div>
+                                        </div>
+</div>
+
+
+                                            <div class="site-footer__social">
+
+                                                            
+                                                                                                            <a href="https://de-de.facebook.com/fritzkola/" class="social-nav icon-facebook" target="_blank" rel="noopener"><i>facebook</i></a>
+                                                                                                                                
+                                                                                                            <a href="https://www.tiktok.com/@fritzkola" class="social-nav icon-tiktok" target="_blank" rel="noopener"><i>tiktok</i></a>
+                                                                                                                                
+                                                                                                            <a href="https://twitter.com/fritzkola?lang=de" class="social-nav icon-twitter" target="_blank" rel="noopener"><i>twitter</i></a>
+                                                                                                                                
+                                                                                                            <a href="https://www.youtube.com/channel/UCKEyuiPYhHH4AnsdhaZOsLA" class="social-nav icon-youtube" target="_blank" rel="noopener"><i>youtube</i></a>
+                                                                                                                                
+                                                                                                            <a href="https://de.linkedin.com/company/fritz-kulturg%C3%BCter-gmbh" class="social-nav icon-linkedin" target="_blank" rel="noopener"><i>linkedin</i></a>
+                                                                                                                                
+                                                                                                            <a href="https://www.threads.net/@fritzkola" class="social-nav icon-threads" target="_blank" rel="noopener"><i>threads</i></a>
+                                                                                                                        </div>
+                                    </div>
+
+                <div class="site-footer__item">
+                                            <ul class="nav">
+                                                                                                                                <li class="nav__item">
+                                                                                    <a href="https://jobs.fritz-kola.de/" class="nav__link _navigation" target="_blank" rel="noopener">karriere<i class="icon reverse-icon-link"></i></a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="/de/kontakt" class="nav__link _navigation">kontakt</a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="/de/impressum" class="nav__link _navigation">impressum</a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="/de/agbs" class="nav__link _navigation">AGBs</a>
+                                                                            </li>
+                                                                                                                                                                <li class="nav__item">
+                                                                                    <a href="/de/datenschutz" class="nav__link _navigation">datenschutz</a>
+                                                                            </li>
+                                                                                    </ul>
+                                                                <div class="_legal copyright">© 2024 fritz-kola GmbH</div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+    <script src="/cache-buster-1723447103/dist/vendor.js" nonce="rKBnwyv4hzMUq61ADKv7zNmFqtwnWhw8"></script>
+<script src="/cache-buster-1723447103/dist/app.js" nonce="rKBnwyv4hzMUq61ADKv7zNmFqtwnWhw8"></script>
+</body>
+</html>
