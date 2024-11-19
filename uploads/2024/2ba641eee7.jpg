@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" dir="ltr" class="js-svg" >
+
+<head>
+	<title>Ratsportal
+
+
+
+
+ - SD.NET RIM 4 | Stadt Krefeld</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="robots" content="index, nofollow" />
+	<meta name="keywords" content="Politik, Mandatsträger, Bürgerinformationssystem, Bürgerinfo, Ratsinformationsmanagement, RIM, Ratsinformationssystem, Ratsinformation, Ratsinfosystem, Ratsinfo, RIS, Ratsportal" />	<meta name="rights" content="" />
+	<meta name="language" content="de-DE" />
+	<meta name="generator" content="SD.NET RIM 4 - Ratsinfomanagement" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=4.0, user-scalable=1">
+
+
+
+	<script src="/templates/krefeld_rd/js/custom/lazysizes.min.js?openelement" type="text/javascript" defer></script>
+	<link href="/templates/krefeld_rd/css/custom/fonts-custom.css" media="all" rel="stylesheet" type="text/css" />
+	<!--[if ! lte IE 6]><!-->
+		<link href="/templates/krefeld_rd/css/custom/all.dev.krzn.css" media="all" rel="stylesheet" type="text/css" />
+		<link href="/templates/krefeld_rd/css/custom/shariff.complete.css" media="all" rel="stylesheet" type="text/css" />
+	<!--<![endif]-->
+	<!--[if lte IE 8]>
+		<link rel="stylesheet" type="text/css" href="/templates/krefeld_rd/css/custom/ie8.dev.css/$file/ie8.dev.css" />
+		<script src="/templates/krefeld_rd/js/custom/html5shiv.js" type="text/javascript"></script>
+	<![endif]-->
+	<!--[if lte IE 7]>
+		<link rel="stylesheet" type="text/css" href="/templates/krefeld_rd/css/custom//$file/ie7.dev.css" />
+	<![endif]-->
+	<!--[if ! lte IE 6]><!-->
+		<link href="/templates/krefeld_rd/css/custom/jquery.mmenu.all.css" media="all" rel="stylesheet" type="text/css" />
+		<script src="/templates/krefeld_rd/js/custom/head.load.min.js" type="text/javascript" defer></script>
+		<script>var static_base_url = '/';</script>
+		<script src="/templates/krefeld_rd/js/custom/headjs.dev.krzn.js" type="text/javascript" defer></script>
+	<!--<![endif]-->
+	<link rel="apple-touch-icon" sizes="57x57" href="/templates/krefeld_rd/images/custom/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/templates/krefeld_rd/images/custom/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/templates/krefeld_rd/images/custom/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/templates/krefeld_rd/images/custom/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/templates/krefeld_rd/images/custom/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/templates/krefeld_rd/images/custom/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/templates/krefeld_rd/images/custom/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/templates/krefeld_rd/images/custom/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/templates/krefeld_rd/images/custom/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/templates/krefeld_rd/images/custom/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/templates/krefeld_rd/images/custom/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/templates/krefeld_rd/images/custom/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/templates/krefeld_rd/images/custom/favicon-16x16.png">
+	<link rel="manifest" href="/templates/krefeld_rd/js/custom/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/templates/krefeld_rd/images/custom/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+
+
+
+	<script src='/templates/krefeld_rd/js/jquery.min.js'></script>
+
+	<!-- Feed -->
+	<link rel="alternate" type="application/rss+xml" title="SD.NET RIM Newsfeed" aria-label="SD.NET RIM Newsfeed" href="https://ris.krefeld.de/rss/" />
+	<!-- Header -->
+	<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/fontawesome-pro-web/css/all.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/forms.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/icons.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/tables.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/tabs.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/general.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/functions/startseite.css?24.2.1" type="text/css" media="screen, print" />
+<link rel="stylesheet" href="https://ris.krefeld.de/library/media/css/print.css?24.2.1" type="text/css" media="print" />
+<script src="https://ris.krefeld.de/library/media/js/jquery.js?24.2.1"></script>
+<script src="https://ris.krefeld.de/library/media/js/sstquery.js?24.2.1"></script>
+<script src="https://ris.krefeld.de/library/media/js/jquery-ui.js?24.2.1"></script>
+<script src="https://ris.krefeld.de/library/media/js/functions/startseite.js?24.2.1"></script>
+
+	<link rel="stylesheet" href="/templates/krefeld_rd/css/fonts.css">
+	<link rel="stylesheet" href="/templates/krefeld_rd/css/style-customer.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/templates/krefeld_rd/css/print.css" type="text/css" media="print" />
+</head>
+
+<body class="a5-home-page">
+	<!--ym-menu-opened-->
+	<ul class="ym-skiplinks" id="top">
+		<li><a class="ym-skip" href="#a5-content-anchor">zum Inhalt</a></li>
+		<li><a class="ym-skip" href="#a5-nav-bottom-anchor">zur Hilfsnavigation</a></li>
+	</ul>
+	<div id="a5-all-page">
+		<nav id="a5-main-menu" role="navigation" aria-label="Mehrstufe Gesamtnavigation">
+			<strong class="ym-hideme">Hauptnavigation - zum Schließen <abbr
+					title="Escape beziehungsweise Schließen-Taste">ESC</abbr> auf der Tastatur drücken</strong>
+			<div>
+				<ul class="navigation-menu">
+
+
+
+
+
+					<li class="sub-menu ">
+						<a href="https://www.krefeld.de/" title="Zur Startseite der Stadt Krefeld." aria-label="Zur Startseite der Stadt Krefeld.">Zur Startseite der Stadt Krefeld</a>
+					</li>
+
+
+
+
+
+					<li id="mob_menurim" class="sub-menu " role="navigation" aria-label="Bereich: Startseite.">
+						<a href="/startseite" title="Zur Startseite Startseite." aria-label="Zur Startseite Startseite.">Startseite</a>
+						<ul class="sdnetrim-menu-ul sdnetrim-menu-ul-level0">
+	<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 news"><a class="a-level-0" href="https://ris.krefeld.de/news">News</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 gremien"><a class="a-level-0" href="https://ris.krefeld.de/gremien">Gremien</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 fraktionen"><a class="a-level-0" href="https://ris.krefeld.de/fraktionen">Fraktionen</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 personen"><a class="a-level-0" href="https://ris.krefeld.de/personen">Personen</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 vorlagen"><a class="a-level-0" href="https://ris.krefeld.de/vorlagen">Vorlagen</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 termine"><a class="a-level-0" href="https://ris.krefeld.de/termine">Sitzungskalender</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 recherche"><a class="a-level-0" href="https://ris.krefeld.de/recherche">Recherche</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 newsletter"><a class="a-level-0" href="https://ris.krefeld.de/newsletter">Newsletter</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 seite-sitzungsapp"><a class="a-level-0" href="https://ris.krefeld.de/seite/sitzungsapp">Sitzungsapp</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level0 diverses-downloads"><a class="a-level-0" href="https://ris.krefeld.de/diverses/downloads">Ortsrecht und Downloads</a>
+<ul class="sdnetrim-menu-ul sdnetrim-menu-ul-level1">
+	<li class="sdnetrim-menu-li sdnetrim-menu-li-level1 diverses-downloads-2"><i class="sdnetrim-menu-li-level1-icon" aria-hidden="true"></i><a class="a-level-1" href="https://ris.krefeld.de/diverses/downloads/2">Ortsrecht</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level1 diverses-downloads-3"><i class="sdnetrim-menu-li-level1-icon" aria-hidden="true"></i><a class="a-level-1" href="https://ris.krefeld.de/diverses/downloads/3">"Politik bei uns"</a></li>
+<li class="sdnetrim-menu-li sdnetrim-menu-li-level1 diverses-downloads-8"><i class="sdnetrim-menu-li-level1-icon" aria-hidden="true"></i><a class="a-level-1" href="https://ris.krefeld.de/diverses/downloads/8">Satzungen & Gesellschaftsverträge der Beteiligungsgesellschaften</a></li>
+</ul>
+</li>
+</ul>
+					</li>
+						<script>
+							$('#mob_menurim li').each(function(e) {
+								if (this.className.indexOf('aktiv') > -1) {
+								$(this).addClass('Selected');
+								}
+							});
+						</script>
+
+					
+					
+					
+
+
+
+
+				</ul>
+
+
+
+
+
+				<div class="sub-menu container-login">
+					<div class="div_login" tabindex="0" role="region" aria-label="Anmeldung.">
+	<h3>Anmeldung</h3>
+	<form action="/" method="post" class="form-login">
+		<fieldset class="input">
+							<div id="login-data" tabindex="0" role="group" aria-label="Anmeldedaten eingeben.">
+										<p class="form-login-username">
+						<label for="username" class="form form-short">Benutzername</label>
+						<input id="username" class="username inputbox" type="text" name="username" />
+					</p>
+					<p class="form-login-password">
+						<label for="password" class="form form-short">Kennwort</label>
+						<input id="password" class="password inputbox" type="password" name="password" />
+					</p>
+										<p class="login-kennwort-vergessen"><a href="https://ris.krefeld.de/kennwort?__=UGhVM0hpd2NXNFdFcExjZdHbqwbcbAK7WMpP7DECtmg" title="Kennwort vergessen?" aria-label="Kennwort vergessen? Hier können Sie ein neues Kennwort anfordern.">Kennwort vergessen?</a></p>
+										<input type="submit" name="Submit" class="button" value="Anmelden" />
+				</div>
+					</fieldset>
+	<input type="hidden" name="csrftoken" value="41239522405fd6e63b9aee4d82e1ac966bd8a0ffd74531e17f41dd031a89811b" /></form>
+</div>
+
+				</div>
+
+
+
+
+
+			</div>
+		</nav>
+		<header aria-label="Kopfbereich mit Logo und Social Media Links" role="banner">
+			<div class="ym-wrapper ym-clearfix">
+				<div class="a5-social-media ym-clearfix">
+				</div>
+				<div class="a5-inner-header ym-clearfix">
+					<h1 id="a5-logo">
+						<a class="a5-logo-link" href="/" aria-label="Zurück zur Startseite" title="zurück zur Startseite">
+							<picture>
+								<source srcset="/templates/krefeld_rd/images/custom/KR_Ratsportal_Einschub.svg" type="image/svg+xml">
+								<img src="/templates/krefeld_rd/images/custom/KR_Ratsportal_Einschub.png" alt="Logo der Stadt Stadt Krefeld">
+							</picture>
+							<span class="a5-logo-content ym-hideme">Stadt Krefeld</span>
+						</a>
+					</h1>
+				</div>
+			</div><!-- .ym-wrapper -->
+			<div class="a5-header-image-wrapper"><img
+					src="/templates/krefeld_rd/images/custom/oberbuergermeister.jpg" alt="Logo"
+					width="2705" height="523" class="swiper-image"></div>
+		</header>
+		<a id="a5-content-anchor"></a>
+		<main class="ym-clearfix" role="main">
+			<div class="ym-wrapper ym-clearfix">
+				<div role="search" class="a5-search-box ym-clearfix" aria-label="Alternative Navigation">
+					<form name="_form:94d2036bbacee92c5612b8d1c782ee1d" id="suche-7146937" action="/recherche" class="ym-gl">
+
+						<fieldset>
+							<legend class="ym-hideme">Volltextsuche</legend>
+							<label for="ym-q" class="ym-hideme">Ihr Suchbegriff</label> <input id="ym-q" name="terms"
+								placeholder="Suche im Ratsinformationssystem" type="search">
+							<button class="a5-search-btn" type="submit" aria-label="Suche ausführen">
+								<picture aria-hidden="true">
+									<source
+										srcset="/templates/krefeld_rd/images/custom/icon-magnifier.svg"
+										type="image/svg+xml">
+									<img src="/templates/krefeld_rd/images/custom/icon-magnifier.png"
+										alt="">
+								</picture>
+								<span class="ym-hideme">Suchen</span>
+							</button>
+						</fieldset>
+					</form>
+				</div><!-- .a5-search-box -->
+			</div>
+			<h2 class="ym-hideme">Inhaltsbereich</h2>
+
+
+
+
+
+			<div class="a5-content-box ym-wrapper ym-clearfix">
+				<div class="a5-content">
+					
+
+
+
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Snipet für die Kachel-Navigation auf der Startseite -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+
+
+
+					<div id="target-content" aria-label="Beginn des Seiteninhaltes." class="schrift">
+																			<a name="col-right"></a>
+							<div id="right" class="right-3col">
+									<div class="div_news">
+		<h3 role="region" tabindex="0">News</h3>
+				<div class="div_news_item">
+			<h4 tabindex="0">Jugendhilfeausschuss - Ausschuss für Kinder, Jugend und Familie 30.10.2024 17:00 Uhr</h4>
+			<div class="newsbar-beitrag">
+								<div class="newsbar-text">
+					<div tabindex="0">Zusatztermin</div>
+					<a href="https://ris.krefeld.de/news/?__=UGhVM0hpd2NXNFdFcExjZaCs_g6RH6GOwIErrEhebjU" title="Zur Detailansicht ..." tabindex="0" aria-label="Detailansicht dieser Nachricht öffnen.">Mehr</a>				</div>
+							</div>
+		</div>
+				<div class="div_news_item">
+			<h4 tabindex="0">Ausschuss für Schule und Weiterbildung 30.10.2024 17:15 Uhr</h4>
+			<div class="newsbar-beitrag">
+								<div class="newsbar-text">
+					<div tabindex="0">Gemeinsame Sitzung mit dem Betriebsausschuss Zentrales Gebäudemanagement</div>
+					<a href="https://ris.krefeld.de/news/?__=UGhVM0hpd2NXNFdFcExjZX1TuG1p1Dk2c9e3ysrFgUk" title="Zur Detailansicht ..." tabindex="0" aria-label="Detailansicht dieser Nachricht öffnen.">Mehr</a>				</div>
+							</div>
+		</div>
+				<div class="div_news_item">
+			<h4 tabindex="0">Einwohnerfragestunde , Rat 12.11.2024</h4>
+			<div class="newsbar-beitrag">
+								<div class="newsbar-text">
+					<div tabindex="0">Informationen zu Einwohnerfragestunden im Rat der Stadt Krefeld</div>
+					<a href="https://ris.krefeld.de/news/?__=UGhVM0hpd2NXNFdFcExjZR6g1tvosGMmfLnCPBJZXz8" title="Zur Detailansicht ..." tabindex="0" aria-label="Detailansicht dieser Nachricht öffnen.">Mehr</a>				</div>
+							</div>
+		</div>
+			</div>
+							</div><!-- right -->
+						
+						<div id="rimcontent" class="content-3col">
+																												
+							
+<div id="div-content" class="index">
+    <h1 class="heading">Ratsportal
+
+
+
+
+</h1>            <div class="ym-wrapper ym-clearfix kachelNav">
+	<nav role="navigation" aria-label="Hauptnavigationspunkte der ersten Ebene" class="a5-link-section ym-clearfix">
+		<div class="a5-list-column-wrapper ym-gl ym-g32">
+			<a class="a5-gremien" href="/gremien">
+				<h3>Gremien</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32">
+			<a class="a5-termine" href="/termine">
+				<h3>Sitzungskalender</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32 a5-reset">
+			<a class="a5-app" href="/seite/sitzungsapp">
+				<h3>Livestream &amp; Sitzungsapp</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32">
+			<a class="a5-vorlagen" href="/vorlagen">
+				<h3>Vorlagen</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32">
+			<a class="a5-recherche" href="/recherche">
+				<h3>Recherche</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32 a5-reset">
+			<a class="a5-fraktionen" href="/fraktionen">
+				<h3>Fraktionen</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32">
+			<a class="a5-anmeldung" href="/login">
+				<h3>Anmeldung<br>gesch&uuml;tzter Bereich</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32">
+			<a class="a5-downloads" href="/diverses/downloads/2">
+				<h3>Ortsrecht</h3>
+			</a>
+		</div>
+		<div class="a5-list-column-wrapper ym-gl ym-g32 a5-reset">
+			<a class="a5-personen" href="/personen">
+				<h3>Personen</h3>
+			</a>
+		</div>
+	</nav>
+</div>    </div>
+						</div><!-- end content -->
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+		</main>
+
+
+		<div class="a5-content-controls ym-wrapper">
+			<a href="#a5-content-anchor" title="Zurück zum Seitenanfang:" class="a5-move-to-top">nach oben</a>
+		</div>
+		<a id="a5-nav-bottom-anchor"></a>
+
+		<footer role="contentinfo">
+			<div class="a5-footer-meta">
+				<div class="ym-wrapper ym-clearfix">
+					<h2>
+						Kontakt &amp; Service-Informationen
+					</h2>
+					<div class="a5-column-wrapper ym-clearfix">
+						<div class="a5-footer-contact ym-g33 ym-gl">
+							<div class="a5-contact-info">
+								<div class="ym-gl ym-g60">
+									<address>
+										<div class="a5-text-box">
+											<h3>Kontakt</h3>
+											<p>Stadtverwaltung Krefeld</p>
+											<p>Von-der-Leyen-Platz 1</p>
+											<p>47792 Krefeld</p>
+										</div><!-- .a5-text-box -->
+										<div class="a5-text-box">
+											<p><br>Rat und Ehrenamt</p>
+											<p><a href="mailto:ratundehrenamt@krefeld.de">ratundehrenamt@krefeld.de</a></p>
+										</div><!-- .a5-text-box -->
+									</address>
+
+								</div><!-- .ym-gl ym-g60 -->
+							</div><!-- .a5-contact-info -->
+						</div><!-- .a5-footer-contact -->
+						<div class="ym-g33 ym-gl">
+							<div class="a5-contact-info">
+								<div class="ym-gl">
+									<h3>Portale</h3>
+									<nav aria-label="Portale">
+										<ul>
+											<li><a href="https://www.krefeld.de/" target="_blank"
+													title="externer Link, öffnet im neuen Fenster: Ratsportal">Krefeld-Portal</a></li>
+											<li><a href="https://www.krefeld.de/familienportal/allgemein/herzlich-willkommen-im-krefelder-familien-portal/"
+													target="_blank"
+													title="externer Link, öffnet im neuen Fenster: Familienportal">Familienportal</a>
+											</li>
+											<li><a href="https://www.krefeld.de/kaoa/inhalt/kommunale-koordinierung-stadt-krefeld/" target="_blank"
+													title="externer Link, öffnet im neuen Fenster: KAoA Übergang Schule - Beruf">KAoA
+													Übergang Schule - Beruf</a></li>
+											<li><a href="https://www.krefeld.de/newsroom" target="_blank"
+													title="externer Link, öffnet im neuen Fenster: Newsroom">Newsroom</a></li>
+										</ul>
+										<!-- -->
+									</nav>
+								</div><!-- .ym-gl ym-g60 -->
+							</div>
+						</div>
+						<div class="ym-g33 ym-gl">
+
+							<h3>Service</h3>
+							<nav aria-label="Impressum, Datenschutz und Co.">
+								<nav>
+									<ul>
+										<li><a href="https://www.krefeld.de/de/allg/startseite/">Startseite</a></li>
+										<li><a href="https://www.krefeld.de/de/serviceportal/impressum/">Impressum</a></li>
+										<li><a href="https://www.krefeld.de/de/serviceportal/datenschutz/">Datenschutz</a></li>
+										<li><a href="https://www.krefeld.de/de/vermessung/geoportal-krefeld/">Stadtkarte</a></li>
+										</li>
+									</ul>
+								</nav>
+
+							</nav>
+						</div>
+					</div>
+				</div><!-- .ym-wrapper -->
+			</div><!-- .a5-footer-meta -->
+			<h2 class="ym-hideme">Sie haben das Seitenende erreicht</h2>
+		</footer>
+	</div><!-- #a5-all-page -->
+	<script src="/templates/krefeld_rd/js/custom/css3-mediaqueries.js?openelement" type="text/javascript"></script>
+	<link href="/templates/krefeld_rd/css/font-awesome.min.css" rel="stylesheet">
+	</body>
+</html>
