@@ -7,6 +7,62 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2024/11/25/151032.html",
+				
+				"content_html": "<p>#listening to <a href=\"https://record.club/releases/albums/kendrick-lamar-gnx\">record.club/releases/&hellip;</a></p>\n",
+				"content_text": "#listening to [record.club/releases/...](https://record.club/releases/albums/kendrick-lamar-gnx)\n",
+				"date_published": "2024-11-25T15:10:32+01:00",
+				"url": "https://drikk.es/2024/11/25/151032.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/11/24/tinkerbruell.html",
+				
+				"content_html": "<p>TINKERBRUELL!</p>\n",
+				"content_text": "TINKERBRUELL!\n",
+				"date_published": "2024-11-24T11:38:30+01:00",
+				"url": "https://drikk.es/2024/11/24/tinkerbruell.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/11/23/133532.html",
+				
+				"content_html": "<p>Sportliche Leistung. <a href=\"https://www.reddit.com/r/MadeMeSmile/s/3F8kuw4Cyy\">www.reddit.com/r/MadeMeS&hellip;</a></p>\n",
+				"content_text": "Sportliche Leistung. [www.reddit.com/r/MadeMeS...](https://www.reddit.com/r/MadeMeSmile/s/3F8kuw4Cyy) \n",
+				"date_published": "2024-11-23T13:35:32+01:00",
+				"url": "https://drikk.es/2024/11/23/133532.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/11/23/ich-frage-jeden.html",
+				
+				"content_html": "<p>Ich frage jeden Chatbot, wer uns verraten hat. Keiner gibt die richtige Antwort.</p>\n",
+				"content_text": "Ich frage jeden Chatbot, wer uns verraten hat. Keiner gibt die richtige Antwort.\n",
+				"date_published": "2024-11-23T10:01:07+01:00",
+				"url": "https://drikk.es/2024/11/23/ich-frage-jeden.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/11/22/vielleicht-vergesse-in.html",
+				
+				"content_html": "<p>Vielleicht vergesse in dieses Mal zur Abwechslung keine Ladeteile in Berlin.</p>\n",
+				"content_text": "Vielleicht vergesse in dieses Mal zur Abwechslung keine Ladeteile in Berlin.\n",
+				"date_published": "2024-11-22T12:14:40+01:00",
+				"url": "https://drikk.es/2024/11/22/vielleicht-vergesse-in.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/11/21/das-kann-ja.html",
+				
+				"content_html": "<p>⬇️Das kann ja nicht der Punkt sein. ⬆️</p>\n",
+				"content_text": "⬇️Das kann ja nicht der Punkt sein. ⬆️\n",
+				"date_published": "2024-11-21T00:34:12+01:00",
+				"url": "https://drikk.es/2024/11/21/das-kann-ja.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/11/20/simon-sez-fuck.html",
+				
+				"content_html": "<p>Simon sez „Fuck ‚mid‘.“</p>\n",
+				"content_text": "Simon sez „Fuck ‚mid‘.“\n",
+				"date_published": "2024-11-20T11:13:56+01:00",
+				"url": "https://drikk.es/2024/11/20/simon-sez-fuck.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2024/11/19/fantasien-fermentieren.html",
 				
 				"content_html": "<p>Fantasien fermentieren.</p>\n",
@@ -42,7 +98,7 @@
 				"id": "http://drikkes.micro.blog/2024/11/17/von-tassen-und.html",
 				
 				"content_html": "<p>Von Tassen und Schränken</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Von Tassen und Schränken\n\n<img src=\"uploads/2024/drin.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
+				"content_text": "Von Tassen und Schränken\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/drin.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
 				"date_published": "2024-11-17T18:35:48+01:00",
 				"url": "https://drikk.es/2024/11/17/von-tassen-und.html"
 			},
