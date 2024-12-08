@@ -7,6 +7,54 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2024/12/08/netto-vs-rewe.html",
+				
+				"content_html": "<p>Netto vs Rewe #effzeh #regkoe</p>\n",
+				"content_text": "Netto vs Rewe #effzeh #regkoe\n",
+				"date_published": "2024-12-08T13:33:41+01:00",
+				"url": "https://drikk.es/2024/12/08/netto-vs-rewe.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/12/05/die-jugend-von.html",
+				
+				"content_html": "<p>Die Jugend von heute kennt die Klassiker der Augsburger Muppetkiste wie &ldquo;Kermit aus dem Eis&rdquo;, &ldquo;Graf Zahl und Gonzo, der Lokomotivführer&rdquo; oder &ldquo;Miss Piggy mit Hut&rdquo; überhaupt nicht mehr!</p>\n",
+				"content_text": "Die Jugend von heute kennt die Klassiker der Augsburger Muppetkiste wie \"Kermit aus dem Eis\", \"Graf Zahl und Gonzo, der Lokomotivführer\" oder \"Miss Piggy mit Hut\" überhaupt nicht mehr!\n",
+				"date_published": "2024-12-05T12:21:08+01:00",
+				"url": "https://drikk.es/2024/12/05/die-jugend-von.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/12/04/vater-wre-ein.html",
+				
+				"content_html": "<p>Vater wäre ein rollender Stein gewesen.</p>\n",
+				"content_text": "Vater wäre ein rollender Stein gewesen.\n",
+				"date_published": "2024-12-04T18:59:32+01:00",
+				"url": "https://drikk.es/2024/12/04/vater-wre-ein.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/12/03/hey-kln-jemand.html",
+				
+				"content_html": "<p>Hey, Köln. Jemand Bock auf Die Goldenen Zitronen im ausverkauften Gloria heute Abend? Hätte noch ne Karte abzugeben.</p>\n",
+				"content_text": "Hey, Köln. Jemand Bock auf Die Goldenen Zitronen im ausverkauften Gloria heute Abend? Hätte noch ne Karte abzugeben.\n",
+				"date_published": "2024-12-03T16:55:16+01:00",
+				"url": "https://drikk.es/2024/12/03/hey-kln-jemand.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/12/03/brand-eins-diesen.html",
+				
+				"content_html": "<p>Brand Eins diesen Monat mit sehr starkem Printtitel. <a href=\"https://x.drikk.es/post/768847147112316928/das-ist-noch-einmal-eine-liga-besser-als-die-auch\">x.drikk.es/post/7688&hellip;</a></p>\n",
+				"content_text": "Brand Eins diesen Monat mit sehr starkem Printtitel. [x.drikk.es/post/7688...](https://x.drikk.es/post/768847147112316928/das-ist-noch-einmal-eine-liga-besser-als-die-auch)\n",
+				"date_published": "2024-12-03T13:52:03+01:00",
+				"url": "https://drikk.es/2024/12/03/brand-eins-diesen.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2024/12/03/not-all-heroes.html",
+				
+				"content_html": "<p>Not all heroes wear capes. <a href=\"https://archive.ph/20241203041117/https://www.zeit.de/arbeit/2024-11/arbeitszeitbetrug-arbeitnehmer-kuendigung-straftat-arbeitsplatz\">archive.ph/202412030&hellip;</a></p>\n",
+				"content_text": "Not all heroes wear capes. [archive.ph/202412030...](https://archive.ph/20241203041117/https://www.zeit.de/arbeit/2024-11/arbeitszeitbetrug-arbeitnehmer-kuendigung-straftat-arbeitsplatz)\n",
+				"date_published": "2024-12-03T12:03:25+01:00",
+				"url": "https://drikk.es/2024/12/03/not-all-heroes.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2024/11/30/nenne-mein-hotel.html",
 				
 				"content_html": "<p>Nenne mein Hotel „Best Westem“.</p>\n",
@@ -18,7 +66,7 @@
 				"id": "http://drikkes.micro.blog/2024/11/30/gehts-um-fuball.html",
 				
 				"content_html": "<p>Geht‘s um Fußball?</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Geht‘s um Fußball?\n\n<img src=\"uploads/2024/8678dae15e.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "Geht‘s um Fußball?\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/8678dae15e.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-11-30T15:02:48+01:00",
 				"url": "https://drikk.es/2024/11/30/gehts-um-fuball.html"
 			},
