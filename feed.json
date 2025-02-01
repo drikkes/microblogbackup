@@ -7,69 +7,85 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2025/02/01/betreff-zustrom-httpsdaftsocialcomdrikkesid.html",
+				
+				"content_html": "<p>Betreff: „Zustrom“ <a href=\"https://daftsocial.com/drikkes/?id=161\">daftsocial.com/drikkes/</a></p>\n",
+				"content_text": "Betreff: „Zustrom“ [daftsocial.com/drikkes/](https://daftsocial.com/drikkes/?id=161)\n",
+				"date_published": "2025-02-01T10:16:54+01:00",
+				"url": "https://drikk.es/2025/02/01/betreff-zustrom-httpsdaftsocialcomdrikkesid.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/31/zeiberkreim.html",
+				
+				"content_html": "<p>Zeiberkreim!</p>\n",
+				"content_text": "Zeiberkreim!\n",
+				"date_published": "2025-01-31T10:43:36+01:00",
+				"url": "https://drikk.es/2025/01/31/zeiberkreim.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/30/nchste-demo-am-samstag-nach.html",
+				
+				"content_html": "<p>Nächste Demo am Samstag <em>nach</em> dem #effzeh-Spiel. Gut.</p>\n",
+				"content_text": "Nächste Demo am Samstag _nach_ dem #effzeh-Spiel. Gut.\n",
+				"date_published": "2025-01-30T22:03:47+01:00",
+				"url": "https://drikk.es/2025/01/30/nchste-demo-am-samstag-nach.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/30/deepseek.html",
+				"title": "Deepseek",
+				"content_html": "<h3 id=\"was-weißt-du-über-die-rituelle-zugteilungszigarette-in-hamm\">Was weißt Du über die rituelle Zugteilungszigarette in Hamm?</h3>\n<blockquote>\n<p>Die rituelle Zugteilungszigarette in Hamm ist ein kurioses und eher unbekanntes Phänomen, das mit dem Bahnhof in Hamm (Westfalen) verbunden ist. Der Bahnhof Hamm ist ein wichtiger Knotenpunkt im deutschen Schienennetz, insbesondere für den Güterverkehr. Hier werden häufig Züge geteilt oder zusammengeführt, was bedeutet, dass einzelne Waggons oder Wagengruppen auf verschiedene Züge verteilt werden.\nDie &ldquo;Zugteilungszigarette&rdquo; bezieht sich auf eine angeblich traditionelle Geste, bei der ein Rangierer oder Eisenbahner nach erfolgreicher Zugteilung eine Zigarette raucht. Dies soll als eine Art rituelle Belohnung oder Pause nach getaner Arbeit dienen. Allerdings ist dies eher eine Anekdote oder ein urbaner Mythos als eine offiziell dokumentierte Praxis. Es gibt keine offiziellen Quellen oder Belege, die dieses Ritual bestätigen, und es scheint eher im Bereich der Eisenbahnfolklore zu liegen.\nDer Begriff wird manchmal auch humorvoll oder metaphorisch verwendet, um die besondere Atmosphäre und die Eigenheiten des Arbeitsalltags im Bahnbetrieb zu beschreiben. Hamm als wichtiger Eisenbahnstandort bietet dabei einen passenden Hintergrund für solche Geschichten.</p>\n</blockquote>\n",
+				"content_text": "### Was weißt Du über die rituelle Zugteilungszigarette in Hamm?\n\n> Die rituelle Zugteilungszigarette in Hamm ist ein kurioses und eher unbekanntes Phänomen, das mit dem Bahnhof in Hamm (Westfalen) verbunden ist. Der Bahnhof Hamm ist ein wichtiger Knotenpunkt im deutschen Schienennetz, insbesondere für den Güterverkehr. Hier werden häufig Züge geteilt oder zusammengeführt, was bedeutet, dass einzelne Waggons oder Wagengruppen auf verschiedene Züge verteilt werden.\n> Die \"Zugteilungszigarette\" bezieht sich auf eine angeblich traditionelle Geste, bei der ein Rangierer oder Eisenbahner nach erfolgreicher Zugteilung eine Zigarette raucht. Dies soll als eine Art rituelle Belohnung oder Pause nach getaner Arbeit dienen. Allerdings ist dies eher eine Anekdote oder ein urbaner Mythos als eine offiziell dokumentierte Praxis. Es gibt keine offiziellen Quellen oder Belege, die dieses Ritual bestätigen, und es scheint eher im Bereich der Eisenbahnfolklore zu liegen.\n> Der Begriff wird manchmal auch humorvoll oder metaphorisch verwendet, um die besondere Atmosphäre und die Eigenheiten des Arbeitsalltags im Bahnbetrieb zu beschreiben. Hamm als wichtiger Eisenbahnstandort bietet dabei einen passenden Hintergrund für solche Geschichten.\n",
+				"date_published": "2025-01-30T16:43:01+01:00",
+				"url": "https://drikk.es/2025/01/30/deepseek.html",
+				"tags": ["quote","ai"]
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/29/in-der-fuballkneipe-bei-der.html",
+				
+				"content_html": "<p>In der Fußballkneipe bei der größten CL-Konferenz aller Zeiten auf zehn Bildschirmen sitzen und alle am Tisch starren auf den Handball-Streams eines Handys.</p>\n",
+				"content_text": "In der Fußballkneipe bei der größten CL-Konferenz aller Zeiten auf zehn Bildschirmen sitzen und alle am Tisch starren auf den Handball-Streams eines Handys.\n",
+				"date_published": "2025-01-29T22:13:22+01:00",
+				"url": "https://drikk.es/2025/01/29/in-der-fuballkneipe-bei-der.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/29/pitch-fr-eine-elektrische-zahnbrste.html",
+				
+				"content_html": "<p>Pitch für eine elektrische Zahnbürste: Dentagerät mit den grün-weißen Streifen.</p>\n",
+				"content_text": "Pitch für eine elektrische Zahnbürste: Dentagerät mit den grün-weißen Streifen.\n",
+				"date_published": "2025-01-29T18:31:21+01:00",
+				"url": "https://drikk.es/2025/01/29/pitch-fr-eine-elektrische-zahnbrste.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/29/nbacom-is-now-full-screen.html",
+				
+				"content_html": "<p>[nba.com is now full screen (esc)]</p>\n",
+				"content_text": "[nba.com is now full screen (esc)]\n",
+				"date_published": "2025-01-29T00:07:47+01:00",
+				"url": "https://drikk.es/2025/01/29/nbacom-is-now-full-screen.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/26/150902.html",
+				
+				"content_html": "<p>This headline. <a href=\"https://luxurylaunches.com/transport/roman-abramovich-eclipse-superyacht-air-conditioning-25012025.php\">luxurylaunches.com/transport&hellip;</a></p>\n",
+				"content_text": "This headline. [luxurylaunches.com/transport...](https://luxurylaunches.com/transport/roman-abramovich-eclipse-superyacht-air-conditioning-25012025.php)\n",
+				"date_published": "2025-01-26T15:09:02+01:00",
+				"url": "https://drikk.es/2025/01/26/150902.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/01/26/143155.html",
+				
+				"content_html": "<p>#listening to <a href=\"https://record.club/releases/albums/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead\">record.club/releases/&hellip;</a></p>\n",
+				"content_text": "#listening to [record.club/releases/...](https://record.club/releases/albums/godspeed-you-black-emperor-no-title-as-of-13-february-2024-28-340-dead)\n",
+				"date_published": "2025-01-26T14:31:55+01:00",
+				"url": "https://drikk.es/2025/01/26/143155.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2025/01/26/die-verschalung-der-gewieftheit.html",
 				
 				"content_html": "<p>Die Verschalung der Gewieftheit</p>\n",
 				"content_text": "Die Verschalung der Gewieftheit\n",
 				"date_published": "2025-01-26T11:04:27+01:00",
 				"url": "https://drikk.es/2025/01/26/die-verschalung-der-gewieftheit.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/25/intensiver-armeinsatz-my-ass.html",
-				
-				"content_html": "<p>Intensiver Armeinsatz my ass!</p>\n",
-				"content_text": "Intensiver Armeinsatz my ass!\n",
-				"date_published": "2025-01-25T14:30:36+01:00",
-				"url": "https://drikk.es/2025/01/25/intensiver-armeinsatz-my-ass.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/25/bitte-noch-ein-bichen-trocken.html",
-				
-				"content_html": "<p>Bitte noch ein bißchen trocken bleiben. Wir sehen uns gleich bei der Demo auf dem Heumarkt?</p>\n",
-				"content_text": "Bitte noch ein bißchen trocken bleiben. Wir sehen uns gleich bei der Demo auf dem Heumarkt?\n",
-				"date_published": "2025-01-25T11:10:28+01:00",
-				"url": "https://drikk.es/2025/01/25/bitte-noch-ein-bichen-trocken.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/25/wer-ist-dieser-uptown-frank.html",
-				
-				"content_html": "<p>Wer ist dieser Uptown Frank und wie findet er immer einen Parkplatz?</p>\n",
-				"content_text": "Wer ist dieser Uptown Frank und wie findet er immer einen Parkplatz?\n",
-				"date_published": "2025-01-25T10:36:13+01:00",
-				"url": "https://drikk.es/2025/01/25/wer-ist-dieser-uptown-frank.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/24/everybody-is-familiar-everything-is.html",
-				
-				"content_html": "<p>Everybody is familiar. Everything is available.</p>\n",
-				"content_text": "Everybody is familiar. Everything is available.\n",
-				"date_published": "2025-01-24T19:34:13+01:00",
-				"url": "https://drikk.es/2025/01/24/everybody-is-familiar-everything-is.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/24/bald-werden-sie-den-menschen.html",
-				
-				"content_html": "<p>Bald werden sie den Menschen Computerchips in die Gehirne einpflanzen und deren Output &ldquo;Artisanal Intelligence&rdquo; nennen. <em>(Begriff absichtlich vorher nicht gegooglet.)</em></p>\n",
-				"content_text": "Bald werden sie den Menschen Computerchips in die Gehirne einpflanzen und deren Output \"Artisanal Intelligence\" nennen. _(Begriff absichtlich vorher nicht gegooglet.)_\n",
-				"date_published": "2025-01-24T09:30:43+01:00",
-				"url": "https://drikk.es/2025/01/24/bald-werden-sie-den-menschen.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/23/lost-in-the-rain-played.html",
-				
-				"content_html": "<p>Lost in the rain. [played pourly]</p>\n",
-				"content_text": "Lost in the rain. [played pourly]\n",
-				"date_published": "2025-01-23T14:25:22+01:00",
-				"url": "https://drikk.es/2025/01/23/lost-in-the-rain-played.html"
-			},
-			{
-				"id": "http://drikkes.micro.blog/2025/01/23/keep-ruining-everything.html",
-				"title": " Keep ruining everything.",
-				"content_html": "<blockquote>\n<p>&ldquo;It&rsquo;s unclear exactly for what Crystal and Ryan might be reuniting. With the 2025 Super Bowl just weeks away, some fans in the comment section speculated the pair may have teamed up for a commercial. Others hoped for a sequel and a return to their characters of Harry Burns and Sally Albright.&rdquo;</p>\n</blockquote>\n<p><a href=\"https://www.today.com/popculture/movies/meg-ryan-billy-crystal-reunion-when-harry-met-sally-rcna188828\">Meg Ryan, Billy Crystal Tease &lsquo;When Harry Met Sally&rsquo; Reunion</a></p>\n",
-				"content_text": "> \"It's unclear exactly for what Crystal and Ryan might be reuniting. With the 2025 Super Bowl just weeks away, some fans in the comment section speculated the pair may have teamed up for a commercial. Others hoped for a sequel and a return to their characters of Harry Burns and Sally Albright.\" \n\n[Meg Ryan, Billy Crystal Tease 'When Harry Met Sally' Reunion](https://www.today.com/popculture/movies/meg-ryan-billy-crystal-reunion-when-harry-met-sally-rcna188828)\n",
-				"date_published": "2025-01-23T08:58:19+01:00",
-				"url": "https://drikk.es/2025/01/23/keep-ruining-everything.html",
-				"tags": ["quote","film"]
 			}
 	]
 }
