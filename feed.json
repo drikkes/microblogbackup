@@ -7,6 +7,54 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2025/04/14/fibonacho.html",
+				
+				"content_html": "<p>Fibonacho</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Fibonacho\n\n<img src=\"uploads/2025/chatgpt-image-apr-14-2025-09-43-55-am.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"date_published": "2025-04-14T11:18:20+02:00",
+				"url": "https://drikk.es/2025/04/14/fibonacho.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/04/10/the-studio-ist-das-witzigste.html",
+				
+				"content_html": "<p>The Studio ist das Witzigste, was ich seit Langem gesehen habe.</p>\n",
+				"content_text": "The Studio ist das Witzigste, was ich seit Langem gesehen habe.\n",
+				"date_published": "2025-04-10T23:55:58+02:00",
+				"url": "https://drikk.es/2025/04/10/the-studio-ist-das-witzigste.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/04/10/oklahommage.html",
+				
+				"content_html": "<p>Oklahommage</p>\n",
+				"content_text": "Oklahommage\n",
+				"date_published": "2025-04-10T21:38:40+02:00",
+				"url": "https://drikk.es/2025/04/10/oklahommage.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/04/10/this-is-german.html",
+				
+				"content_html": "<p>This is German.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "This is German.\n\n<img src=\"uploads/2025/german-fine.png\" width=\"600\" height=\"367\" alt=\"\">\n",
+				"date_published": "2025-04-10T11:32:48+02:00",
+				"url": "https://drikk.es/2025/04/10/this-is-german.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/04/10/im-bunker-mit-der-errichtung.html",
+				
+				"content_html": "<p>Im Bunker: &ldquo;Mit der Errichtung einer Nationalen Hyperloop Referenzstrecke wird das alles in Ordnung kommen.&rdquo;</p>\n",
+				"content_text": "Im Bunker: \"Mit der Errichtung einer Nationalen Hyperloop Referenzstrecke wird das alles in Ordnung kommen.\"\n",
+				"date_published": "2025-04-10T09:56:16+02:00",
+				"url": "https://drikk.es/2025/04/10/im-bunker-mit-der-errichtung.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/04/07/212559.html",
+				
+				"content_html": "<p><a href=\"https://www.nytimes.com/2025/04/07/style/fashion-magazines.html?unlocked_article_code=1.904.kO6G.RDreDliLPF7i&amp;smid=url-share\">www.nytimes.com/2025/04/0&hellip;</a></p>\n",
+				"content_text": "[www.nytimes.com/2025/04/0...](https://www.nytimes.com/2025/04/07/style/fashion-magazines.html?unlocked_article_code=1.904.kO6G.RDreDliLPF7i&smid=url-share)\n",
+				"date_published": "2025-04-07T21:25:59+02:00",
+				"url": "https://drikk.es/2025/04/07/212559.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2025/04/07/all-gegend-wertig.html",
 				
 				"content_html": "<p>All: Gegend (wertig)</p>\n",
@@ -122,7 +170,7 @@
 				"id": "http://drikkes.micro.blog/2025/03/26/electric-outcome.html",
 				
 				"content_html": "<p>electric outcome</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "electric outcome\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/look.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "electric outcome\n\n<img src=\"uploads/2025/look.png\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-03-26T13:50:51+02:00",
 				"url": "https://drikk.es/2025/03/26/electric-outcome.html"
 			},
@@ -146,7 +194,7 @@
 				"id": "http://drikkes.micro.blog/2025/03/24/114848.html",
 				
 				"content_html": "<p>mit allen gewaschen</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "mit allen gewaschen\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/e69b982b88.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "mit allen gewaschen\n\n<img src=\"uploads/2025/e69b982b88.png\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-03-24T12:48:48+02:00",
 				"url": "https://drikk.es/2025/03/24/114848.html"
 			},
@@ -218,7 +266,7 @@
 				"id": "http://drikkes.micro.blog/2025/03/20/gut-wenn-man-die-wahl.html",
 				
 				"content_html": "<p>Gut, wenn man die Wahl hat.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Gut, wenn man die Wahl hat.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/bildschirmfoto-2025-03-11-um-09.50.24.png\" width=\"312\" height=\"66\" alt=\"\">\n",
+				"content_text": "Gut, wenn man die Wahl hat.\n\n<img src=\"uploads/2025/bildschirmfoto-2025-03-11-um-09.50.24.png\" width=\"312\" height=\"66\" alt=\"\">\n",
 				"date_published": "2025-03-20T14:52:08+02:00",
 				"url": "https://drikk.es/2025/03/20/gut-wenn-man-die-wahl.html"
 			},
@@ -538,7 +586,7 @@
 				"id": "http://drikkes.micro.blog/2025/03/02/guten-appetit.html",
 				
 				"content_html": "<p>Guten Appetit.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Guten Appetit.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/1059e2ee8b.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "Guten Appetit.\n\n<img src=\"uploads/2025/1059e2ee8b.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-03-02T11:44:56+02:00",
 				"url": "https://drikk.es/2025/03/02/guten-appetit.html"
 			},
@@ -666,15 +714,15 @@
 				"id": "http://drikkes.micro.blog/2025/02/22/was-fr-werbung.html",
 				
 				"content_html": "<p>Was für Werbung.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Was für Werbung.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/9f0d04627b.png\" width=\"277\" height=\"600\" alt=\"\">\n",
+				"content_text": "Was für Werbung.\n\n<img src=\"uploads/2025/9f0d04627b.png\" width=\"277\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-02-22T14:55:14+02:00",
 				"url": "https://drikk.es/2025/02/22/was-fr-werbung.html"
 			},
 			{
 				"id": "http://drikkes.micro.blog/2025/02/22/caturday.html",
 				
-				"content_html": "<p>#caturday</p>\n<p><img src=\"https://cdn.uploads.micro.blog/154463/2025/b6e20f56ad.jpg\" alt=\"\"></p>\n",
-				"content_text": "#caturday\n\n![](https://cdn.uploads.micro.blog/154463/2025/b6e20f56ad.jpg)\n",
+				"content_html": "<p>#caturday</p>\n<p><img src=\"https://drikk.es/uploads/2025/b6e20f56ad.jpg\" alt=\"\"></p>\n",
+				"content_text": "#caturday\n\n![](https://drikk.es/uploads/2025/b6e20f56ad.jpg)\n",
 				"date_published": "2025-02-22T13:28:57+02:00",
 				"url": "https://drikk.es/2025/02/22/caturday.html"
 			},
@@ -682,7 +730,7 @@
 				"id": "http://drikkes.micro.blog/2025/02/21/sonntagsfrage.html",
 				"title": "Sonntagsfrage",
 				"content_html": "<p>Die BLÖD kümmert sich wie immer um die wirklich drängenden Sorgen, Nöte und Ängste der Bürger*innen: <a href=\"https://www.bild.de/sport/fussball/fc-bayern-und-bundestagswahl-wie-dazn-am-sonntag-damit-umgeht-67b83f1d1aeb2534badd286e\">Wie DAZN am Sonntag mit der Bundestagswahl umgeht | BILD.de</a></p>\n<blockquote>\n<p>Wer das Bayern-Spiel und die Wahl verfolgen will, muss also zwangsläufig auf ein zweites Gerät ausweichen.</p>\n</blockquote>\n<p>Nur so eine verrückte Idee von mir: Vielleicht könnten an beidem Interessierte einen dieser neumodischen, internetfähigen Hosentaschencomputer benutzen. Smartphones oder wie die heißen.</p>\n<p><em>(Related News aus dem Hause Springer: <a href=\"https://campaigngermany.de/news/beitrag/362-btw-2025-jean-remy-von-matt-macht-das-wams-cover-zum-wahlaufruf.html\">Wählt am Sonntag</a>)</em></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Die BLÖD kümmert sich wie immer um die wirklich drängenden Sorgen, Nöte und Ängste der Bürger*innen: [Wie DAZN am Sonntag mit der Bundestagswahl umgeht | BILD.de](https://www.bild.de/sport/fussball/fc-bayern-und-bundestagswahl-wie-dazn-am-sonntag-damit-umgeht-67b83f1d1aeb2534badd286e)\r\n\r\n> Wer das Bayern-Spiel und die Wahl verfolgen will, muss also zwangsläufig auf ein zweites Gerät ausweichen.\r\n\r\nNur so eine verrückte Idee von mir: Vielleicht könnten an beidem Interessierte einen dieser neumodischen, internetfähigen Hosentaschencomputer benutzen. Smartphones oder wie die heißen.\r\n\r\n_(Related News aus dem Hause Springer: [Wählt am Sonntag](https://campaigngermany.de/news/beitrag/362-btw-2025-jean-remy-von-matt-macht-das-wams-cover-zum-wahlaufruf.html))_\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/bildschirmfoto-2025-02-21-um-15.02.12.png\" width=\"508\" height=\"294\" alt=\"\">\n",
+				"content_text": "Die BLÖD kümmert sich wie immer um die wirklich drängenden Sorgen, Nöte und Ängste der Bürger*innen: [Wie DAZN am Sonntag mit der Bundestagswahl umgeht | BILD.de](https://www.bild.de/sport/fussball/fc-bayern-und-bundestagswahl-wie-dazn-am-sonntag-damit-umgeht-67b83f1d1aeb2534badd286e)\r\n\r\n> Wer das Bayern-Spiel und die Wahl verfolgen will, muss also zwangsläufig auf ein zweites Gerät ausweichen.\r\n\r\nNur so eine verrückte Idee von mir: Vielleicht könnten an beidem Interessierte einen dieser neumodischen, internetfähigen Hosentaschencomputer benutzen. Smartphones oder wie die heißen.\r\n\r\n_(Related News aus dem Hause Springer: [Wählt am Sonntag](https://campaigngermany.de/news/beitrag/362-btw-2025-jean-remy-von-matt-macht-das-wams-cover-zum-wahlaufruf.html))_\n\n<img src=\"uploads/2025/bildschirmfoto-2025-02-21-um-15.02.12.png\" width=\"508\" height=\"294\" alt=\"\">\n",
 				"date_published": "2025-02-21T16:43:09+02:00",
 				"url": "https://drikk.es/2025/02/21/sonntagsfrage.html",
 				"tags": ["politik","tv","bild","fußball"]
@@ -819,7 +867,7 @@
 				"id": "http://drikkes.micro.blog/2025/02/13/ich-wollte-diese-meldung-hier.html",
 				
 				"content_html": "<p>Ich wollte diese Meldung hier noch für die Geschichtsbücher festhalten.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Ich wollte diese Meldung hier noch für die Geschichtsbücher festhalten.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/bildschirmfoto-2025-01-29-um-15.16.01.png\" width=\"600\" height=\"164\" alt=\"\">\n",
+				"content_text": "Ich wollte diese Meldung hier noch für die Geschichtsbücher festhalten.\n\n<img src=\"uploads/2025/bildschirmfoto-2025-01-29-um-15.16.01.png\" width=\"600\" height=\"164\" alt=\"\">\n",
 				"date_published": "2025-02-13T10:26:06+02:00",
 				"url": "https://drikk.es/2025/02/13/ich-wollte-diese-meldung-hier.html"
 			},
@@ -859,7 +907,7 @@
 				"id": "http://drikkes.micro.blog/2025/02/11/jetzt-gehen-sie-aber-wirklich.html",
 				
 				"content_html": "<p>Jetzt gehen sie aber wirklich zu weit!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Jetzt gehen sie aber wirklich zu weit!\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/golf-von-mexiko.png\" width=\"600\" height=\"423\" alt=\"\">\n",
+				"content_text": "Jetzt gehen sie aber wirklich zu weit!\n\n<img src=\"uploads/2025/golf-von-mexiko.png\" width=\"600\" height=\"423\" alt=\"\">\n",
 				"date_published": "2025-02-11T15:48:48+02:00",
 				"url": "https://drikk.es/2025/02/11/jetzt-gehen-sie-aber-wirklich.html"
 			},
@@ -907,7 +955,7 @@
 				"id": "http://drikkes.micro.blog/2025/02/08/160358.html",
 				
 				"content_html": "<p>Musik zum Tag. <a href=\"https://music.apple.com/de/album/come-down-feat-t-i/1121277176?i=1121277318&amp;l=en-GB\">music.apple.com/de/album/&hellip;</a> #listening</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Musik zum Tag. [music.apple.com/de/album/...](https://music.apple.com/de/album/come-down-feat-t-i/1121277176?i=1121277318&l=en-GB) #listening\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/0d667ba50a.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
+				"content_text": "Musik zum Tag. [music.apple.com/de/album/...](https://music.apple.com/de/album/come-down-feat-t-i/1121277176?i=1121277318&l=en-GB) #listening\n\n<img src=\"uploads/2025/0d667ba50a.jpg\" width=\"400\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-02-08T17:03:58+02:00",
 				"url": "https://drikk.es/2025/02/08/160358.html"
 			},
@@ -1349,7 +1397,7 @@
 				"id": "http://drikkes.micro.blog/2025/01/15/erst-mal-die-platte-des.html",
 				
 				"content_html": "<p>Erst mal die Platte des Tages auflegen. <a href=\"https://album.link/i/1443938253\">album.link/i/1443938&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Erst mal die Platte des Tages auflegen. [album.link/i/1443938...](https://album.link/i/1443938253)\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/277a1f64c0.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "Erst mal die Platte des Tages auflegen. [album.link/i/1443938...](https://album.link/i/1443938253)\n\n<img src=\"uploads/2025/277a1f64c0.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-01-15T08:45:42+02:00",
 				"url": "https://drikk.es/2025/01/15/erst-mal-die-platte-des.html"
 			},
@@ -1485,7 +1533,7 @@
 				"id": "http://drikkes.micro.blog/2025/01/09/millennials-are-consumers-of-the.html",
 				
 				"content_html": "<p>“Millennials are consumers of the workplace.” <a href=\"https://www.theguardian.com/commentisfree/2025/jan/06/great-resignation-europe-millennials-covid-us\">www.theguardian.com/commentis&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "“Millennials are consumers of the workplace.” [www.theguardian.com/commentis...](https://www.theguardian.com/commentisfree/2025/jan/06/great-resignation-europe-millennials-covid-us)\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/4c23db69b5.jpg\" width=\"561\" height=\"600\" alt=\"\">\n",
+				"content_text": "“Millennials are consumers of the workplace.” [www.theguardian.com/commentis...](https://www.theguardian.com/commentisfree/2025/jan/06/great-resignation-europe-millennials-covid-us)\n\n<img src=\"uploads/2025/4c23db69b5.jpg\" width=\"561\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-01-09T14:59:26+02:00",
 				"url": "https://drikk.es/2025/01/09/millennials-are-consumers-of-the.html"
 			},
@@ -1574,7 +1622,7 @@
 				"id": "http://drikkes.micro.blog/2025/01/05/floodzoneknecht.html",
 				
 				"content_html": "<p>Flood-Zone-Knecht</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Flood-Zone-Knecht\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/kwadraht.png\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "Flood-Zone-Knecht\n\n<img src=\"uploads/2025/kwadraht.png\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-01-05T14:44:35+02:00",
 				"url": "https://drikk.es/2025/01/05/floodzoneknecht.html"
 			},
@@ -1614,7 +1662,7 @@
 				"id": "http://drikkes.micro.blog/2025/01/03/beste-art-einen-preussensticker-zu.html",
 				
 				"content_html": "<p>Beste Art, einen „Preussen“-Sticker zu überkleben.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Beste Art, einen „Preussen“-Sticker zu überkleben.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/b6ee0f87b6.jpg\" width=\"600\" height=\"449\" alt=\"\">\n",
+				"content_text": "Beste Art, einen „Preussen“-Sticker zu überkleben.\n\n<img src=\"uploads/2025/b6ee0f87b6.jpg\" width=\"600\" height=\"449\" alt=\"\">\n",
 				"date_published": "2025-01-03T22:42:10+02:00",
 				"url": "https://drikk.es/2025/01/03/beste-art-einen-preussensticker-zu.html"
 			},
@@ -1662,7 +1710,7 @@
 				"id": "http://drikkes.micro.blog/2025/01/01/frohes-neues.html",
 				
 				"content_html": "<p>Frohes Neues!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Frohes Neues!\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2025/f0ec1e5bf9.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "Frohes Neues!\n\n<img src=\"uploads/2025/f0ec1e5bf9.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
 				"date_published": "2025-01-01T12:59:51+02:00",
 				"url": "https://drikk.es/2025/01/01/frohes-neues.html"
 			},
@@ -1742,7 +1790,7 @@
 				"id": "http://drikkes.micro.blog/2024/12/26/diese-gerillten-oder-genoppten-einlassungen.html",
 				
 				"content_html": "<p>Diese gerillten oder genoppten Einlassungen im Plaster der Bürgersteige werden von Menschen ohne Sehbeeinträchtigung liebevoll ROLLKOFFERWAHRNEHMUNGSHILFE genannt.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Diese gerillten oder genoppten Einlassungen im Plaster der Bürgersteige werden von Menschen ohne Sehbeeinträchtigung liebevoll ROLLKOFFERWAHRNEHMUNGSHILFE genannt.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/9182df5040.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
+				"content_text": "Diese gerillten oder genoppten Einlassungen im Plaster der Bürgersteige werden von Menschen ohne Sehbeeinträchtigung liebevoll ROLLKOFFERWAHRNEHMUNGSHILFE genannt.\n\n<img src=\"uploads/2024/9182df5040.jpg\" width=\"450\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-12-26T10:54:13+02:00",
 				"url": "https://drikk.es/2024/12/26/diese-gerillten-oder-genoppten-einlassungen.html"
 			},
@@ -1958,7 +2006,7 @@
 				"id": "http://drikkes.micro.blog/2024/12/09/mit-spiegel-immer.html",
 				
 				"content_html": "<p>Mit Spiegel immer bestens informiert.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Mit Spiegel immer bestens informiert.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/a2558c2acc.jpg\" width=\"600\" height=\"466\" alt=\"\">\n",
+				"content_text": "Mit Spiegel immer bestens informiert.\n\n<img src=\"uploads/2024/a2558c2acc.jpg\" width=\"600\" height=\"466\" alt=\"\">\n",
 				"date_published": "2024-12-09T13:23:16+02:00",
 				"url": "https://drikk.es/2024/12/09/mit-spiegel-immer.html"
 			},
@@ -2030,7 +2078,7 @@
 				"id": "http://drikkes.micro.blog/2024/11/30/gehts-um-fuball.html",
 				
 				"content_html": "<p>Geht‘s um Fußball?</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Geht‘s um Fußball?\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/8678dae15e.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
+				"content_text": "Geht‘s um Fußball?\n\n<img src=\"uploads/2024/8678dae15e.jpg\" width=\"600\" height=\"600\" alt=\"\">\n",
 				"date_published": "2024-11-30T16:02:48+02:00",
 				"url": "https://drikk.es/2024/11/30/gehts-um-fuball.html"
 			},
@@ -2070,7 +2118,7 @@
 				"id": "http://drikkes.micro.blog/2024/11/29/verpasst-google.html",
 				
 				"content_html": "<p>Verpasst, Google.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Verpasst, Google.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/bildschirmfoto-2024-11-28-um-12.16.30.png\" width=\"310\" height=\"144\" alt=\"\">\n",
+				"content_text": "Verpasst, Google.\n\n<img src=\"uploads/2024/bildschirmfoto-2024-11-28-um-12.16.30.png\" width=\"310\" height=\"144\" alt=\"\">\n",
 				"date_published": "2024-11-29T10:58:24+02:00",
 				"url": "https://drikk.es/2024/11/29/verpasst-google.html"
 			},
@@ -2182,7 +2230,7 @@
 				"id": "http://drikkes.micro.blog/2024/11/17/von-tassen-und.html",
 				
 				"content_html": "<p>Von Tassen und Schränken</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Von Tassen und Schränken\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2024/drin.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
+				"content_text": "Von Tassen und Schränken\n\n<img src=\"uploads/2024/drin.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
 				"date_published": "2024-11-17T19:35:48+02:00",
 				"url": "https://drikk.es/2024/11/17/von-tassen-und.html"
 			},
