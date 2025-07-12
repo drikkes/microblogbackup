@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2025/07/12/caturday.html",
+				
+				"content_html": "<p>#caturday</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "#caturday\n\n<img src=\"uploads/2025/a88fa97a53.jpg\" width=\"600\" height=\"599\" alt=\"\">\n",
+				"date_published": "2025-07-12T19:41:14+02:00",
+				"url": "https://drikk.es/2025/07/12/caturday.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/07/11/waswas-bundesverzappelungsgericht.html",
+				
+				"content_html": "<p>Waswas, Bundesverzappelungsgericht?</p>\n",
+				"content_text": "Waswas, Bundesverzappelungsgericht?\n",
+				"date_published": "2025-07-11T16:10:01+02:00",
+				"url": "https://drikk.es/2025/07/11/waswas-bundesverzappelungsgericht.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/07/11/okay-wenn-selbst-die-bldzeitung.html",
+				
+				"content_html": "<p>Okay, wenn selbst die BLÖD-Zeitung einen vernichtenden Spahn-Kommentar bringt, ist der Typ wohl endlich weg vom Fenster.</p>\n",
+				"content_text": "Okay, wenn selbst die BLÖD-Zeitung einen vernichtenden Spahn-Kommentar bringt, ist der Typ wohl endlich weg vom Fenster.\n",
+				"date_published": "2025-07-11T15:00:32+02:00",
+				"url": "https://drikk.es/2025/07/11/okay-wenn-selbst-die-bldzeitung.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2025/07/11/der-schriftsteller-wird-posthum-umbenannt.html",
 				
 				"content_html": "<p>Der Schriftsteller wird posthum umbenannt in Erwin Umstrittmatter. #SystemSchulzenhof</p>\n",
