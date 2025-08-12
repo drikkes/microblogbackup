@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2025/08/12/alright-apple-music.html",
+				
+				"content_html": "<p>Alright, Apple Music.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Alright, Apple Music.\n\n<img src=\"uploads/2025/bildschirmfoto-2025-08-01-um-12.47.17.png\" width=\"600\" height=\"112\" alt=\"\">\n",
+				"date_published": "2025-08-12T09:03:08+02:00",
+				"url": "https://drikk.es/2025/08/12/alright-apple-music.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/08/11/sich-nostalgisch-an-werbeslogans-aus.html",
+				
+				"content_html": "<p>Sich nostalgisch an Werbeslogans aus den 80ern erinnern wie &ldquo;Ein ganzer Hund dank Hundeergänzungsmittel.&rdquo;</p>\n",
+				"content_text": "Sich nostalgisch an Werbeslogans aus den 80ern erinnern wie \"Ein ganzer Hund dank Hundeergänzungsmittel.\"\n",
+				"date_published": "2025-08-11T12:36:58+02:00",
+				"url": "https://drikk.es/2025/08/11/sich-nostalgisch-an-werbeslogans-aus.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/08/11/heise-auf-linie.html",
+				"title": "Heise auf Linie",
+				"content_html": "<blockquote>\n<p>Der Streit zwischen dem Youtuber &ldquo;Drachenlord&rdquo; und seinen Gegnern, den sogenannten Hatern, schwelt seit Jahren – insbesondere im Internet.</p>\n</blockquote>\n<p>Ich wollte erst fragen, wer solche <a href=\"https://www.heise.de/news/Tausende-stroemen-zum-frueheren-Wohnort-des-Drachenlords-10516008.html\">Artikeleinstiege</a> schreibt. Dann sehe ich, daß hinter dem Kürzel (dmk) jemand namens <a href=\"https://www.heise.de/autor/Dirk-Knop-3629568\">Dirk Knop</a> steckt – und der sollte sich als Redakteur wohl besser auf seine Themenschwerpunkte &ldquo;IT-Sicherheit und Betriebssysteme. Also über alles von der Sicherheitslücke, über Windows-Neuigkeiten hin zu Linux-Entwicklungen&rdquo; konzentrieren.</p>\n",
+				"content_text": "> Der Streit zwischen dem Youtuber \"Drachenlord\" und seinen Gegnern, den sogenannten Hatern, schwelt seit Jahren – insbesondere im Internet.\n\nIch wollte erst fragen, wer solche [Artikeleinstiege](https://www.heise.de/news/Tausende-stroemen-zum-frueheren-Wohnort-des-Drachenlords-10516008.html) schreibt. Dann sehe ich, daß hinter dem Kürzel (dmk) jemand namens [Dirk Knop](https://www.heise.de/autor/Dirk-Knop-3629568) steckt – und der sollte sich als Redakteur wohl besser auf seine Themenschwerpunkte \"IT-Sicherheit und Betriebssysteme. Also über alles von der Sicherheitslücke, über Windows-Neuigkeiten hin zu Linux-Entwicklungen\" konzentrieren.\n",
+				"date_published": "2025-08-11T09:57:36+02:00",
+				"url": "https://drikk.es/2025/08/11/heise-auf-linie.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2025/08/10/sich-dj-milcheinschu-nennen-nur.html",
 				
 				"content_html": "<p>Sich DJ Milcheinschuß nennen, nur damit man das sexistische Foto eines Wet-TShirt-Contests total ironisch gebrochen als Cover für seine Debüt-EP verwenden kann.</p>\n",
