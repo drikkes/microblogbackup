@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2025/10/10/153348.html",
+				
+				"content_html": "<p>#listening to <a href=\"https://record.club/releases/albums/snooper-worldwide\">record.club/releases/&hellip;</a></p>\n",
+				"content_text": "#listening to [record.club/releases/...](https://record.club/releases/albums/snooper-worldwide) \n",
+				"date_published": "2025-10-10T15:33:48+02:00",
+				"url": "https://drikk.es/2025/10/10/153348.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2025/10/09/wenn-ihr-an-manchen-tagen.html",
+				
+				"content_html": "<p>Wenn Ihr an manchen Tagen mehr Bock auf #ciddle habt, dann checkt Ihr doch auch die Ergebnisposts von anderen und versucht, deren Fehltreffer zu erraten?</p>\n",
+				"content_text": "Wenn Ihr an manchen Tagen mehr Bock auf #ciddle habt, dann checkt Ihr doch auch die Ergebnisposts von anderen und versucht, deren Fehltreffer zu erraten?\n",
+				"date_published": "2025-10-09T18:45:49+02:00",
+				"url": "https://drikk.es/2025/10/09/wenn-ihr-an-manchen-tagen.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2025/10/09/erst-wenn-die-letzte-tofuwurst.html",
 				
 				"content_html": "<blockquote>\n<p>„Erst wenn die letzte Tofu-Wurst geächtet, das letzte Soja-Schnitzel umbenannt, der letzte Veggie-Burger verboten ist, werdet Ihr merken, dass man Fleisch nicht essen kann.“</p>\n</blockquote>\n",
