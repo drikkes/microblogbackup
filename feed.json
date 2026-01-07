@@ -7,6 +7,54 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/01/07/wer-soll-denn-deine-ausgabe.html",
+				
+				"content_html": "<p>&ldquo;Wer soll denn Deine Ausgabe von &lsquo;100 Jahre Einsamkeit&rsquo; geklaut haben? Du hast seit Ewigkeiten keinen Besuch mehr gehabt!&rdquo;</p>\n",
+				"content_text": "\"Wer soll denn Deine Ausgabe von '100 Jahre Einsamkeit' geklaut haben? Du hast seit Ewigkeiten keinen Besuch mehr gehabt!\"\n",
+				"date_published": "2026-01-07T16:48:19+01:00",
+				"url": "https://drikk.es/2026/01/07/wer-soll-denn-deine-ausgabe.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/07/selbstbild-als-agitateur-kabayel-beim.html",
+				
+				"content_html": "<p>Selbstbild als Agitateur Kabayel beim Verfassen eines vierten Bekennerschreibens.</p>\n",
+				"content_text": "Selbstbild als Agitateur Kabayel beim Verfassen eines vierten Bekennerschreibens.\n",
+				"date_published": "2026-01-07T11:04:23+01:00",
+				"url": "https://drikk.es/2026/01/07/selbstbild-als-agitateur-kabayel-beim.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/07/ich-lachte-httpswwwyoutubecomwatchvwxkoeblvu.html",
+				
+				"content_html": "<p>Ich lachte. <a href=\"https://www.youtube.com/watch?v=w2XkOebLV-U\">www.youtube.com/watch</a></p>\n",
+				"content_text": "Ich lachte. [www.youtube.com/watch](https://www.youtube.com/watch?v=w2XkOebLV-U)\n",
+				"date_published": "2026-01-07T10:16:36+01:00",
+				"url": "https://drikk.es/2026/01/07/ich-lachte-httpswwwyoutubecomwatchvwxkoeblvu.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/06/imperial-ramsch.html",
+				
+				"content_html": "<p>Imperial Ramsch</p>\n",
+				"content_text": "Imperial Ramsch\n",
+				"date_published": "2026-01-06T20:24:31+01:00",
+				"url": "https://drikk.es/2026/01/06/imperial-ramsch.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/06/der-verlust-von-scham-ist.html",
+				
+				"content_html": "<blockquote>\n<p>Der Verlust von Scham ist das erste Zeichen des Schwachsinns.</p>\n</blockquote>\n<p>Sigmund Freud</p>\n",
+				"content_text": "> Der Verlust von Scham ist das erste Zeichen des Schwachsinns. \n \nSigmund Freud\n",
+				"date_published": "2026-01-06T16:26:11+01:00",
+				"url": "https://drikk.es/2026/01/06/der-verlust-von-scham-ist.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/06/die-bld-mal-wieder-mit.html",
+				
+				"content_html": "<p>Die BLÖD mal wieder mit den wirklich wichtigen Fragen.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Die BLÖD mal wieder mit den wirklich wichtigen Fragen.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/bildschirmfoto-2026-01-06-um-12.07.03.png\" width=\"600\" height=\"277\" alt=\"\">\n",
+				"date_published": "2026-01-06T12:55:20+01:00",
+				"url": "https://drikk.es/2026/01/06/die-bld-mal-wieder-mit.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/01/06/der-homo-boxenludens-aus-psychodannenberg.html",
 				
 				"content_html": "<p>Der Homo Boxenludens aus Psycho-Dannenberg macht sich ständig die Nägel.</p>\n",
