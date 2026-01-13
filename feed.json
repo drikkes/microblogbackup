@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/01/13/rechnet-noch-in-diesem-jahrzehnt.html",
+				
+				"content_html": "<p>Rechnet noch in diesem Jahrzehnt mit Neugründung der Agenturen Schloz &amp; Furniture sowie Goliath + Remy.</p>\n",
+				"content_text": "Rechnet noch in diesem Jahrzehnt mit Neugründung der Agenturen Schloz & Furniture sowie Goliath + Remy.\n",
+				"date_published": "2026-01-13T12:02:54+01:00",
+				"url": "https://drikk.es/2026/01/13/rechnet-noch-in-diesem-jahrzehnt.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/11/new-salad.html",
+				
+				"content_html": "<p>New Salad</p>\n",
+				"content_text": "New Salad\n",
+				"date_published": "2026-01-11T14:12:31+01:00",
+				"url": "https://drikk.es/2026/01/11/new-salad.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/01/11/hat-der-neue-gus-van.html",
+				
+				"content_html": "<p>Hat der neue Gus Van Sant immer noch keinen deutschen Kinostart? <a href=\"https://www.youtube.com/watch?v=aHAwgnJL78Y\">www.youtube.com/watch</a></p>\n",
+				"content_text": "Hat der neue Gus Van Sant immer noch keinen deutschen Kinostart? [www.youtube.com/watch](https://www.youtube.com/watch?v=aHAwgnJL78Y) \n",
+				"date_published": "2026-01-11T11:35:16+01:00",
+				"url": "https://drikk.es/2026/01/11/hat-der-neue-gus-van.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/01/10/weiterer-beweis-da-ich-auch.html",
 				
 				"content_html": "<p>Weiterer Beweis, daß ich auch nach 17 Jahren in Köln ewig „Immi“ bleiben werde: Mein fragender Gesichtsausdruck, als im Halbzeitpausensmalltalk ganz selbstverständlich mehrfach die Abkürzung „PriPro“ fällt und alle anderen Bescheid wissen.</p>\n",
@@ -26,7 +50,7 @@
 				"id": "http://drikkes.micro.blog/2026/01/09/she-told-me-to.html",
 				
 				"content_html": "<p>She told me to…</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "She told me to…\n\n<img src=\"uploads/2026/304c26039e.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
+				"content_text": "She told me to…\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/304c26039e.jpg\" width=\"600\" height=\"337\" alt=\"\">\n",
 				"date_published": "2026-01-09T12:39:56+01:00",
 				"url": "https://drikk.es/2026/01/09/she-told-me-to.html"
 			},
