@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/02/08/schlimm-tonic.html",
+				
+				"content_html": "<p>Schlimm Tonic</p>\n",
+				"content_text": "Schlimm Tonic\n",
+				"date_published": "2026-02-08T18:05:59+01:00",
+				"url": "https://drikk.es/2026/02/08/schlimm-tonic.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/02/08/bandenwerbung-fr-die-tcloud-geht.html",
+				
+				"content_html": "<p>Bandenwerbung für die T-Cloud geht mir jetzt schon auf die Nerven. #effzeh</p>\n",
+				"content_text": "Bandenwerbung für die T-Cloud geht mir jetzt schon auf die Nerven. #effzeh\n",
+				"date_published": "2026-02-08T15:34:53+01:00",
+				"url": "https://drikk.es/2026/02/08/bandenwerbung-fr-die-tcloud-geht.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/02/08/sz-filme-und-serien-werden.html",
+				
+				"content_html": "<p>SZ: Filme und Serien werden immer dümmer. <a href=\"https://archive.ph/20260207174730/https://www.sueddeutsche.de/projekte/artikel/kultur/streaming-netflix-algorithmen-dialoge-e583987/\">archive.ph/202602071&hellip;</a></p>\n",
+				"content_text": "SZ: Filme und Serien werden immer dümmer. [archive.ph/202602071...](https://archive.ph/20260207174730/https://www.sueddeutsche.de/projekte/artikel/kultur/streaming-netflix-algorithmen-dialoge-e583987/) \n",
+				"date_published": "2026-02-08T01:50:51+01:00",
+				"url": "https://drikk.es/2026/02/08/sz-filme-und-serien-werden.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/02/07/wissensdrang-vs-gewissensverdrngung.html",
 				
 				"content_html": "<p>Wissensdrang vs. Gewissensverdrängung</p>\n",
