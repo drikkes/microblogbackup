@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/03/07/hansfrust-in-allen-glsern.html",
+				
+				"content_html": "<p>Hansfrust in allen Gläsern.</p>\n",
+				"content_text": "Hansfrust in allen Gläsern.\n",
+				"date_published": "2026-03-07T11:11:46+01:00",
+				"url": "https://drikk.es/2026/03/07/hansfrust-in-allen-glsern.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/03/06/ask-not-what-ai-can.html",
+				
+				"content_html": "<p>Ask not what AI can do for you. Ask what AI can do for your country.</p>\n",
+				"content_text": "Ask not what AI can do for you. Ask what AI can do for your country.\n",
+				"date_published": "2026-03-06T16:37:51+01:00",
+				"url": "https://drikk.es/2026/03/06/ask-not-what-ai-can.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/03/06/aaas-armageddon-as-a-service.html",
+				
+				"content_html": "<p>AaaS (Armageddon as a Service)</p>\n",
+				"content_text": "AaaS (Armageddon as a Service)\n",
+				"date_published": "2026-03-06T10:38:51+01:00",
+				"url": "https://drikk.es/2026/03/06/aaas-armageddon-as-a-service.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/03/05/jetzt-gehen-die-linken-aber.html",
 				
 				"content_html": "<p>Jetzt gehen die Linken aber zu weit!</p>\n<!-- raw HTML omitted -->\n",
