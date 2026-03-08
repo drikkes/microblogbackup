@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/03/08/hear-me-out-asparagusscented-shower.html",
+				
+				"content_html": "<p>Hear me out: asparagus-scented shower gel (limited edition).</p>\n",
+				"content_text": "Hear me out: asparagus-scented shower gel (limited edition).\n",
+				"date_published": "2026-03-08T13:51:07+01:00",
+				"url": "https://drikk.es/2026/03/08/hear-me-out-asparagusscented-shower.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/03/08/leute-wo-knnte-ich-denn.html",
+				
+				"content_html": "<p>Leute, wo könnte ich denn im Herbst die Boulekugeln hingeräumt haben?</p>\n",
+				"content_text": "Leute, wo könnte ich denn im Herbst die Boulekugeln hingeräumt haben?\n",
+				"date_published": "2026-03-08T11:07:57+01:00",
+				"url": "https://drikk.es/2026/03/08/leute-wo-knnte-ich-denn.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/03/07/hansfrust-in-allen-glsern.html",
 				
 				"content_html": "<p>Hansfrust in allen Gläsern.</p>\n",
@@ -34,7 +50,7 @@
 				"id": "http://drikkes.micro.blog/2026/03/05/jetzt-gehen-die-linken-aber.html",
 				
 				"content_html": "<p>Jetzt gehen die Linken aber zu weit!</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Jetzt gehen die Linken aber zu weit!\n\n<img src=\"uploads/2026/dem-doitschen-woke.jpg\" width=\"600\" height=\"402\" alt=\"\">\n",
+				"content_text": "Jetzt gehen die Linken aber zu weit!\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/dem-doitschen-woke.jpg\" width=\"600\" height=\"402\" alt=\"\">\n",
 				"date_published": "2026-03-05T18:28:52+01:00",
 				"url": "https://drikk.es/2026/03/05/jetzt-gehen-die-linken-aber.html"
 			},
