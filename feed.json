@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/03/24/ja-ich-habe-das-crossposting.html",
+				
+				"content_html": "<p>Ja, ich habe das Crossposting von #twttr zu Mastodon und Bluesky wieder abgestellt.</p>\n",
+				"content_text": "Ja, ich habe das Crossposting von #twttr zu Mastodon und Bluesky wieder abgestellt.\n",
+				"date_published": "2026-03-24T16:45:17+01:00",
+				"url": "https://drikk.es/2026/03/24/ja-ich-habe-das-crossposting.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/03/23/im-boostton-der-berzeugungsfhigkeit.html",
+				
+				"content_html": "<p>Im Boostton der Überzeugungsfähigkeit.</p>\n",
+				"content_text": "Im Boostton der Überzeugungsfähigkeit.\n",
+				"date_published": "2026-03-23T13:39:08+01:00",
+				"url": "https://drikk.es/2026/03/23/im-boostton-der-berzeugungsfhigkeit.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/03/20/alle-wollen-sie-das-gute.html",
 				
 				"content_html": "<p>Alle wollen sie das gute handgeklöppelte Internet aus regionalen Online-Manufakturen.</p>\n",
