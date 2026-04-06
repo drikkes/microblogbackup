@@ -7,6 +7,54 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/04/06/shroom-service.html",
+				
+				"content_html": "<p>shroom service</p>\n",
+				"content_text": "shroom service\n",
+				"date_published": "2026-04-06T12:35:43+02:00",
+				"url": "https://drikk.es/2026/04/06/shroom-service.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/05/from-the-blog-httpswwwyoutubecomwatchvwjomfoa.html",
+				
+				"content_html": "<p>From the blog: <a href=\"https://www.youtube.com/watch?v=wjOMFo_026A\">www.youtube.com/watch</a></p>\n",
+				"content_text": "From the blog: [www.youtube.com/watch](https://www.youtube.com/watch?v=wjOMFo_026A)\n",
+				"date_published": "2026-04-05T14:45:25+02:00",
+				"url": "https://drikk.es/2026/04/05/from-the-blog-httpswwwyoutubecomwatchvwjomfoa.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/05/mag-das-cover-der-stadtrevue.html",
+				
+				"content_html": "<p>Mag das Cover der Stadtrevue diesen Monat.</p>\n<!-- raw HTML omitted -->\n",
+				"content_text": "Mag das Cover der Stadtrevue diesen Monat.\n\n<img src=\"uploads/2026/1e636caa5c.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
+				"date_published": "2026-04-05T12:03:03+02:00",
+				"url": "https://drikk.es/2026/04/05/mag-das-cover-der-stadtrevue.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/05/fran-das-kumpelige-franchise.html",
+				
+				"content_html": "<p>Fran, das kumpelige Franchise.</p>\n",
+				"content_text": "Fran, das kumpelige Franchise.\n",
+				"date_published": "2026-04-05T11:11:47+02:00",
+				"url": "https://drikk.es/2026/04/05/fran-das-kumpelige-franchise.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/05/im-draftladen-papiere-bitte.html",
+				
+				"content_html": "<p>Im Draftladen: „Papiere, bitte.“</p>\n",
+				"content_text": "Im Draftladen: „Papiere, bitte.“\n",
+				"date_published": "2026-04-05T10:53:49+02:00",
+				"url": "https://drikk.es/2026/04/05/im-draftladen-papiere-bitte.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/05/gras-ber-die-sachsen-wachsen.html",
+				
+				"content_html": "<p>Gras über die Sachsen wachsen lassen.</p>\n",
+				"content_text": "Gras über die Sachsen wachsen lassen.\n",
+				"date_published": "2026-04-05T10:44:59+02:00",
+				"url": "https://drikk.es/2026/04/05/gras-ber-die-sachsen-wachsen.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/04/04/retrowetter-httpsweathercomretro.html",
 				
 				"content_html": "<p>Retrowetter <a href=\"https://weather.com/retro/\">weather.com/retro/</a></p>\n",
@@ -26,7 +74,7 @@
 				"id": "http://drikkes.micro.blog/2026/04/02/what.html",
 				
 				"content_html": "<p>What?</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "What?\n\n<img src=\"uploads/2026/bildschirmfoto-2026-03-30-um-19.07.06.png\" width=\"366\" height=\"152\" alt=\"\">\n",
+				"content_text": "What?\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/bildschirmfoto-2026-03-30-um-19.07.06.png\" width=\"366\" height=\"152\" alt=\"\">\n",
 				"date_published": "2026-04-02T16:32:04+02:00",
 				"url": "https://drikk.es/2026/04/02/what.html"
 			},
