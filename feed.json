@@ -7,6 +7,46 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/04/09/verkraftung-ist-so-ein-gutartiges.html",
+				
+				"content_html": "<p>Verkraftung ist so ein gutartiges Wort.</p>\n",
+				"content_text": "Verkraftung ist so ein gutartiges Wort.\n",
+				"date_published": "2026-04-09T16:49:28+02:00",
+				"url": "https://drikk.es/2026/04/09/verkraftung-ist-so-ein-gutartiges.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/08/listening-to-httpsalbumlinki.html",
+				
+				"content_html": "<p>#listening to <a href=\"https://album.link/i/1870867411\">album.link/i/1870867&hellip;</a></p>\n",
+				"content_text": "#listening to [album.link/i/1870867...](https://album.link/i/1870867411)\n",
+				"date_published": "2026-04-08T15:12:45+02:00",
+				"url": "https://drikk.es/2026/04/08/listening-to-httpsalbumlinki.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/08/schon-erstaunlich-wie-viele-reisende.html",
+				
+				"content_html": "<p>Schon erstaunlich, wie viele Reisende im Zug ihr mitgeschlepptes Lunchpaket um PUNKT DREIZEHN UHR auspacken.</p>\n",
+				"content_text": "Schon erstaunlich, wie viele Reisende im Zug ihr mitgeschlepptes Lunchpaket um PUNKT DREIZEHN UHR auspacken.\n",
+				"date_published": "2026-04-08T13:11:52+02:00",
+				"url": "https://drikk.es/2026/04/08/schon-erstaunlich-wie-viele-reisende.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/08/na-toll-jetzt-habe-ich.html",
+				
+				"content_html": "<p>Na toll, jetzt habe ich einen Pixies-Ohrwurm, nur daß Frank Black &amp; Kim Deal &ldquo;Agentic&rdquo; statt &ldquo;Gigantic&rdquo; singen. #TheOhrwurmDiaries</p>\n",
+				"content_text": "Na toll, jetzt habe ich einen Pixies-Ohrwurm, nur daß Frank Black & Kim Deal \"Agentic\" statt \"Gigantic\" singen. #TheOhrwurmDiaries\n",
+				"date_published": "2026-04-08T09:32:01+02:00",
+				"url": "https://drikk.es/2026/04/08/na-toll-jetzt-habe-ich.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/07/argh-rckfahrt-aus-berlin-am.html",
+				
+				"content_html": "<p>Argh! Rückfahrt aus Berlin am Sonntag nach Köln ist ja während des Effzeh-Spiels. Ich Trottel.</p>\n",
+				"content_text": "Argh! Rückfahrt aus Berlin am Sonntag nach Köln ist ja während des Effzeh-Spiels. Ich Trottel.\n",
+				"date_published": "2026-04-07T22:02:36+02:00",
+				"url": "https://drikk.es/2026/04/07/argh-rckfahrt-aus-berlin-am.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/04/07/berall-sollen-kpis-rein-alle.html",
 				
 				"content_html": "<p>Überall sollen KPIs rein. Alle sind gut drauf.</p>\n",
@@ -18,7 +58,7 @@
 				"id": "http://drikkes.micro.blog/2026/04/06/klingt-fr-mich-wie-eine.html",
 				
 				"content_html": "<p>Klingt für mich wie eine Drohung. <a href=\"https://www.amaze.co/amazecommercewaitlist\">www.amaze.co/amazecomm&hellip;</a></p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Klingt für mich wie eine Drohung. [www.amaze.co/amazecomm...](https://www.amaze.co/amazecommercewaitlist) \n\n<img src=\"uploads/2026/bildschirmfoto-2026-04-06-um-15.14.26.png\" width=\"600\" height=\"148\" alt=\"\">\n",
+				"content_text": "Klingt für mich wie eine Drohung. [www.amaze.co/amazecomm...](https://www.amaze.co/amazecommercewaitlist) \n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/bildschirmfoto-2026-04-06-um-15.14.26.png\" width=\"600\" height=\"148\" alt=\"\">\n",
 				"date_published": "2026-04-06T15:15:29+02:00",
 				"url": "https://drikk.es/2026/04/06/klingt-fr-mich-wie-eine.html"
 			},
