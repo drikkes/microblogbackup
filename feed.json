@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/04/14/die-ftterung-der-kanonen.html",
+				
+				"content_html": "<p>Die Fütterung der Kanonen</p>\n",
+				"content_text": "Die Fütterung der Kanonen\n",
+				"date_published": "2026-04-14T15:03:03+02:00",
+				"url": "https://drikk.es/2026/04/14/die-ftterung-der-kanonen.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/13/trnenzpfle.html",
+				
+				"content_html": "<p>Tränenzäpfle</p>\n",
+				"content_text": "Tränenzäpfle\n",
+				"date_published": "2026-04-13T19:32:05+02:00",
+				"url": "https://drikk.es/2026/04/13/trnenzpfle.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/13/die-bundesregierung-erwarte-dass-die.html",
+				
+				"content_html": "<blockquote>\n<p>Die Bundesregierung erwarte, dass die Mineralölbranche die Entlastung weitergebe.</p>\n</blockquote>\n<p><a href=\"https://www.tagesschau.de/eilmeldung/eilmeldung-9260.html?at_medium=mastodon&amp;at_campaign=tagesschau.de\">Hahahaha.</a></p>\n",
+				"content_text": "> Die Bundesregierung erwarte, dass die Mineralölbranche die Entlastung weitergebe.\n\n[Hahahaha.](https://www.tagesschau.de/eilmeldung/eilmeldung-9260.html?at_medium=mastodon&at_campaign=tagesschau.de)\n",
+				"date_published": "2026-04-13T10:11:21+02:00",
+				"url": "https://drikk.es/2026/04/13/die-bundesregierung-erwarte-dass-die.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/04/13/dax-startet-im-minus-das.html",
 				
 				"content_html": "<p>&ldquo;DAX startet im Minus.&rdquo; Das ist bestimmt die Schuld von Ungarn und deren doofer Demokratie!</p>\n",
