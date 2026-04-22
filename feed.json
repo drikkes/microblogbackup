@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/04/22/thats-a-first-kompliment-fr.html",
+				
+				"content_html": "<p>That‘s a first: Kompliment für meine „gut geputzte“ Sonnenbrille bekommen.</p>\n",
+				"content_text": "That‘s a first: Kompliment für meine „gut geputzte“ Sonnenbrille bekommen.\n",
+				"date_published": "2026-04-22T19:20:48+02:00",
+				"url": "https://drikk.es/2026/04/22/thats-a-first-kompliment-fr.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/04/20/aus-grnden-httpswwwyoutubecomwatchvracsxzprpwo.html",
+				
+				"content_html": "<p>Aus Gründen. <a href=\"https://www.youtube.com/watch?v=RacsxZPrpwo\">www.youtube.com/watch</a></p>\n",
+				"content_text": "Aus Gründen. [www.youtube.com/watch](https://www.youtube.com/watch?v=RacsxZPrpwo)\n",
+				"date_published": "2026-04-20T15:19:45+02:00",
+				"url": "https://drikk.es/2026/04/20/aus-grnden-httpswwwyoutubecomwatchvracsxzprpwo.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/04/20/orr-meine-geliebte-tastatur-funktioniert.html",
 				
 				"content_html": "<p>Orr, meine geliebte Tastatur funktioniert nur noch via Bluetooth. Hoffentlich lässt sie sich wenigstens noch per Kabel laden.</p>\n",
