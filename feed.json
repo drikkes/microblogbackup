@@ -7,6 +7,38 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/05/05/irgendwie-ist-das-halbe-internet.html",
+				
+				"content_html": "<p>Irgendwie ist das halbe Internet gerade kaputt, oder?</p>\n",
+				"content_text": "Irgendwie ist das halbe Internet gerade kaputt, oder?\n",
+				"date_published": "2026-05-05T22:49:01+02:00",
+				"url": "https://drikk.es/2026/05/05/irgendwie-ist-das-halbe-internet.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/05/05/dieser-artikel-erscheint-am-september.html",
+				
+				"content_html": "<p>&ldquo;Dieser Artikel erscheint am 24. September 2026.&rdquo; <a href=\"https://www.amazon.de/Creative-Writing-David-Shrigley/dp/1837266360/\">www.amazon.de/Creative-&hellip;</a></p>\n",
+				"content_text": "\"Dieser Artikel erscheint am 24. September 2026.\" [www.amazon.de/Creative-...](https://www.amazon.de/Creative-Writing-David-Shrigley/dp/1837266360/) \n",
+				"date_published": "2026-05-05T17:37:00+02:00",
+				"url": "https://drikk.es/2026/05/05/dieser-artikel-erscheint-am-september.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/05/05/der-kamps-ist-ein-bcker.html",
+				
+				"content_html": "<p>Der Kamps ist ein Bäcker aus Deutschland.</p>\n",
+				"content_text": "Der Kamps ist ein Bäcker aus Deutschland.\n",
+				"date_published": "2026-05-05T15:30:32+02:00",
+				"url": "https://drikk.es/2026/05/05/der-kamps-ist-ein-bcker.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/05/05/theohrwurmdiaries-httpssonglinki.html",
+				
+				"content_html": "<p>#TheOhrwurmDiaries <a href=\"https://song.link/i/1440949928\">song.link/i/1440949&hellip;</a></p>\n",
+				"content_text": "#TheOhrwurmDiaries [song.link/i/1440949...](https://song.link/i/1440949928) \n",
+				"date_published": "2026-05-05T09:51:06+02:00",
+				"url": "https://drikk.es/2026/05/05/theohrwurmdiaries-httpssonglinki.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/05/04/brezhnev-means-brezhnev.html",
 				
 				"content_html": "<p>Brezhnev means Brezhnev.</p>\n",
@@ -58,7 +90,7 @@
 				"id": "http://drikkes.micro.blog/2026/05/01/nein.html",
 				
 				"content_html": "<p>Nein.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Nein. \n\n<img src=\"uploads/2026/6ba1e0cf42.jpg\" width=\"383\" height=\"600\" alt=\"\">\n",
+				"content_text": "Nein. \n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/6ba1e0cf42.jpg\" width=\"383\" height=\"600\" alt=\"\">\n",
 				"date_published": "2026-05-01T11:37:56+02:00",
 				"url": "https://drikk.es/2026/05/01/nein.html"
 			},
