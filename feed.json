@@ -7,6 +7,22 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/06/09/biodiesel-und-zement.html",
+				
+				"content_html": "<p>&ldquo;Biodiesel und Zement&rdquo;</p>\n",
+				"content_text": "\"Biodiesel und Zement\"\n",
+				"date_published": "2026-06-09T12:19:00+02:00",
+				"url": "https://drikk.es/2026/06/09/biodiesel-und-zement.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/06/08/abonniert-alle-meine-soundcloudplaylist-bands.html",
+				
+				"content_html": "<p>Abonniert alle meine Soundcloud-Playlist &ldquo;Bands, die mit dem Ende der Spex einfach untergegangen sind&rdquo;.</p>\n",
+				"content_text": "Abonniert alle meine Soundcloud-Playlist \"Bands, die mit dem Ende der Spex einfach untergegangen sind\".\n",
+				"date_published": "2026-06-08T16:22:47+02:00",
+				"url": "https://drikk.es/2026/06/08/abonniert-alle-meine-soundcloudplaylist-bands.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/06/07/ottomotor-sprotten.html",
 				
 				"content_html": "<p>Ottomotor &amp; Sprotten?</p>\n",
@@ -42,7 +58,7 @@
 				"id": "http://drikkes.micro.blog/2026/06/05/fr-gutes-arbeitsklima-im-homeoffice.html",
 				
 				"content_html": "<p>Für gutes Arbeitsklima im Homeoffice gesorgt.</p>\n<!-- raw HTML omitted -->\n",
-				"content_text": "Für gutes Arbeitsklima im Homeoffice gesorgt.\n\n<img src=\"uploads/2026/dcb128bb7c.jpg\" width=\"329\" height=\"600\" alt=\"\">\n",
+				"content_text": "Für gutes Arbeitsklima im Homeoffice gesorgt.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/dcb128bb7c.jpg\" width=\"329\" height=\"600\" alt=\"\">\n",
 				"date_published": "2026-06-05T16:58:05+02:00",
 				"url": "https://drikk.es/2026/06/05/fr-gutes-arbeitsklima-im-homeoffice.html"
 			},
