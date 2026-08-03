@@ -7,6 +7,30 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/08/03/orinoko-scheppner-regelt-das-chat.html",
+				
+				"content_html": "<p>(Orinoko Scheppner regelt das.) &ldquo;Chat is being monitored. Please be respectful.&rdquo;</p>\n",
+				"content_text": "(Orinoko Scheppner regelt das.) \"Chat is being monitored. Please be respectful.\"\n",
+				"date_published": "2026-08-03T11:42:12+02:00",
+				"url": "https://drikk.es/2026/08/03/orinoko-scheppner-regelt-das-chat.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/07/31/whrend-des-neuen-almodvars-flashback.html",
+				
+				"content_html": "<p>Während des neuen Almodóvars Flashback in die Zeit, als man (ich) noch im Kino rauchen durfte.</p>\n",
+				"content_text": "Während des neuen Almodóvars Flashback in die Zeit, als man (ich) noch im Kino rauchen durfte.\n",
+				"date_published": "2026-07-31T19:05:44+02:00",
+				"url": "https://drikk.es/2026/07/31/whrend-des-neuen-almodvars-flashback.html"
+			},
+			{
+				"id": "http://drikkes.micro.blog/2026/07/31/anschaffung-ist-eine-gute-idee.html",
+				
+				"content_html": "<p>Anschaffung ist eine gute Idee.</p>\n",
+				"content_text": "Anschaffung ist eine gute Idee.\n",
+				"date_published": "2026-07-31T12:56:11+02:00",
+				"url": "https://drikk.es/2026/07/31/anschaffung-ist-eine-gute-idee.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/07/31/in-der-stellenbeschreibung-wird-unter.html",
 				
 				"content_html": "<p>In der Stellenbeschreibung wird unter Benefits tatsächlich &ldquo;legere Kleiderordnung&rdquo; aufgeführt.</p>\n",
@@ -25,16 +49,16 @@
 			{
 				"id": "http://drikkes.micro.blog/2026/07/29/remake-als-die-krnerfresser-kommen.html",
 				
-				"content_html": "<p>Remake als &lsquo;Die Körnerfresser kommen&rsquo;</p>\n<img src=\"uploads/2026/vegan-bodysnatchers.jpg\" width=\"600\" height=\"420\" alt=\"\">\n",
-				"content_text": "Remake als 'Die Körnerfresser kommen'\n\n<img src=\"uploads/2026/vegan-bodysnatchers.jpg\" width=\"600\" height=\"420\" alt=\"\">\n",
+				"content_html": "<p>Remake als &lsquo;Die Körnerfresser kommen&rsquo;</p>\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/vegan-bodysnatchers.jpg\" width=\"600\" height=\"420\" alt=\"\">\n",
+				"content_text": "Remake als 'Die Körnerfresser kommen'\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/vegan-bodysnatchers.jpg\" width=\"600\" height=\"420\" alt=\"\">\n",
 				"date_published": "2026-07-29T12:43:40+02:00",
 				"url": "https://drikk.es/2026/07/29/remake-als-die-krnerfresser-kommen.html"
 			},
 			{
 				"id": "http://drikkes.micro.blog/2026/07/28/202933.html",
 				
-				"content_html": "<p>🦉🇷🇺</p>\n<img src=\"uploads/2026/971ac983d5.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
-				"content_text": "🦉🇷🇺\n\n<img src=\"uploads/2026/971ac983d5.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
+				"content_html": "<p>🦉🇷🇺</p>\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/971ac983d5.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
+				"content_text": "🦉🇷🇺\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/971ac983d5.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
 				"date_published": "2026-07-28T20:29:33+02:00",
 				"url": "https://drikk.es/2026/07/28/202933.html"
 			},
@@ -145,8 +169,8 @@
 			{
 				"id": "http://drikkes.micro.blog/2026/07/22/jimmys-neuer-lieblingsplatz-ist-seit.html",
 				
-				"content_html": "<p>Jimmys neuer Lieblingsplatz ist seit ein paar Tagen auf dem Kleiderschrank.</p>\n<img src=\"uploads/2026/9e45bd10ae.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
-				"content_text": "Jimmys neuer Lieblingsplatz ist seit ein paar Tagen auf dem Kleiderschrank.\n\n<img src=\"uploads/2026/9e45bd10ae.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
+				"content_html": "<p>Jimmys neuer Lieblingsplatz ist seit ein paar Tagen auf dem Kleiderschrank.</p>\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/9e45bd10ae.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
+				"content_text": "Jimmys neuer Lieblingsplatz ist seit ein paar Tagen auf dem Kleiderschrank.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/9e45bd10ae.jpg\" width=\"337\" height=\"600\" alt=\"\">\n",
 				"date_published": "2026-07-22T15:11:14+02:00",
 				"url": "https://drikk.es/2026/07/22/jimmys-neuer-lieblingsplatz-ist-seit.html"
 			},
