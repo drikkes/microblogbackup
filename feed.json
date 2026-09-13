@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/09/13/httpsdewikipediaorgwikitoaster.html",
+				
+				"content_html": "<p><a href=\"https://de.wikipedia.org/wiki/Toaster\">de.wikipedia.org/wiki/Toas&hellip;</a></p>\n",
+				"content_text": "[de.wikipedia.org/wiki/Toas...](https://de.wikipedia.org/wiki/Toaster)\n",
+				"date_published": "2026-09-13T19:47:01+02:00",
+				"url": "https://drikk.es/2026/09/13/httpsdewikipediaorgwikitoaster.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/09/12/wo-bin-ich.html",
 				
 				"content_html": "<p>Wo bin ich?</p>\n<img src=\"uploads/2026/img-5758.jpg\" width=\"600\" height=\"449\" alt=\"\">\n",
