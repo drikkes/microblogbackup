@@ -7,6 +7,14 @@
 	"items": [
 		
 			{
+				"id": "http://drikkes.micro.blog/2026/09/17/kannst-du-bar-bezahlen-geb.html",
+				
+				"content_html": "<p>„Kannst Du bar bezahlen? Geb ich Dir auch Feuerzeug gratis dazu.“</p>\n",
+				"content_text": "„Kannst Du bar bezahlen? Geb ich Dir auch Feuerzeug gratis dazu.“\n",
+				"date_published": "2026-09-17T19:02:21+02:00",
+				"url": "https://drikk.es/2026/09/17/kannst-du-bar-bezahlen-geb.html"
+			},
+			{
 				"id": "http://drikkes.micro.blog/2026/09/16/al-smartphonso-davies.html",
 				
 				"content_html": "<p>Al „Smartphonso&quot; Davies</p>\n",
@@ -41,8 +49,8 @@
 			{
 				"id": "http://drikkes.micro.blog/2026/09/15/ihr-habt-doch-den-schu.html",
 				
-				"content_html": "<p>Ihr habt doch den Schuß nicht mehr gehört.</p>\n<img src=\"uploads/2026/img-5760.jpg\" width=\"466\" height=\"600\" alt=\"\">\n",
-				"content_text": "Ihr habt doch den Schuß nicht mehr gehört.\n\n<img src=\"uploads/2026/img-5760.jpg\" width=\"466\" height=\"600\" alt=\"\">\n",
+				"content_html": "<p>Ihr habt doch den Schuß nicht mehr gehört.</p>\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/img-5760.jpg\" width=\"466\" height=\"600\" alt=\"\">\n",
+				"content_text": "Ihr habt doch den Schuß nicht mehr gehört.\n\n<img src=\"https://cdn.uploads.micro.blog/154463/2026/img-5760.jpg\" width=\"466\" height=\"600\" alt=\"\">\n",
 				"date_published": "2026-09-15T14:35:45+02:00",
 				"url": "https://drikk.es/2026/09/15/ihr-habt-doch-den-schu.html"
 			},
